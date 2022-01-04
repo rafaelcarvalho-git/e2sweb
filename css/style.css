@@ -30,7 +30,7 @@ body {
 
 #menu ul li a {
     color: #FFF;
-    padding: 1.2rem;
+    padding: 1.2rem 1.5rem 1.2rem 1.5rem;
     display: inline-block;
     text-decoration: none;
     transition: background .2s;
@@ -62,7 +62,7 @@ body {
 /**********************/
 
 .contact-information-box {
-    margin: 50px;
+    margin: 20px 40px 20px 40px;
     padding: 20px;
     background: rgb(130, 130, 236);
     border-radius: 20px;
@@ -72,5 +72,5 @@ body {
    /* padding-left: 400px;
     padding-right: 400px;*/
     text-align: center;
-    margin: 0.5rem 1rem;
+    margin: 0.7rem 1rem;
 }
