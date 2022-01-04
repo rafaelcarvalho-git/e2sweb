@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { /*Limpar formatacoes*/
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: white;
+}
+
+#menu{
+    background-color: rgb(84, 84, 247);
+}
+/*
+#area-logo {
+
+}*/
+
+#menu ul {
+    text-align: right;
+    max-width: 800rem;
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: #FFF;
+    padding: 1.2rem;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .2s;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(26, 24, 179);
+}
+
+/*Mapa com localizacao*/
+.mapouter { 
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}
+/**********************/
+
+.contact-information-box {
+    margin: 50px;
+    padding: 20px;
+    background: rgb(130, 130, 236);
+    border-radius: 20px;
+}
+
+#entre-em-contato {
+   /* padding-left: 400px;
+    padding-right: 400px;*/
+    text-align: center;
+    margin: 0.5rem 1rem;
+}
