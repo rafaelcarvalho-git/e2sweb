@@ -11,13 +11,11 @@ body {
     background: white;
 }
 
+/*****MENUBAR*****/
+
 #menu{
     background-color: rgb(84, 84, 247);
 }
-/*
-#area-logo {
-
-}*/
 
 #menu ul {
     text-align: right;
@@ -41,6 +39,11 @@ body {
 #menu ul li a:hover {
     background-color: rgb(26, 24, 179);
 }
+
+
+
+
+
 
 /*Mapa com localizacao*/
 .mapouter { 
