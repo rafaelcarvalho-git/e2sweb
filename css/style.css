@@ -21,7 +21,6 @@ body {
     text-align: right;
     max-width: 800rem;
     list-style: none;
-    padding: 0;
 }
 
 #menu ul li {
@@ -41,36 +40,41 @@ body {
 }
 
 
-
-
-
+.contact-information-box {
+    /*display: flex;*/
+    position: absolute;
+    margin: 1.25rem 2.5rem 1.25rem 2.5rem;
+    padding: 1.25rem;
+    background: rgb(130, 130, 236);
+    border-radius: 1.25rem;
+}
 
 /*Mapa com localizacao*/
-.mapouter { 
+.mapa-juazeiro { 
+    visibility: visible;
+    margin: 3.125rem 0rem 0rem 44rem;
     position:relative;
     text-align:right;
-    height:500px;
-    width:600px;
+    height:25rem;
+    width:31.25rem;
 }
 
-.gmap_canvas {
+.mapa-juazeiro #map-juazeiro {
     overflow:hidden;
     background:none!important;
-    height:500px;
-    width:600px;
+    height:25rem;
+    width:31.25rem;
 }
+
+
 /**********************/
 
-.contact-information-box {
-    margin: 20px 40px 20px 40px;
-    padding: 20px;
-    background: rgb(130, 130, 236);
-    border-radius: 20px;
-}
+
 
 #entre-em-contato {
-   /* padding-left: 400px;
-    padding-right: 400px;*/
     text-align: center;
     margin: 0.7rem 1rem;
 }
+
+
+
