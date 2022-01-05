@@ -12,7 +12,6 @@ body {
 }
 
 /*****MENUBAR*****/
-
 #menu{
     background-color: rgb(84, 84, 247);
 }
@@ -39,6 +38,11 @@ body {
     background-color: rgb(26, 24, 179);
 }
 
+/*****CONTACT-INFORMATIONS*****/
+#entre-em-contato {
+    text-align: center;
+    margin: 0.7rem 1rem;
+}
 
 .contact-information-box {
     /*display: flex;*/
@@ -49,32 +53,42 @@ body {
     border-radius: 1.25rem;
 }
 
-/*Mapa com localizacao*/
-.mapa-juazeiro { 
+/****Mapa com localizacao****/
+.mapa { 
     visibility: visible;
-    margin: 3.125rem 0rem 0rem 44rem;
+    margin: 1rem 0rem 0rem 44rem;
     position:relative;
     text-align:right;
     height:25rem;
     width:31.25rem;
 }
 
-.mapa-juazeiro #map-juazeiro {
+.mapa #map {
     overflow:hidden;
     background:none!important;
     height:25rem;
     width:31.25rem;
 }
+/***************************/
 
-
-/**********************/
-
-
-
-#entre-em-contato {
-    text-align: center;
-    margin: 0.7rem 1rem;
+#filiais {
+    text-align: right;
 }
+
+.filial {
+    margin: 1rem 6.875rem 1rem 6.875rem;
+    display: inline;
+}
+
+.buttons {
+    margin: 1rem 5rem 1rem 5rem;
+    display: inline;
+}
+
+
+
+
+
 
 
 
