@@ -41,6 +41,11 @@ body {
 /*****CONTACT-INFORMATIONS*****/
 #entre-em-contato {
     text-align: center;
+    margin: 0.7rem auto;
+}
+
+#e2s-corretora {
+    text-align: center;
     margin: 0.7rem 1rem;
 }
 
