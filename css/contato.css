@@ -13,6 +13,7 @@ body {
 
 /*****MENUBAR*****/
 #menu{
+    /*position: fixed;*/ /*deixar o menu fixo enquanto rola o scroll */
     background-color: rgb(84, 84, 247);
 }
 
@@ -83,9 +84,9 @@ body {
 .buttons {
     margin: 1rem 5rem 1rem 5rem;
     display: inline;
-    width: 160px;
+    width: 150px;
     height: 40px;
-  
+    background: red;
     border-radius: 10px;
 }
 

@@ -50,7 +50,7 @@ body {
 
 .box {
     border-radius: 20px;
-    background: blue;
+    background: rgb(33, 33, 247);
     width: 320px;
     height: 200px;
     position: absolute; 
@@ -93,7 +93,7 @@ body {
 }
 
 .title-box {
-    background: red;
+    background: rgb(245, 28, 28);
     border-radius: 10px;
     width: 260px;
     height: 55px;
