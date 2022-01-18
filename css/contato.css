@@ -39,14 +39,9 @@ body {
 }
 
 /*****CONTACT-INFORMATIONS*****/
-#entre-em-contato {
+#title-contato {
     text-align: center;
     margin: 0.7rem auto;
-}
-
-#e2s-corretora {
-    text-align: center;
-    margin: 0.7rem 1rem;
 }
 
 .contact-information-box {
@@ -88,12 +83,11 @@ body {
 .buttons {
     margin: 1rem 5rem 1rem 5rem;
     display: inline;
+    width: 160px;
+    height: 40px;
+  
+    border-radius: 10px;
 }
-
-
-
-
-
 
 
 
