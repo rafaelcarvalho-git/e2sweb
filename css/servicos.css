@@ -4,64 +4,40 @@
     margin: 0.7rem auto;
 }
 
-.container-servicos {
-    background: white;
+.box-servicos {
+    background: black;
+    text-align: center;
 }
 
 .box {
     border-radius: 20px;
     background: rgb(33, 33, 247);
-    width: 320px;
-    height: 200px;
-    position: absolute; 
+    width: 380px;
+    height: 220px;
+    display: inline-block;
     box-shadow: 0px 5px 25px 1px black;
-    margin-bottom: 100px;
+    margin: 20px;
+    
+    
 }
 
 .box:hover {
     background: rgb(7, 7, 92);
 }
 
-#box-seguros {
-    top: 160px;
-    left: 80px;
-}
-
-#box-certificados {
-    top: 160px;
-    left: 530px;
-}
-
-#box-emprestimos {
-    top: 160px;
-    left: 980px;
-}
-
-#box-garantias {
-    top: 420px;
-    left: 80px;
-}
-
-#box-consorcios {
-    top: 420px;
-    left: 530px;
-}
-
-#box-financiamentos {
-    top: 420px;
-    left: 980px;
-}
 
 .title-box {
     background: rgb(245, 28, 28);
     border-radius: 10px;
     width: 260px;
     height: 55px;
+    display: inline-block;
     text-align: center;
-    position: absolute;
-    top: -26px;
-    left: 30px;
+    margin-top: -50px;
+
 }
+
+
 
 h2 {
     text-align: center;
@@ -70,5 +46,11 @@ h2 {
 }
 
 
-
+@media all and (max-width: 700px) {
+.box {
+    width: 55vw;
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+}
 
