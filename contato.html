@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E2S</title>
-    <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <script src="js/script.js"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E2S</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/contato.css">
 </head>
 <body>
+  <header>
+    <nav>
+      <a class="logo" href="/"><img class="logo-img" src="img/logo.png" alt=""></a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="certificados.html">Certificados</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<nav id="menu"> <!--MENUBAR-->
-    <div id="area-logo">
-        <!--<img src="img/logo.png" alt="">-->
-    </div>
-    <ul id="navegacao">
-        <li class="home"><a href="home.html">Home</a></li>
-        <li class="certificados"><a href="certificados.html">Certificados</a></li>
-        <li class="servicos"><a href="servicos.html">Serviços</a></li>
-        <li class="contato"><a href="contato.html">Contato</a></li>
-    </ul>
-</nav>
-
-<h1 class="title">Entre em contato conosco ou faça-nos uma visita.</h1>
+  <h1 class="title">E2S Corretora de Seguros e Certificadora Digital.</h1>
 
 <div class="contact-information-box">
 
-    <a href="https://api.whatsapp.com/send/?phone=5588996444627&text&app_absent=0">WhatsApp (88) 98812-3456</a><br>
-    <a href="">Telefone (88) 3571-1235</a><br>
+  <a href="https://api.whatsapp.com/send/?phone=5588996444627&text&app_absent=0">WhatsApp (88) 98812-3456</a><br>
+  <a href="">Telefone (88) 3571-1235</a><br>
 
-    <p>E-mail:
-        <a href="mailto:e2scertificadora@gmail.com">e2scertificadora@gmail.com </a>
-    </p>
+  <p>E-mail:
+      <a href="mailto:e2scertificadora@gmail.com">e2scertificadora@gmail.com </a>
+  </p>
 
-    <div id="filiais">
-        <h4 class="filial" id="filial-juazeiro">Filial</h4>
-        <h4 class="filial" id="filial-assare">Filial</h4><br>
-        <input class="buttons" id="button-juazeiro" type="button" value="Juazeiro do Norte - CE" onclick="btjuazeiro();">
-        <input class="buttons" id="button-assare" type="button" value="Assaré - CE" onclick="btassare();">
-    </div>
-        <div class="mapa" >
-            <div class="local" id="map">
-                <iframe width="500" height="400" id="gmap" src="https://maps.google.com/maps?q=e2s%20corretora%20de%20seguros&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            </div>
-        </div>
+  <div id="filiais">
+      <h4 class="filial" id="filial-juazeiro">Filial</h4>
+      <h4 class="filial" id="filial-assare">Filial</h4><br>
+      <input class="buttons" id="button-juazeiro" type="button" value="Juazeiro do Norte - CE" onclick="btjuazeiro();">
+      <input class="buttons" id="button-assare" type="button" value="Assaré - CE" onclick="btassare();">
+  </div>
+      <div class="mapa" >
+          <div class="local" id="map">
+              <iframe width="500" height="400" id="gmap" src="https://maps.google.com/maps?q=e2s%20corretora%20de%20seguros&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          </div>
+      </div>
         
 </div>
+<script src="js/navbar.js"></script>
 </body>
 </html>

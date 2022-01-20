@@ -11,9 +11,8 @@ body {
   background: white;
 }
 
-
 .logo-img {
-    height: 60px;
+  height: 60px;
 }
 
 .logo-img:hover {
@@ -21,7 +20,17 @@ body {
   cursor: pointer;
 }
 
-.navbar {
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,58 +39,81 @@ body {
   height: 9vh;
 }
 
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.navbar a:hover {
-  color: red;
-}
-
 .nav-list {
   list-style: none;
   display: flex;
 }
 
 .nav-list li {
-  letter-spacing: 3px;
-  margin-left: 32px;
+  letter-spacing: 1px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .mobile-menu {
   display: none;
+  cursor: pointer;
 }
 
-.menu-line {
-  width: 20px;
+.mobile-menu div {
+  width: 28px;
   height: 3px;
-  background-color: white;
-  margin-bottom: 4px;
+  background: white;
+  margin: 6px;
   border-radius: 50px;
+  transition: 0.3s;
 }
 
 @media all and (max-width: 700px) {
-  .navbar li{
-    flex-direction: column;
+  body {
+    overflow-x: hidden; /*esconde o que transborda da tela*/
   }
-  .mobile-menu { /*aparece botao do mobile menu*/
-    display: block;
+  .nav-list {
     position: absolute;
-    right: 15px;
-    top: 15px;
+    top: 9vh;
+    right: 0;
+    width: 100vw; /*controla largura do menu*/
+    height: 35vh; /*controla altura do menu*/
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu {
+    display: block;
+    margin-right: -75px;
+  }
 }
 
-.nav-list li{
-  list-style: none;
-  display: flex;
-  
-
+.nav-list.active {
+  transform: translateX(0);
 }
 
-
-
-
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(75px); /*direção de surgimento do menu*/
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-6.5px, 7px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}

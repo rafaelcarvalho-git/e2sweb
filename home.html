@@ -1,46 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E2S</title>
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/home.css">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E2S</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="/"><img class="logo-img" src="img/logo.png" alt=""></a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="certificados.html">Certificados</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <body>
+  <h1 class="title">E2S Corretora de Seguros e Certificadora Digital.</h1>
 
-    <header>
-      <nav class="navbar">
-          <a id="logo" href="/">
-            <img class="logo-img" src="img/logo.png" alt="">
-          </a>
-            
-        <ul class="nav-list" id="navi-list">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="certificados.html">Certificados</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-        <div class="mobile-menu" id="mobile-button">
-          <div class="menu-line"></div>
-          <div class="menu-line"></div>
-          <div class="menu-line"></div>
-        </div>
-      </nav>
-    </header>
-  
-    <h1 class="title">E2S Corretora de Seguros e Certificadora Digital.</h1>
-
-    <script>
-      const toggleButton = document.getElementById('toggle-button');
-      const naviList = document.getElementById('navi-list');
-
-      toggleButton.addEventListener('click', () => {
-          naviList.classList.toggle('active');
-      })
-  </script>
-
-  </body>
+<script src="js/navbar.js"></script>
+</body>
 </html>
