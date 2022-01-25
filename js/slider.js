@@ -1,4 +1,4 @@
-let time = 3250, /*tempo da transição em milisegundos*/
+let time = 3300, /*tempo da transição em milisegundos*/
     currentImageIndex = 0, /*primeira imagem*/
     images = document /*onde estao as imagens*/
                 .querySelectorAll("#slider img")

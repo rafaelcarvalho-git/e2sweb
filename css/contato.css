@@ -1,52 +1,62 @@
 .title {
     text-align: center;
-    margin-top: 1vh;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
 }
-
+.container {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
 .contact-information-box {
-    /*display: flex;*/
-    position: absolute;
-    margin: 1.25rem 2.5rem 1.25rem 2.5rem;
-    padding: 1.25rem;
     background: rgb(130, 130, 236);
-    border-radius: 1.25rem;
+    border-radius: 25px;
+    width: 88vw;
+    height: 80vh;
 }
 
 /****Mapa com localizacao****/
 .mapa { 
     visibility: visible;
-    margin: 1rem 0rem 0rem 44rem;
-    position:relative;
-    text-align:right;
-    height:25rem;
-    width:31.25rem;
+    margin-left: 54vw;
+    margin-top: 10vh;
+    height: 58vh;
+    width: 32vw;
 }
 
-.mapa #map {
+#map {
     overflow:hidden;
     background:none!important;
-    height:25rem;
-    width:31.25rem;
+    height: 58vh;
+    width: 32vw;
+    border-radius: 12px;
 }
 /***************************/
 
-#filiais {
+.filiais {
+    margin-bottom: 0;
+    margin-left: 50%;
+    display: flexbox;
+    background: green;
     text-align: right;
+    
 }
 
-.filial {
-    margin: 1rem 6.875rem 1rem 6.875rem;
-    display: inline;
+.filial-name {
+    text-align: center;
 }
 
 .buttons {
-    margin: 1rem 5rem 1rem 5rem;
+    
     display: inline;
-    width: 150px;
-    height: 40px;
-    background: red;
-    border-radius: 10px;
+    width: 12vw;
+    height: 6.4vh;
+    border-radius: 12px;
 }
 
+.filial {
+    display: inline;
+}
 
 

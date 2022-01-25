@@ -35,7 +35,7 @@ img {
 
     scroll-snap-align: start; /*configura o scroll para quando soltar a imagem maior centralizar na tela*/
 
-    pointer-events: none; /*desativa clicagem do mouse*/
+    pointer-events: none; /*desativa clique do mouse*/
 }
 
 @media all and (max-width: 700px) {

@@ -28,28 +28,34 @@
 
 <h1 class="title">E2S Corretora de Seguros e Certificadora Digital.</h1>
 
-<div class="contact-information-box">
-
-  <a href="https://api.whatsapp.com/send/?phone=5588996444627&text&app_absent=0">WhatsApp (88) 98812-3456</a><br>
-  <a href="">Telefone (88) 3571-1235</a><br>
-
-  <p>E-mail:
-      <a href="mailto:e2scertificadora@gmail.com">e2scertificadora@gmail.com </a>
-  </p>
-
-  <div id="filiais">
-      <h4 class="filial" id="filial-juazeiro">Filial</h4>
-      <h4 class="filial" id="filial-assare">Filial</h4><br>
-      <input class="buttons" id="button-juazeiro" type="button" value="Juazeiro do Norte - CE" onclick="btjuazeiro();">
-      <input class="buttons" id="button-assare" type="button" value="Assaré - CE" onclick="btassare();">
-  </div>
-      <div class="mapa" >
-          <div class="local" id="map">
-              <iframe width="500" height="400" id="gmap" src="https://maps.google.com/maps?q=e2s%20corretora%20de%20seguros&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-          </div>
+<div class="container">
+  <div class="contact-information-box"><!--
+    <a href="https://api.whatsapp.com/send/?phone=5588996444627&text&app_absent=0">WhatsApp (88) 98812-3456</a><br>
+    <a href="">Telefone (88) 3571-1235</a><br>
+    <p>E-mail:
+        <a href="mailto:e2scertificadora@gmail.com">e2scertificadora@gmail.com </a>
+    </p>-->
+    <div class="localizacao">
+      <div class="filiais">
+        <h4 class="filial-name" id="filial-assare">Nossas filiais</h4>
+        <div class="filial">
+          <input class="buttons" id="button-assare" type="button" value="Assaré - CE" onclick="btassare();">
+        </div>
+        <div class="filial">
+          <input class="buttons" id="button-juazeiro" type="button" value="Juazeiro do Norte - CE" onclick="btjuazeiro();">
+        </div>
+          
       </div>
-        
+          <div class="mapa" >
+              <div class="local">
+                  <iframe id="map" src="https://maps.google.com/maps?q=e2s%20corretora%20de%20seguros&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              </div>
+          </div>
+    </div>
+
+  </div>
 </div>
 <script src="js/navbar.js"></script>
+<script src="js/contato.js"></script>
 </body>
 </html>
