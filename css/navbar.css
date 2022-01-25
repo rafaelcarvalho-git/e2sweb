@@ -37,6 +37,7 @@ nav {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #2222dd;
   height: 9vh;
+  width: 100vw;
 }
 
 .nav-list {
@@ -87,7 +88,6 @@ nav {
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
     opacity: 0;
-   
   }
   .mobile-menu {
     display: block;

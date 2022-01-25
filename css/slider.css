@@ -1,0 +1,31 @@
+.slider-effect {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+#slider {
+    width: 90vw; /*largura*/
+    max-width: 1000px; /*limita largura maxima*/
+    height: 30vw; /*altura*/
+    max-height: 500px; /*limita altura maxima*/
+
+    position: relative;
+}
+
+#slider img{
+    opacity: 0; /*apaga todas as imagens*/
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover; /*cobre todo o espaço disponivel da div*/
+
+    transition: opacity 800ms; /*transição das imagens*/
+}
+
+#slider img.selected {  /*imagem que vai aparecer primeiro*/
+    opacity: 1;
+}
