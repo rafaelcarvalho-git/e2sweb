@@ -21,36 +21,48 @@
 .informacoes {
     /*background: blue;*/
     width: 56%;
-    height: 76vh;
-    
+    height: 100%;
 }
 
 .localizacao {
     background: wheat;
     width: 44%;
-    height: 76vh;
+    height: 100%;
+}
+
+.contato-certificadora {
+    /*background: green;*/
+    height: 45%;
+}
+
+.info {
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 2.5%;
+    font-size: 1.2rem;
 }
 
 .contato-corretora {
-    background: red;
+    /*background: red;*/
     height: 55%;
 }
-.contato-certificadora {
-    background: green;
-    height: 45%;
-}
+
 
 #title-certificadora, #title-corretora {
     font-size: 1.6rem;
     text-align: center;
-    padding-top: 4%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    color: white;
+    
+ 
 }
 
 /****Mapa com localizacao****/
 .mapa { 
     visibility: visible;
     height: 55vh;
-    width: 32vw;
+    width: 34vw;
     max-width: 600px;
     margin: auto;
 }
@@ -59,7 +71,7 @@
     overflow:hidden;
     background:none!important;
     height: 55vh;
-    width: 32vw;
+    width: 34vw;
     max-width: 600px;
     border-radius: 10px;
     margin: auto;
@@ -70,13 +82,13 @@
 .filiais {
     display: flexbox;
     text-align: center;
-    margin: 5% auto 5% auto;
+    margin: 2.5% auto 2.5% auto;
     /*background: green;*/
 }
 
 .filial-name {
     text-align: center;
-    margin-bottom: 2.4vh;
+    margin-bottom: 2.5%;
     font-size: 1.6rem;
 }
 
