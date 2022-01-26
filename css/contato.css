@@ -1,7 +1,7 @@
 .title {
     text-align: center;
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
+    margin-top: 2.5vh;
+    margin-bottom: 3.5vh;
 }
 .container {
     display: flex;
@@ -13,50 +13,96 @@
     background: rgb(130, 130, 236);
     border-radius: 25px;
     width: 88vw;
-    height: 80vh;
+    max-width: 1500px;
+    height: 76vh;
+    display: flex;
+}
+
+.informacoes {
+    /*background: blue;*/
+    width: 56%;
+    height: 76vh;
+    
+}
+
+.localizacao {
+    background: wheat;
+    width: 44%;
+    height: 76vh;
+}
+
+.contato-corretora {
+    background: red;
+    height: 55%;
+}
+.contato-certificadora {
+    background: green;
+    height: 45%;
+}
+
+#title-certificadora, #title-corretora {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 4%;
 }
 
 /****Mapa com localizacao****/
 .mapa { 
     visibility: visible;
-    margin-left: 54vw;
-    margin-top: 10vh;
-    height: 58vh;
+    height: 55vh;
     width: 32vw;
+    max-width: 600px;
+    margin: auto;
 }
 
 #map {
     overflow:hidden;
     background:none!important;
-    height: 58vh;
+    height: 55vh;
     width: 32vw;
-    border-radius: 12px;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: auto;
 }
 /***************************/
 
+/****h4 filial e botoes****/
 .filiais {
-    margin-bottom: 0;
-    margin-left: 50%;
     display: flexbox;
-    background: green;
-    text-align: right;
-    
+    text-align: center;
+    margin: 5% auto 5% auto;
+    /*background: green;*/
 }
 
 .filial-name {
     text-align: center;
+    margin-bottom: 2.4vh;
+    font-size: 1.6rem;
 }
 
 .buttons {
-    
     display: inline;
     width: 12vw;
+    max-width: 160px;
     height: 6.4vh;
+    max-height: 45px;
     border-radius: 12px;
 }
 
-.filial {
-    display: inline;
+#button-assare {
+    margin-left: 2vw;
 }
 
+#button-juazeiro {
+    margin-right: 2vw;
+}
+/***************************/
 
+
+
+
+
+@media all and (min-width: 1800px) { /*configurar para altas resolucoes*/
+  
+
+}
