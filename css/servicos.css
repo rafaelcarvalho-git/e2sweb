@@ -5,20 +5,22 @@
 }
 
 .box-servicos {
-    background: black;
+    /*background: black;*/
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .box {
     border-radius: 20px;
     background: rgb(33, 33, 247);
-    width: 380px;
-    height: 220px;
-    display: inline-block;
+    width: 28vw;
+    /*colocar tamanho minimo e maximo*/
+    height: 32vh;
+    margin: auto;
+    margin-top: 3.5%;
     box-shadow: 0px 5px 25px 1px black;
-    margin: 20px;
-    
-    
 }
 
 .box:hover {
@@ -29,28 +31,37 @@
 .title-box {
     background: rgb(245, 28, 28);
     border-radius: 10px;
-    width: 260px;
-    height: 55px;
-    display: inline-block;
+    width: 20vw;
+    height: 8.5vh;
     text-align: center;
-    margin-top: -50px;
+    margin: auto;
+    margin-top: -5%;
 
 }
-
-
 
 h2 {
     text-align: center;
     padding-top: 0.5rem;
     color: white;
+    font-size: 1.5rem;
+    overflow: hidden;
+    /*organizar tamanho da fonte para quando diminuir a resol*/
 }
 
 
 @media all and (max-width: 700px) {
-.box {
-    width: 55vw;
-    margin-left: 25%;
-    margin-right: 25%;
+    .box-servicos {
+        background: black;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .box {
+        /*colocar tamanho minimo e maximo*/
+        
+        height: 32vh;
+        margin: auto;
+        margin-top: 5%;
+        width: 55vw;
     }
 }
 
