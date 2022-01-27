@@ -56,16 +56,15 @@ nav {
     transition: 0.3s;
   }
 
+
 @media (max-width: 700px) {
   nav {
     height: 8vh;
-
   }
   .mobile-menu {
     display: block;
     margin-right: -15%;
   }
-}
   .nav-list {
     display: block;
     position: absolute;
@@ -94,26 +93,29 @@ nav {
   li:hover {
     background: #4a6fdd;
   }
-
-@keyframes navLinkFade {
-  from {
+}
+    
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateY(-25px); /*direção de surgimento do menu*/
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-6.5px, 7px);
+  }
+  
+  .mobile-menu.active .line2 {
     opacity: 0;
-    transform: translateY(-25px); /*direção de surgimento do menu*/
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
   }
-}
-
-.mobile-menu.active .line1 {
-  transform: rotate(-45deg) translate(-6.5px, 7px);
-}
-
-.mobile-menu.active .line2 {
-  opacity: 0;
-}
-
-.mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
-}
+  
