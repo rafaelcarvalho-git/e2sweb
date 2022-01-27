@@ -9,112 +9,6 @@
     justify-content: center;
     align-items: center;
 }
-.contact-information-box {
-    background: rgb(130, 130, 236);
-    border-radius: 25px;
-    width: 88vw;
-    max-width: 1500px;
-    height: 76vh;
-    display: flex;
-}
-
-.informacoes {
-    /*background: blue;*/
-    width: 56%;
-    height: 100%;
-}
-
-.localizacao {
-    /*background: wheat;*/
-    width: 44%;
-    height: 100%;
-}
-
-.contato-certificadora {
-    /*background: green;*/
-    height: 40%;
-}
-
-.info {
-    text-align: left;
-    margin-left: 10%;
-    margin-bottom: 2.5%;
-    font-size: 1.2rem;
-}
-
-.contato-corretora {
-    /*background: red;*/
-    height: 60%;
-}
-
-
-#title-certificadora, #title-corretora {
-    font-size: 1.6rem;
-    text-align: center;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    color: white;
-    
- 
-}
-
-/****Mapa com localizacao****/
-.mapa { 
-    visibility: visible;
-    height: 55vh;
-    width: 34vw;
-    max-width: 600px;
-    margin: auto;
-}
-
-#map {
-    overflow:hidden;
-    background:none!important;
-    height: 55vh;
-    width: 34vw;
-    max-width: 600px;
-    border-radius: 10px;
-    margin: auto;
-}
-/***************************/
-
-/****h4 filial e botoes****/
-.filiais {
-    display: flexbox;
-    text-align: center;
-    margin: 2.5% auto 2.5% auto;
-    /*background: green;*/
-}
-
-.filial-name {
-    text-align: center;
-    margin-bottom: 2.5%;
-    font-size: 1.6rem;
-}
-
-.buttons {
-    display: inline;
-    width: 12vw;
-    max-width: 160px;
-    height: 6.4vh;
-    max-height: 45px;
-    border-radius: 12px;
-}
-
-#button-assare {
-    margin-left: 2vw;
-}
-
-#button-juazeiro {
-    margin-right: 2vw;
-}
-/***************************/
-
-
-
-
-
-@media all and (max-width: 700px) { /*configurar para altas resolucoes*/
     .contact-information-box {
         background: rgb(130, 130, 236);
         border-radius: 25px;
@@ -208,5 +102,13 @@
 #button-juazeiro {
     margin-right: 2vw;
 }
+/***************************/
+
+
+
+
+
+@media all and (max-width: 700px) { /*configurar para altas resolucoes*/
+
 
 }
