@@ -8,10 +8,10 @@
     flex-direction: center;
     justify-content: center;
     align-items: center;
-    background: chartreuse;
+    /*background: chartreuse;*/
 }
     .service-box {
-        background: black;
+        /*background: black;*/
         text-align: center;
         display: flex;
         flex-direction: row;
