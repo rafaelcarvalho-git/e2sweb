@@ -3,60 +3,61 @@
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;
 }
-
-.box-servicos {
-    /*background: black;*/
-    text-align: center;
+.container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 5%;
-    margin-right: 5%;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    background: chartreuse;
 }
-
-.box {
-    border-radius: 20px;
-    background: rgb(33, 33, 247);
-    width: 28vw;
-    max-width: 580px;
-    min-width: 320px;
-    /*colocar tamanho minimo e maximo*/
-    height: 32vh;
-    max-height: 300px;
-    min-height: 166px;
-    margin: auto;
-    margin-top: 3.5%;
-    box-shadow: 0px 5px 25px 1px black;
-}
-
-.box:hover {
-    background: rgb(7, 7, 92);
-}
-
-
-.title-box {
-    background: rgb(245, 28, 28);
-    border-radius: 10px;
-    width: 20vw;
-    max-width: 420px;
-    min-width: 240px;
-    height: 8.5vh;
-    text-align: center;
-    margin: auto;
-    margin-top: -5%;
-
-}
-
-h2 {
-    text-align: center;
-    color: white;
-    font-size: 1.5rem;
-    overflow: hidden;
-    
-    line-height: 8.5vh;
-    
-    /*organizar tamanho da fonte para quando diminuir a resol*/
-}
+    .service-box {
+        background: black;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+        max-width: 1600px;
+        flex-wrap: wrap;
+    }
+    .box {
+        border-radius: 20px;
+        background: rgb(33, 33, 247);
+        width: 25vw;
+        max-width: 480px;
+        min-width: 340px;
+        height: 32vh;
+        max-height: 300px;
+        min-height: 180px;
+        margin: auto;
+        margin-top: 3.5%;
+        box-shadow: 0px 5px 25px 1px black;
+    }
+        .box:hover {
+            background: rgb(7, 7, 92);
+        }
+        .title-box {
+            background: rgb(245, 28, 28);
+            border-radius: 10px;
+            width: 20vw;
+            max-width: 360px;
+            min-width: 220px;
+            height: 8.5vh;
+            max-height: 78px;
+            min-height: 48px;
+            text-align: center;
+            margin: auto;
+            margin-top: -5%;
+        }
+        h2 {
+            text-align: center;
+            color: white;
+            font-size: 1.5rem;
+            overflow: hidden;
+            
+            line-height: 8.5vh;
+            
+            /*organizar tamanho da fonte para quando diminuir a resol*/
+        }
 
 #box-seguros .descricao {
     text-align: center;
@@ -75,7 +76,7 @@ h2 {
     .title {
         font-size: 1.5rem;
     }
-    .box-servicos {
+    .service-box {
         flex-direction: column;
         overflow: hidden;
         margin-left: 0;

@@ -8,12 +8,13 @@
     flex-direction: center;
     justify-content: center;
     align-items: center;
+    background: chartreuse;
 }
-.contact-information-box {
+.information-box {
     background: rgb(130, 130, 236);
     border-radius: 25px;
-    width: 88vw;
-    max-width: 1500px;
+    width: 90vw;
+    max-width: 1600px;
     height: 76vh;
     display: flex;
 }
@@ -115,7 +116,7 @@
 
 
 @media all and (max-width: 700px) { /*configurar para altas resolucoes*/
-    .contact-information-box {
+    .information-box {
         background: rgb(130, 130, 236);
         border-radius: 25px;
         width: 90vw;

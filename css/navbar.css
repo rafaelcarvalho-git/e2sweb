@@ -18,6 +18,8 @@ nav {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #455be9;
   height: 8vh;
+  max-height: 100px;
+  min-height: 50px;
   width: 100vw;
 }
   nav a {
@@ -30,13 +32,16 @@ nav {
     }
   .logo-img {
     height: 60px;
+    margin-left: 5%;
   }
     .logo-img:hover {
+      opacity: 0.8;
       cursor: pointer;
     }
   .nav-list {
     list-style: none;
     display: flex;
+    margin-right: 5%;
   }
     .nav-list li {
       letter-spacing: 1px;
@@ -78,6 +83,7 @@ nav {
       visibility: hidden;
       overflow-y: hidden;
       overflow-x: hidden;
+      margin-right: 0;
     }
     .nav-list.active {
       height: calc(100vh - 8vh);
