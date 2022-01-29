@@ -65,7 +65,11 @@ nav {
     border-radius: 50px;
     transition: 0.3s;
   }
-
+footer {
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 1.5%;
+}
 
 @media (max-width: 700px) {
   .mobile-menu {
