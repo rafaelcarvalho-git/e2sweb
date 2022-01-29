@@ -1,8 +1,3 @@
-.title {
-    text-align: center;
-    margin-top: 2.5vh;
-    margin-bottom: 3.5vh;
-}
 .container {
     display: flex;
     flex-direction: center;
@@ -95,13 +90,42 @@
 }
 
 .buttons {
+    background: white;
     display: inline;
-    width: 12vw;
-    max-width: 160px;
-    height: 6.4vh;
-    max-height: 45px;
-    border-radius: 12px;
+    width: 16vw;
+    max-width: 200px;
+    height: 7.5vh;
+    max-height: 50px;
+    border-radius: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(66, 66, 66);
 }
+.buttons.active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.buttons:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.buttons::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+.buttons:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
 
 #button-assare {
     margin-left: 2vw;
