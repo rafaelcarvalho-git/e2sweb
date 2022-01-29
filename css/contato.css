@@ -17,6 +17,7 @@
     max-width: 1600px;
     height: 76vh;
     display: flex;
+    box-sizing: border-box; /*mantem o tamanho da caixa, o padding nao interfere*/
 }
 
 .informacoes {
@@ -112,10 +113,7 @@
 /***************************/
 
 
-
-
-
-@media all and (max-width: 700px) { /*configurar para altas resolucoes*/
+@media all and (max-width: 700px) {
     .information-box {
         background: rgb(130, 130, 236);
         border-radius: 25px;
