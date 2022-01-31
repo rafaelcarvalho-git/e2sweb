@@ -3,11 +3,129 @@
     flex-direction: center;
     justify-content: center;
     align-items: center;
-    background: chartreuse;
+    /*background: chartreuse;*/
 }
-.certificate-box{
-    background: blue;
-    width: 90vw;
-    max-width: 1600px;
-    height: 76vh;
+    .service-box {
+        background: black;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+        max-width: 1600px;
+        flex-wrap: wrap;
+    }
+    .box {
+        border-radius: 20px;
+        background: rgb(89, 89, 241);
+        width: 15vw;/*
+        max-width: 480px;*/
+        min-width: 330px;
+        height: 45vh;/*
+        max-height: 350px;
+        min-height: 180px;*/
+        margin: auto;
+        margin-top: 3.5%;
+        box-shadow: 0px 5px 25px 1px black;
+        /*text-align: left;*/
+    }/*
+        .box:hover {
+            width: 26vw;
+            max-width: 500px;
+            height: 33vh;
+            max-height: 400px;
+            background: rgb(7, 7, 92);
+            -webkit-transition: all 0.8s;
+            -moz-transition: all 0.8s;
+            -o-transition: all 0.8s;
+            transition: all 0.8s;
+        }*//*
+        .title-box {
+            background: rgb(245, 28, 28);
+            border-radius: 10px;
+            width: 20vw;/*
+            max-width: 360px;
+            min-width: 220px;*//*
+            height: 8.5vh;/*
+            max-height: 78px;
+            min-height: 48px;*//*
+            text-align: center;
+            margin: auto;
+            margin-top: -8.5%;
+        }*//*
+        .title-box:hover {
+            background: rgb(243, 76, 76);
+        }
+        h2 { /*organizar tamanho da fonte para quando diminuir a resol*//*
+            background: greenyellow;
+            text-align: center;
+            color: white;
+            font-size: 1.5rem;
+            overflow: hidden;
+
+            border-radius: 20px;
+            margin-top: -20%;
+            line-height: 9.5vh;
+            
+            
+        }*/
+#box-certificado-ideal {
+    width: 64vw;
+    height: 25vh;
+    /*visibility: hidden;*/
 }
+#box-tipo .descricao {
+    text-align: center;
+    color: white;
+    margin: 1%;
+}
+
+#box-dispositivo .descricao {
+    text-align: center;
+    color: white;
+    margin: 5%;
+    font-size: 1.1rem;
+}
+
+@media all and (max-width: 700px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .service-box {
+        flex-direction: column;
+        overflow: hidden;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .box {
+        margin: auto;
+        margin-top: 8.5%;
+        width: 80vw;
+        max-width: 420px;
+        min-width: 230px;
+        height: 32vh;
+    }
+    .box:hover {
+        width: 81vw;
+        max-width: 450px;
+        height: 33vh;
+        max-height: 400px;
+        background: rgb(7, 7, 92);
+        -webkit-transition: all 0.8s;
+        -moz-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s;
+    }
+    .title-box {
+        width: 60vw;
+        max-width: 306px;
+        min-width: 180px;
+        height: 10vh;
+        max-height: 60px;
+        min-height: 50px;
+        margin: auto;
+        margin-top: -5%;
+    }
+
+
+}
+

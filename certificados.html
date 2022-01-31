@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/certificados.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 </head>
 <body>
     <header>
         <nav>
-        <a class="logo" href="/"><img class="logo-img" src="img/logo.png" alt=""></a>
-        <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+            <a class="logo" href="/"><img class="logo-img" src="img/logo.png" alt=""></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
         </div>
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
@@ -25,14 +27,67 @@
             <li><a href="contato.html">Contato</a></li>
         </ul>
         </nav>
+    <h1 class="title">Confira os serviços realizados pela E2S.</h1>
     </header>
-    <h1 class="title">Confira nossos Certificados Digitais.</h1>
-    <div class="container">
-        <div class="certificate-box">
-            
+<div class="container">
+    <div class="service-box">
+        <div style="order:0;" class="box" id="box-tipo">
+            <div class="title-box">
+                <h2>Tipo</h2>
+            </div>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Pessoa Física (CPF)</label><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Pessoa Jurídica (CNPJ)</label><br>
+        </div>
+        
+        <div style="order:1;" class="box" id="box-dispositivo">
+            <div class="title-box">
+                <h2>Dispositivo</h2>
+            </div>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">A1</label><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Cartao</label><br>
+
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Cartao+leitora</label><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Token</label><br>
+
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">reaproveitar</label><br>
+        </div>
+        
+        <div style="order:2;" class="box" id="box-validade">
+            <div class="title-box">
+                <h2>Validade</h2>
+            </div>
+
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">12</label><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">24</label><br>
+
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">36</label><br>
+       
+        </div>
+        
+        <div style="order:3;" class="box" id="box-certificado-ideal">
+            <div class="title-box">
+                <h2>Seu certiicado ideal é o:</h2>
+            </div>
+            <div class="resposta"><br>
+                e-CNPJ Token 36 meses (e-CNPJ A3 Token 3 anos )<br>
+
+                Para mais informações entre em contato <br>
+                (BOTAO)
+            </div>
         </div>
     </div>
-    <footer>&copy; 2022 - Rafael Carvalho</footer>
+</div>
+<footer>&copy; 2022 - Rafael Carvalho</footer>
 <script src="js/navbar.js"></script>
 </body>
 </html>
