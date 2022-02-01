@@ -6,7 +6,7 @@
     /*background: chartreuse;*/
 }
     .certificate-box {
-        background: black;
+        /*background: black;*/
         text-align: center;
         display: flex;
         flex-direction: row;
@@ -15,66 +15,56 @@
         min-width: 800px;
         flex-wrap: wrap;
     }
+    .choices {
+        /*background: red;*/
+        width: 68vw;
+        display: flex;
+        margin: auto;
+    }
     .box {
+      
         border-radius: 20px;
-        background: rgb(89, 89, 241);
-        width: 14vw;/*
-        max-width: 480px;*/
-        min-width: 330px;
-        height: 42vh;/*
+        background: linear-gradient(#0a2875,#2156da);
+        width: 20vw;/*
+        max-width: 480px;*//*
+        min-width: 330px;*/
+        height: 45vh;/*
         max-height: 350px;
         min-height: 180px;*/
         margin: auto;
+        
         margin-top: 3.5%;
-        box-shadow: 0px 5px 25px 1px black;
+        box-shadow: 1px 5px 25px 1px black;
         /*text-align: left;*/
-    }/*
-        .box:hover {
-            width: 26vw;
-            max-width: 500px;
-            height: 33vh;
-            max-height: 400px;
-            background: rgb(7, 7, 92);
-            -webkit-transition: all 0.8s;
-            -moz-transition: all 0.8s;
-            -o-transition: all 0.8s;
-            transition: all 0.8s;
-        }*//*
-        .title-box {
-            background: rgb(245, 28, 28);
-            border-radius: 10px;
-            width: 20vw;/*
-            max-width: 360px;
-            min-width: 220px;*//*
-            height: 8.5vh;/*
-            max-height: 78px;
-            min-height: 48px;*//*
-            text-align: center;
-            margin: auto;
-            margin-top: -8.5%;
-        }*//*
-        .title-box:hover {
-            background: rgb(243, 76, 76);
-        }
-        h2 { /*organizar tamanho da fonte para quando diminuir a resol*//*
-            background: greenyellow;
-            text-align: center;
-            color: white;
-            font-size: 1.5rem;
-            overflow: hidden;
-
-            border-radius: 20px;
-            margin-top: -20%;
-            line-height: 9.5vh;
-            
-            
-        }*/
+    }
+    h2 {
+        background: linear-gradient(#d6301a,#f54f3a);
+        text-align: center;
+        color: white;
+        width: 14vw;
+        max-width: 350px;
+        min-width: 220px;
+        height: 5.5vh;
+        max-height: 80px;
+        min-height: 52px;
+        border-radius: 20px;            
+        line-height: 5.5vh;
+        overflow: hidden;
+        margin: -7% auto 0 auto;
+    }
+    #certificado-ideal {
+        width: 22vw;
+        margin: -2.7% auto 0 auto;
+    }
 #box-certificado-ideal {
-    width: 64vw;
+    width: 62vw;
     max-width: 1000px;
     min-width: 600px;
     height: 24vh;
+    margin: auto;
+    margin-top: 3.5%;
     /*visibility: hidden;*/
+
 }
 #box-tipo .descricao {
     text-align: center;

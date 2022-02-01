@@ -44,6 +44,10 @@
     height: 60%;
 }
 
+.logo-social {
+    height: 25px;
+}
+
 
 #title-certificadora, #title-corretora {
     font-size: 1.6rem;

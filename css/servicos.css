@@ -15,54 +15,32 @@
         flex-wrap: wrap;
     }
     .box {
-        border-radius: 20px;
-        background: rgb(33, 33, 247);
+        border-radius: 25px;
+        background: linear-gradient(#2156da,#0a2875);
         width: 25vw;
         max-width: 480px;
-        min-width: 340px;
-        height: 32vh;
+        min-width: 220px;
+        height: 30vh;
         max-height: 300px;
         min-height: 180px;
         margin: auto;
         margin-top: 3.5%;
-        box-shadow: 0px 5px 25px 1px black;
+        box-shadow: 1px 5px 25px 1px black;
     }
-        .box:hover {
-            width: 26vw;
-            max-width: 500px;
-            height: 33vh;
-            max-height: 400px;
-            background: rgb(7, 7, 92);
-            -webkit-transition: all 0.8s;
-            -moz-transition: all 0.8s;
-            -o-transition: all 0.8s;
-            transition: all 0.8s;
-        }
-        .title-box {
-            background: rgb(245, 28, 28);
-            border-radius: 10px;
-            width: 20vw;
-            max-width: 360px;
-            min-width: 220px;
-            height: 8.5vh;
-            max-height: 78px;
-            min-height: 48px;
-            text-align: center;
-            margin: auto;
-            margin-top: -8.5%;
-        }
-        .title-box:hover {
-            background: rgb(243, 76, 76);
-        }
         h2 {
+            background: linear-gradient(#f54f3a,#b3220f);
             text-align: center;
             color: white;
-            font-size: 1.5rem;
+            width: 18vw;
+            max-width: 350px;
+            min-width: 220px;
+            height: 7.5vh;
+            max-height: 80px;
+            min-height: 52px;
+            border-radius: 20px;            
+            line-height: 7.5vh;
             overflow: hidden;
-            
-            line-height: 9.5vh;
-            
-            /*organizar tamanho da fonte para quando diminuir a resol*/
+            margin: -7% auto 0 auto;
         }
 
 #box-seguros .descricao {
@@ -96,28 +74,5 @@
         min-width: 230px;
         height: 32vh;
     }
-    .box:hover {
-        width: 81vw;
-        max-width: 450px;
-        height: 33vh;
-        max-height: 400px;
-        background: rgb(7, 7, 92);
-        -webkit-transition: all 0.8s;
-        -moz-transition: all 0.8s;
-        -o-transition: all 0.8s;
-        transition: all 0.8s;
-    }
-    .title-box {
-        width: 60vw;
-        max-width: 306px;
-        min-width: 180px;
-        height: 10vh;
-        max-height: 60px;
-        min-height: 50px;
-        margin: auto;
-        margin-top: -5%;
-    }
-
-
 }
 

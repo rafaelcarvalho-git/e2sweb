@@ -7,7 +7,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
     background: white;
 }
 
@@ -21,7 +20,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #455be9;
+  background: #2961f0;
   height: 8vh;
   max-height: 100px;
   min-height: 50px;
@@ -33,7 +32,7 @@ nav {
     transition: 0.3s;
   }
     nav a:hover {
-      color: #f03b3b;
+      color: #e43e28;
     }
   .logo-img {
     height: 60px;
@@ -65,11 +64,6 @@ nav {
     border-radius: 50px;
     transition: 0.3s;
   }
-footer {
-  text-align: right;
-  margin-right: 15%;
-  margin-top: 1%;
-}
 
 @media (max-width: 700px) {
   .mobile-menu {
@@ -85,7 +79,7 @@ footer {
       width: 100%;
       top: 8vh;
       right: 0px;
-      background: #1e367e;
+      background: #2961f0;
       z-index: 1000;
       height: 0px;
       transition: .5s;
@@ -107,7 +101,7 @@ footer {
       border-bottom: 2px solid rgba(0, 0, 0, 0.05);
     }
     li:hover {
-      background: #4a6fdd;
+      background: #3e70ee;
     }
 }
 
