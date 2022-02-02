@@ -7,18 +7,34 @@
 }
 .information-box {
     background: rgb(130, 130, 236);
+    background: linear-gradient(#2156da,#0a2875);
     border-radius: 25px;
     width: 90vw;
     max-width: 1600px;
     height: 76vh;
     display: flex;
     box-sizing: border-box; /*mantem o tamanho da caixa, o padding nao interfere*/
+    box-shadow: 1px 5px 25px 1px black;
 }
 
 .informacoes {
     /*background: blue;*/
     width: 56%;
     height: 100%;
+}
+
+.info-certificadora {
+    /*background: rebeccapurple;*/
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+
+.info-corretora {
+    /*background: rebeccapurple;*/
+    width: 75%;
+    margin: auto;
+    text-align: left;
 }
 
 .localizacao {
@@ -49,14 +65,9 @@
 }
 
 
-#title-certificadora, #title-corretora {
-    font-size: 1.6rem;
+h2 {   
     text-align: center;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    color: white;
-    
- 
+    color: white;     
 }
 
 /****Mapa com localizacao****/
@@ -87,14 +98,9 @@
     /*background: green;*/
 }
 
-.filial-name {
-    text-align: center;
-    margin-bottom: 2.5%;
-    font-size: 1.6rem;
-}
-
 .buttons {
     background: white;
+    background: linear-gradient(#d6301a,#f54f3a);
     display: inline;
     width: 16vw;
     max-width: 200px;
@@ -129,7 +135,6 @@
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
-
 
 #button-assare {
     margin-left: 2vw;
@@ -212,11 +217,6 @@
     /*background: green;*/
 }
 
-.filial-name {
-    text-align: center;
-    margin-bottom: 1.5%;
-    font-size: 1.250rem;
-}
 
 .buttons {
     display: inline;
