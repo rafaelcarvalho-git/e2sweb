@@ -41,7 +41,7 @@
         /*text-align: left;*/
     }
     h2 {
-        background: linear-gradient(#d6301a,#f54f3a);
+        background: linear-gradient(135deg, #d6301a 0%, #f54f3a 80%);
         text-align: center;
         color: white;
         width: 75%;/*

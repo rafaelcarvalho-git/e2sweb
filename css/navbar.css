@@ -35,8 +35,7 @@ nav {
       color: #e43e28;
     }
   .logo-img {
-    height: 60px;
-    margin-left: 5%;
+    height: 50px;
   }
     .logo-img:hover {
       opacity: 0.8;
@@ -65,7 +64,7 @@ nav {
     transition: 0.3s;
   }
 
-@media (max-width: 700px) {
+@media (max-width: 899px) {
   .mobile-menu {
     display: block;
     margin-right: -15%;
