@@ -19,32 +19,7 @@ p {
     margin-bottom: 1.5%;
 }
 
-.slider-container {
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-    align-items: center;
-}
 
-#slider {
-    position: relative;
-    width: 100vw; /*largura*/
-    height: 32vw; /*altura*/
-
-}
-
-#slider img {
-    position: absolute;
-    opacity: 0; /*apaga todas as imagens*/
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /*cobre todo o espaço disponivel da div*/
-    transition: opacity 850ms; /*transição das imagens*/
-}
-
-#slider img.selected {  /*imagem que vai aparecer primeiro*/
-    opacity: 1;
-}
 
 
 .sobre-empresa { /*fazer uma caixinha bonita*/
@@ -97,3 +72,64 @@ p {
     }
 
 }
+
+
+.slider-container {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider {
+    position: relative;
+    width: 100vw;
+    height: 32vw;
+
+}
+
+#slider img {
+    position: absolute;
+    opacity: 0; /*apaga todas as imagens*//*
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*cobre todo o espaço disponivel da div*//*
+    transition: opacity 850ms; /*transição das imagens*//*
+}
+
+#slider img.selected {  /*imagem que vai aparecer primeiro*//*
+    opacity: 1;
+}
+/*
+
+
+MEDIA QUERIES DO BOOTSTRAP
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+*/
+
+
+
+
