@@ -78,7 +78,13 @@ p {
     text-align: center;
     margin-top: 2.5%;
 }
-
+    .seguradoras {
+        background: rgb(191, 160, 221);
+       
+    }
+    .imagem-seguradora:hover {
+        opacity: 0;
+    }
 /*
 @media all and (max-width: 700px) {
     #slider {
