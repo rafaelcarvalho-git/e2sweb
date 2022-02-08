@@ -69,16 +69,17 @@
         width: 90vw;
     }
     .box {
+        width: 380px;/*
         max-width: 420px;
-        min-width: 400px;
+        min-width: 400px;*/
         height: 30vh;
         max-height: 300px;
         min-height: 180px;
         margin: auto;
-        margin-top: 3.5%;
+        margin-top: 12.5%;
     }
   }
-@media (min-width: 600px) { 
+@media (min-width: 600px) and (max-width: 749px) { 
     nav {
         background: green;
     }
@@ -89,18 +90,18 @@
         flex-direction: row;
         width: 90vw;
     }
-    .box {/*
-        width: 3000vw;*/
+    .box {
+        width: 400px;/*
         max-width: 420px;
-        min-width: 400px;
-        height: 30vh;
+        min-width: 400px;*/
+        height: 32vh;
         max-height: 300px;
         min-height: 180px;
         margin: auto;
-        margin-top: 3.5%;
+        margin-top: 12.5%;
     }
   }
-@media (min-width: 900px) { 
+@media (min-width: 750px) and (max-width: 900px) { 
     nav {
         background: pink;
     }

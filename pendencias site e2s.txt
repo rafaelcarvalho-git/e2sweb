@@ -1,5 +1,0 @@
-Escolher paleta de cores
-Definir fonte
-Criar texto de apresentação para tela Home
-Imagens para tela Home
-Logo para navbar

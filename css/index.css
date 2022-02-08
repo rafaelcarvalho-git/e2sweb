@@ -1,27 +1,25 @@
-.container {
-    /*background: green;*/
+/*.container {
+    background: green;
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.about-box{
-    /*background: blue;*/
-    width: 90vw;
-    max-width: 1600px;
-    height: 76vh;
-}
+    width: 100vw;
+    height: 90vh;
+}*/
+
 h2{
+    font-size: 28px;
     margin-left: 5%;
 }
 p {
     /*background: red;*/
-    font-size: 1rem;
+    font-size: 15px;
     margin: 1%;
     margin-bottom: 1.5%;
 }
 
-.slider-effect {
+.slider-container {
     display: flex;
     flex-direction: center;
     justify-content: center;
@@ -30,12 +28,9 @@ p {
 
 #slider {
     position: relative;
-    width: 88vw; /*largura*/
-    height: 30vw; /*altura*/
-    max-width: 1600px; /*limita largura maxima*/
-    max-height: 600px; /*limita altura maxima*/
-    border-radius: 12px;
-    overflow: hidden;
+    width: 100vw; /*largura*/
+    height: 32vw; /*altura*/
+
 }
 
 #slider img {
@@ -52,15 +47,47 @@ p {
 }
 
 
+.sobre-empresa { /*fazer uma caixinha bonita*/
+    background: rgb(178, 178, 253);
+    height: 50vh;
+    margin-top: 2.5%;
+}
+
+.sobre-edval { /*fazer uma caixinha bonita*/
+    background: blue;
+    height: 50vh;
+    display: flex;
+    margin-top: 2.5%;
+}
+    .sobre {
+        /*background: gray;*/
+        width: 70%;
+    }
+    .edval {
+        /*background: red;*/
+        width: 30%;
+        text-align: center;
+    }
+    .imagem-edval {
+        width: 300px;
+    }
+.sobre-seguradoras {
+    background: rgb(69, 69, 131);
+    height: 20vh;
+    width: 100vw;
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+/*
 @media all and (max-width: 700px) {
     #slider {
         position: relative;
-        width: 90vw; 
+        width: 100vw; 
         height: 30vw; 
-        max-width: 1600px;
+      
         max-height: 600px; 
-        border-radius: 12px;
-        overflow: hidden;
+       
     }
 
 }
