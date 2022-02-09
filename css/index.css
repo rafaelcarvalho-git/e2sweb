@@ -1,27 +1,11 @@
-/*.container {
-    background: green;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 90vh;
-}*/
-
 h2{
+    padding-top: 2%;
+    padding-bottom: 2.5%;
     font-size: 28px;
-    margin-left: 5%;
+    color: #263e7a;
 }
 
-
-h5 {
-    font-size: 35px;
-    animation-name: subir 1s;
-}
-
-
-
-.sobre-empresa { /*fazer uma caixinha bonita*/
+.sobre-empresa { 
     height: 50vh;
     width: 75vw;
     max-width: 1280px;
@@ -38,8 +22,10 @@ h5 {
     }
     .text-empresa {
         font-size: 18px;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
     }
-.sobre-edval { /*fazer uma caixinha bonita*/
+.sobre-edval { 
     height: 50vh;
     display: flex;
     width: 75vw;
@@ -57,6 +43,9 @@ h5 {
     }
     .text-edval {
         font-size: 18px;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        text-overflow: ellipsis;
     }
     .sobre {
         /*background: gray;*/
@@ -71,7 +60,7 @@ h5 {
         width: 250px;
     }
 .sobre-seguradoras {
-    height: 20vh;
+    height: 25vh;
     width: 100vw;
     text-align: center;
     margin-top: 2.5%;
@@ -81,19 +70,24 @@ h5 {
     background: #becbec;/*
     transition: 0.5s;*/
 }
- 
+    .title-seguradoras {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: 28px;
+        color: #263e7a;
+    }
     .seguradoras {
         margin: auto;
-        margin-top: 1%;
-        display: inline-block;
+        width: 75vw;
+        display: flex;
+        justify-content: space-between;
     }
     .imagem-seguradora:hover {
         opacity: 0;
     }
 
 @media (min-width:320px) and (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-    .sobre-empresa, .sobre-edval { /*fazer uma caixinha bonita*/
-        background: yellow;
+    .sobre-empresa, .sobre-edval { 
         height: 50vh;
         width: 100vw;
         margin-top: 2.5%;
@@ -101,15 +95,13 @@ h5 {
 
 }
 @media (min-width:480px) and (max-width: 599px){ /* smartphones, Android phones, landscape iPhone */ 
-    .sobre-empresa, .sobre-edval { /*fazer uma caixinha bonita*/
-        background: red;
+    .sobre-empresa, .sobre-edval { 
         height: 50vh;
         width: 100vw;
     }
 }
 @media (min-width:600px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-    .sobre-empresa, .sobre-edval { /*fazer uma caixinha bonita*/
-        background: orange;
+    .sobre-empresa, .sobre-edval { 
         height: 50vh;
         width: 100vw;
         margin: auto;
@@ -117,23 +109,20 @@ h5 {
     }
 }
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-    .sobre-empresa, .sobre-edval { /*fazer uma caixinha bonita*/
-        background: rebeccapurple;
+    .sobre-empresa, .sobre-edval { 
         max-width: 765px;
         margin: auto;
         margin-top: 2.5%;
     }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
-    .sobre-empresa, .sobre-edval { /*fazer uma caixinha bonita*/
-        background: greenyellow;
+    .sobre-empresa, .sobre-edval { 
         max-width: 965px;
         margin-top: 2.5%;
     }
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
-    .sobre-empresa, .sobre-edval { /*fazer uma caixinha bonita*/
-        /*background: pink;*/
+    .sobre-empresa, .sobre-edval { 
         max-width: 1280px;
         margin-top: 2.5%;
     }

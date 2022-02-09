@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #e1e6f3;
+    background: #e8ecf5;
     overflow-x: hidden;
 }
 
@@ -21,7 +21,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #2961f0;
+  background: #263e7a;
   height: 8vh;
   max-height: 100px;
   min-height: 50px;
@@ -36,7 +36,7 @@ nav {
       color: #e43e28;
     }
   .logo-img {
-    height: 50px;
+    height: 37.5px;
   }
     .logo-img:hover {
       opacity: 0.8;
