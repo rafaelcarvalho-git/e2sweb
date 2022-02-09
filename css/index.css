@@ -9,16 +9,10 @@
 }*/
 
 h2{
-    
     font-size: 28px;
     margin-left: 5%;
 }
-p {
-    /*background: red;*/
-    font-size: 15px;
-    margin: 1%;
-    margin-bottom: 1.5%;
-}
+
 
 h5 {
     font-size: 35px;
@@ -34,8 +28,12 @@ h5 {
     margin: auto;
     margin-top: 2.5%;
 }
-
-
+    .title-empresa {
+        text-align: center;
+    }
+    .text-empresa {
+        font-size: 18px;
+    }
 .sobre-edval { /*fazer uma caixinha bonita*/
     background: blue;
     height: 50vh;
@@ -45,6 +43,12 @@ h5 {
     margin: auto;
     margin-top: 2.5%;
 }
+    .title-edval {
+        text-align: center;
+    }
+    .text-edval {
+        font-size: 18px;
+    }
     .sobre {
         /*background: gray;*/
         width: 70%;
@@ -55,7 +59,7 @@ h5 {
         text-align: center;
     }
     .imagem-edval {
-        width: 30px;
+        width: 250px;
     }
 .sobre-seguradoras {
     background: rgb(69, 69, 131);
