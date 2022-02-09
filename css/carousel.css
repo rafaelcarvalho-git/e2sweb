@@ -8,7 +8,10 @@
   overflow: hidden;
   height: 70vh;
 }
-
+.carousel-inner img {
+  width: 100%;
+  height: 70vh;
+}
 .carousel-item {
   position: relative;
   display: none;
@@ -135,7 +138,7 @@
   width: 15%;
   color: #fff;
   text-align: center;
-  opacity: 0.5;
+  opacity: 0.750;
 }
 
 .carousel-control-prev:hover, .carousel-control-prev:focus,
@@ -144,7 +147,7 @@
   color: #fff;
   text-decoration: none;
   outline: 0;
-  opacity: .9;
+  opacity: 1;
 }
 
 .carousel-control-prev {
@@ -192,8 +195,8 @@
   position: relative;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 32px;
+  height: 3.5px;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
@@ -232,7 +235,6 @@
   left: 15%;
   z-index: 10;
   padding-top: 20px;
-  padding-bottom: 20px;
   color: #fff;
   text-align: center;
 }
