@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 * {
   margin: 0;
   padding: 0;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     background: #e8ecf5;
@@ -14,7 +12,7 @@ body {
 .title {
   text-align: center;
   margin-top: 2.5vh;
-  margin-bottom: 2.5vh;
+  margin-bottom: 2vh;
 }
 
 nav {
@@ -64,7 +62,10 @@ nav {
     border-radius: 50px;
     transition: 0.3s;
   }
-
+footer a {
+  text-decoration: none;
+  color: black;
+}
 @media (max-width: 768px) {
   .mobile-menu {
     display: block;
@@ -79,7 +80,7 @@ nav {
       width: 100%;
       top: 8vh;
       right: 0px;
-      background: #2961f0;
+      background: #263e7a;
       z-index: 1000;
       height: 0px;
       transition: .5s;
@@ -99,17 +100,28 @@ nav {
       padding: 3.5%;
       margin: 0 1rem;
       border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+      cursor: pointer;
     }
     li:hover {
-      background: #3e70ee;
+      background: #2a4b9c;
+    }
+    ul li a{ /*expande a área de clique para todo o li*/
+       display: inline-block;
+       width: 100%;
+       height: 100%;
+    }
+    nav a {
+      transition: 0;
+    }
+    nav a:hover {
+      color: #F8F8FF;
     }
 }
-
 .mobile-menu.active .line1 {
   transform: rotate(-45deg) translate(-6.5px, 7px);
 }
 .mobile-menu.active .line2 {
-  opacity: 0;
+  opacity:0;
 }
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);

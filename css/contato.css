@@ -3,18 +3,17 @@
     flex-direction: center;
     justify-content: center;
     align-items: center;
-    /*background: chartreuse;*/
 }
 .information-box {
-    background: rgb(130, 130, 236);
-    background: linear-gradient(#2156da,#0a2875);
-    border-radius: 25px;
-    width: 90vw;
-    max-width: 1600px;
+    width: 85vw;
+    max-width: 1280px;
     height: 76vh;
     display: flex;
     box-sizing: border-box; /*mantem o tamanho da caixa, o padding nao interfere*/
-    box-shadow: 1px 5px 25px 1px black;
+
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
+    border-radius: 7px;
+    background: linear-gradient(#ffffff,#e4e4e4);
 }
 
 .informacoes {
@@ -67,7 +66,7 @@
 
 h2 {   
     text-align: center;
-    color: white;     
+    color: #263e7a;     
 }
 
 /****Mapa com localizacao****/
@@ -78,7 +77,6 @@ h2 {
     max-width: 600px;
     margin: auto;
 }
-
 #map {
     overflow:hidden;
     background:none!important;
@@ -136,13 +134,10 @@ h2 {
     opacity: 0;
 }
 
-#button-assare {
+#button-assare, #button-juazeiro {
     margin-left: 2vw;
 }
 
-#button-juazeiro {
-    margin-right: 2vw;
-}
 /***************************/
 
 

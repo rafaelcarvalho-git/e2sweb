@@ -10,34 +10,37 @@
         text-align: center;
         display: flex;
         flex-direction: row;
-        width: 90vw;
-        max-width: 1600px;
+        width: 85vw;
+        max-width: 1280px;
         flex-wrap: wrap;
+        justify-content: space-around;
     }
     .box {
-        border-radius: 25px;
-        background: linear-gradient(#2156da,#0a2875);
+        background: linear-gradient(#becbec,#7192e7);
         width: 25vw;
         max-width: 480px;
         min-width: 220px;
         height: 30vh;
         max-height: 300px;
         min-height: 180px;
-        margin: auto;
-        margin-top: 3.5%;
-        box-shadow: 1px 5px 25px 1px black;
+        margin-top: 5%;
+        box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
+        border-radius: 7px;
+    }
+    .box:hover {
+        transform: translateY(-10px);
     }
         h2 {
-            background: linear-gradient(#f54f3a,#b3220f);
+            background: linear-gradient(#ecbebe,#e77171);
             text-align: center;
-            color: white;
+            color: #263e7a;
             width: 18vw;
             max-width: 350px;
             min-width: 220px;
             height: 7.5vh;
             max-height: 80px;
             min-height: 52px;
-            border-radius: 20px;            
+            border-radius: 14px;            
             line-height: 7.5vh;
             overflow: hidden;
             margin: -7% auto 0 auto;
@@ -56,73 +59,23 @@
     font-size: 1.1rem;
 }
 
-
-@media (max-width: 599px) { 
-    nav {
-        background: red;
-    }
-    .logo-img {
-        margin-left: -90%;
-    }
-    .service-box {
-        flex-direction: column;
-        width: 90vw;
-    }
-    .box {
-        width: 380px;/*
-        max-width: 420px;
-        min-width: 400px;*/
-        height: 30vh;
-        max-height: 300px;
-        min-height: 180px;
-        margin: auto;
-        margin-top: 12.5%;
-    }
-  }
-@media (min-width: 600px) and (max-width: 749px) { 
-    nav {
-        background: green;
-    }
-    .logo-img {
-        margin-left: -90%;
-    }
-    .service-box {
-        flex-direction: row;
-        width: 90vw;
-    }
-    .box {
-        width: 400px;/*
-        max-width: 420px;
-        min-width: 400px;*/
-        height: 32vh;
-        max-height: 300px;
-        min-height: 180px;
-        margin: auto;
-        margin-top: 12.5%;
-    }
-  }
-@media (min-width: 750px) and (max-width: 900px) { 
-    nav {
-        background: pink;
-    }
   
-  }
-@media (min-width: 1200px) { 
-    nav {
-        background: skyblue;
-    }
-  }
-@media (min-width: 1800px) { 
-    nav {
-        background: rebeccapurple;
-    }
-  }
-  
+@media (min-width:320px) and (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 
-/*breakpoints mais utilizados*/
-  @media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
-@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
-@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
-@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+}
+@media (min-width:480px) and (max-width: 599px){ /* smartphones, Android phones, landscape iPhone */ 
+
+}
+@media (min-width:600px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+
+}
+@media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+}
+@media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
+
+}
+@media (min-width:1360px) { /* hi-res laptops and desktops */ 
+
+}
+
