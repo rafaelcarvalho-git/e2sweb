@@ -10,54 +10,47 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <link rel="shortcut icon" type="imagex/png" href="img/icone.ico">
 </head>
 <body>
-    <header>
+    <header> <!---------------------MENU NAVBAR--------------------->
         <nav>
-            <a class="logo" href="/"><img class="logo-img" src="img/logo.png" alt=""></a>
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-        </div>
+        <a class="logo" href="/"><img class="logo-img" src="img/logo.png" alt=""></a>
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="certificados.html">Certificados</a></li>
             <li><a href="servicos.html">Serviços</a></li>
             <li><a href="contato.html">Contato</a></li>
         </ul>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
         </nav>
-    <h1 class="title">Qual Certificado Digital se adequa ao seu uso?</h1>
     </header>
+    <script src="js/navbar.js"></script>
+    <h1 class="title">Qual Certificado Digital é ideal para você ou seu negócio?</h1>
 <div class="container">
     <div class="certificate-box">
-        <div class="choices">
-
-        
         <div style="order:0;" class="box" id="box-tipo">
-            
                 <h2>Tipo</h2>
-          
             <input type="radio" id="html" name="fav_language" value="HTML">
             <label for="html">Pessoa Física (CPF)</label><br>
             <input type="radio" id="html" name="fav_language" value="HTML">
             <label for="html">Pessoa Jurídica (CNPJ)</label><br>
         </div>
         
-        <div style="order:1;" class="box" id="box-dispositivo">
-            
-                <h2>Dispositivo</h2>
-          
+        <div style="order:1;" class="box" id="box-dispositivo">            
+                <h2>Dispositivo</h2>          
             <input type="radio" id="html" name="fav_language" value="HTML">
             <label for="html">A1</label><br>
             <input type="radio" id="html" name="fav_language" value="HTML">
             <label for="html">Cartao</label><br>
-
             <input type="radio" id="html" name="fav_language" value="HTML">
             <label for="html">Cartao+leitora</label><br>
             <input type="radio" id="html" name="fav_language" value="HTML">
             <label for="html">Token</label><br>
-
             <input type="radio" id="html" name="fav_language" value="HTML">
             <label for="html">reaproveitar</label><br>
         </div>
@@ -75,17 +68,12 @@
         </div>
 
         <div style="order:3;" class="box" id="box-resultado">
-                <h2>Certificado</h2>
-
+                <h2 class="h2-certificado-ideal">Certificado Ideal:</h2>
             <label>Certificado Ideal</label><br>
-       
-        </div>
-
         </div>
     </div>
     </div>
 </div>
 <footer>&copy; 2022 - Rafael Carvalho</footer>
-<script src="js/navbar.js"></script>
 </body>
 </html>

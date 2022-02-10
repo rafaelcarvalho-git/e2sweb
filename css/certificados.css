@@ -5,54 +5,29 @@
     align-items: center;
     /*background: chartreuse;*/
 }
-    .certificate-box {
-        /*background: black;*/
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        width: 85vw;
-        height: 75vh;
-        max-width: 1280px;
-        flex-wrap: wrap;
-    }
-    .choices {
-        /*background: red;*/
-        width: 100vw;
-        max-width: 1280px;
-        height: 100%;
-        display: flex;
-    }
-    .box {
-        background: linear-gradient(#1d46ac,#6d85c2);
-        width: 20vw;
-        max-width: 340px;
-        height: 70vh;
-        max-height: 500px;
-        margin: 1.5% auto 0 auto;
-        box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
-        border-radius: 7px;
-    }
+.box {
+    background: linear-gradient(#1d46ac,#6d85c2);
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
+    border-radius: 7px;
+}
     .box:hover {
         transform: translateY(-10px);
+        transition-duration: 0.6s;
     }
     h2 {
+        width: 20vw;
         background: linear-gradient(135deg, #d6301a 0%, #f54f3a 80%);
-        text-align: center;
-        color: white;
-        width: 75%;/*
-        max-width: 350px;
-        min-width: 220px;*/
-        height: 5.5vh;
-        max-height: 80px;
-        min-height: 52px;
-        border-radius: 20px;            
-        line-height: 5.5vh;
-        overflow: hidden;
-        /*margin: -7% auto 0 auto;*/
+        color: white;        
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
+        border-radius: 14px;            
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;          
+        overflow: hidden;
     }
-    
 
 @media (min-width:320px) and (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 
@@ -76,27 +51,67 @@
     }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
+    .certificate-box {
+        background: black;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        width: 85vw;
+        max-width: 985px;
+        height: 70vh;
+        max-height: 500px;
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 200px;
+        max-height: 300px;
+        margin: 3.5% auto 0 auto;
+    }
     h2 {
-        width: 18vw;
-        min-width: 180px;
-        max-width: 200px;
+        min-width: 120px;
+        max-width: 140px;
         height: 5vh;
-        min-height: 44px;
-        max-height: 48px;
-        border-radius: 14px;            
-        margin: -7% auto 0 auto;
+        min-height: 42px;
+        max-height: 46px;                  
+        margin: -9% auto 0 auto;
+    }
+    .h2-certificado-ideal {
+        min-width: 145px;
+        max-width: 145px;
+    }
+    footer {
+        margin-top: 1.5%;
     }
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
+    .certificate-box {
+        background: black;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        width: 85vw;
+        max-width: 1300px;
+        height: 70vh;
+        max-height: 500px;
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 260px;
+        max-height: 400px;
+        margin: 2% auto 0 auto;
+    }
     h2 {
         width: 18vw;
         min-width: 180px;
         max-width: 200px;
         height: 5vh;
         min-height: 44px;
-        max-height: 48px;
-        border-radius: 14px;            
+        max-height: 48px;                  
         margin: -7% auto 0 auto;
+    }
+    .h2-certificado-ideal {
+        min-width: 185px;
+        max-width: 205px;
     }
     footer {
         margin-top: 1.5%;

@@ -10,6 +10,8 @@
         flex-direction: row;
         width: 85vw;
         max-width: 1280px;
+        height: 75vh;
+        max-height: 650px;
         flex-wrap: wrap;
         justify-content: space-around;
     }
