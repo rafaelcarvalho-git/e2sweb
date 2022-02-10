@@ -3,232 +3,248 @@
     flex-direction: center;
     justify-content: center;
     align-items: center;
-}
+} 
 .information-box {
     width: 85vw;
     max-width: 1280px;
-    height: 76vh;
+    height: 75vh;
     display: flex;
-    box-sizing: border-box; /*mantem o tamanho da caixa, o padding nao interfere*/
-
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     border-radius: 7px;
     background: linear-gradient(#ffffff,#e4e4e4);
 }
-
+h2 {   
+    text-align: center;
+    color: #263e7a;     
+}
 .informacoes {
     /*background: blue;*/
     width: 56%;
     height: 100%;
 }
-
-.info-certificadora {
-    /*background: rebeccapurple;*/
-    width: 75%;
-    margin: auto;
-    text-align: left;
-}
-
-.info-corretora {
-    /*background: rebeccapurple;*/
-    width: 75%;
-    margin: auto;
-    text-align: left;
-}
-
+    .info-certificadora {
+        background: rebeccapurple;
+        width: 75%;
+        margin: auto;
+        text-align: left;
+    }
+        .contato-certificadora {
+            /*background: green;*/
+            height: 40%;
+        }
+    .info-corretora {
+        background: pink;
+        width: 75%;
+        margin: auto;
+        text-align: left;
+    }
+        .contato-corretora {
+            /*background: green;*/
+            height: 60%;
+        }
+    .info {
+        background: red;
+        text-align: left;
+        margin-left: 10%;
+        margin-bottom: 2.5%;
+        font-size: 8px;
+    }
 .localizacao {
     /*background: wheat;*/
     width: 44%;
     height: 100%;
 }
-
-.contato-certificadora {
-    /*background: green;*/
-    height: 40%;
-}
-
-.info {
-    text-align: left;
-    margin-left: 10%;
-    margin-bottom: 2.5%;
-    font-size: 1.2rem;
-}
-
-.contato-corretora {
-    /*background: red;*/
-    height: 60%;
-}
-
-.logo-social {
-    height: 25px;
-}
-
-
-h2 {   
-    text-align: center;
-    color: #263e7a;     
-}
-
-/****Mapa com localizacao****/
-.mapa { 
-    visibility: visible;
-    height: 55vh;
-    width: 34vw;
-    max-width: 600px;
-    margin: auto;
-}
-#map {
-    overflow:hidden;
-    background:none!important;
-    height: 55vh;
-    width: 34vw;
-    max-width: 600px;
-    border-radius: 10px;
-    margin: auto;
-}
-/***************************/
-
-/****h4 filial e botoes****/
-.filiais {
-    display: flexbox;
-    text-align: center;
-    margin: 2.5% auto 2.5% auto;
-    /*background: green;*/
-}
-
-.buttons {
-    background: white;
-    background: linear-gradient(#d6301a,#f54f3a);
-    display: inline;
-    width: 16vw;
-    max-width: 200px;
-    height: 7.5vh;
-    max-height: 50px;
-    border-radius: 18px;
-    cursor: pointer;
-    text-decoration: none;
-    color: rgb(66, 66, 66);
-}
-.buttons.active{
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-.buttons:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-.buttons::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
-}
-.buttons:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-}
-
-#button-assare, #button-juazeiro {
-    margin-left: 2vw;
-}
-
-/***************************/
-
-
-@media all and (max-width: 700px) {
-    .information-box {
-        background: rgb(130, 130, 236);
-        border-radius: 25px;
-        width: 90vw;
-        height: 98vh;
-        display: block;
+    /****Mapa com localizacao****/
+    .mapa { 
+        visibility: visible;
+        height: 55vh;
+        width: 34vw;
+        max-width: 600px;
+        margin: auto;
     }
-        .informacoes {
-            /*background: blue;*/
-            width: 100%;
+    #map {
+        overflow:hidden;
+        background:none!important;
+        height: 55vh;
+        width: 34vw;
+        max-width: 600px;
+        border-radius: 14px;
+        margin: auto;
+    }
+    /***************************/
+    .filiais {
+        margin: 2.5% auto 2.5% auto;
+        /*background: green;*/
+    }
+    .buttons {
+        background: white;
+        background: linear-gradient(#d6301a,#f54f3a);
+        display: inline;
+        width: 16vw;
+        max-width: 200px;
+        height: 7.5vh;
+        max-height: 50px;
+        border-radius: 18px;
+        cursor: pointer;
+        text-decoration: none;
+        color: rgb(66, 66, 66);
+        margin-left: 2vw;
+    }
+        .buttons:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+/***************************/
+@media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
+    .information-box {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        border-radius: none;
+        background: none;
+    }
+    .info-certificadora {
+        background: rebeccapurple;
+        width: 100vw;
+        text-align: left;
+    }
+    .contato-certificadora {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 25vh;
+        box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
+        background: linear-gradient(#ffffff,#e4e4e4);
+        margin-top: 5%;
+    }
+    .contato-corretora {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 30vh;
+        box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
+        background: linear-gradient(#ffffff,#e4e4e4);
+        margin-top: 5vh;
+    }
+    .info-corretora {
+        background: pink;
+        width: 100vw;
+        margin: auto;
+        text-align: left;
+    }
+    .localizacao {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
+        background: linear-gradient(#ffffff,#e4e4e4);
+        margin-top: 5vh;
+    }
+    .mapa { 
+        height: 20vh;
+        width: 85vw;
+        margin: auto;
+    }
+    #map {
+        height: 20vh;
+        width: 85vw;
+        margin: auto;
+    }
+    footer {
+        text-align: center;
+    }
+}
+@media (min-width:320px) and (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+}
+@media (min-width:480px) and (max-width: 599px){ /* smartphones, Android phones, landscape iPhone */ 
+
+}
+@media (min-width:600px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+
+}
+@media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .information-box {
+        max-width: 765px;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
+        border-radius: 7px;
+        background: linear-gradient(#ffffff,#e4e4e4);
+    }
+    .informacoes {
+        /*background: blue;*/
+        width: 100%;
+        height: 50%;
+    }
+    .info-certificadora {
+        background: rebeccapurple;
+        width: 75%;
+        margin: auto;
+        text-align: left;
+    }
+        .contato-certificadora {
+            background: green;
+            height: 35%;
+        }
+    .info-corretora {
+        background: pink;
+        width: 75%;
+        margin: auto;
+        text-align: left;
+    }
+        .contato-corretora {
+            background: rgb(70, 202, 70);
             height: 60%;
         }
-            .contato-certificadora {
-                /*background: green;*/
-                height: 35%;
-            }
-            .contato-corretora {
-                /*background: red;*/
-                height: 65%;
-            }
-            #title-certificadora, #title-corretora {
-                font-size: 1.250rem;
-                text-align: center;
-                padding-top: 2.5%;
-                padding-bottom: 2.5%;
-                color: white;
-            }
-                .info {
-                    text-align: left;
-                    margin-left: 10%;
-                    margin-bottom: 2.5%;
-                    font-size: 1rem;
-                }
-.localizacao {
-    /*background: wheat;*/
-    width: 100%;
-    height: 40%;
+    .localizacao {
+        background: wheat;
+        width: 100%;
+        height: 50%;
+    }
+        /****Mapa com localizacao****/
+        .mapa { 
+            visibility: visible;
+            height: 30vh;
+            width: 70vw;
+            max-width: 600px;
+            margin: auto;
+        }
+        #map {
+            overflow:hidden;
+            background:none!important;
+            height: 30vh;
+            width: 70vw;
+            max-width: 600px;
+            border-radius: 14px;
+            margin: auto;
+        }
+        .filiais {
+            margin: 2.5% auto 2.5% auto;
+            background: green;
+            text-align: center;
+        }
+        .buttons {
+            height: 5.5vh;
+            margin: auto;
+        }
+    footer {
+        margin-top: 1.5%;
+    }
 }
+@media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
 
-
-/****Mapa com localizacao****/
-.mapa { 
-    visibility: visible;
-    height: 25vh;
-    width: 60vw;
-    max-width: 600px;
-    margin: auto;
+    footer {
+        margin-top: 1.5%;
+    }
 }
+@media (min-width:1360px) { /* hi-res laptops and desktops */ 
 
-#map {
-    overflow:hidden;
-    background:none!important;
-    height: 25vh;
-    width: 60vw;
-    max-width: 600px;
-    border-radius: 10px;
-    margin: auto;
-    margin-bottom: -5px;
-    
-}
-/***************************/
-
-/****h4 filial e botoes****/
-.filiais {
-    display: flexbox;
-    text-align: center;
-    margin: -5% auto 2.5% auto;
-    /*background: green;*/
-}
-
-
-.buttons {
-    display: inline;
-    width: 28vw;
-    max-width: 160px;
-    height: 6.2vh;
-    max-height: 45px;
-    border-radius: 12px;
-    margin-bottom: -1%;
-}
-
-#button-assare {
-    margin-left: 2vw;
-}
-
-#button-juazeiro {
-    margin-right: 2vw;
-}
-
+    footer {
+        margin-top: 1.5%;
+    }
 }
