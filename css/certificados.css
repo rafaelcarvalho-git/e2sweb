@@ -64,12 +64,40 @@
 
 }
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-
+    h2 {
+        width: 18vw;
+        min-width: 180px;
+        max-width: 200px;
+        height: 5vh;
+        min-height: 45px;
+        max-height: 48px;
+        border-radius: 14px;            
+        margin: -7% auto 0 auto;
+    }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
-
+    h2 {
+        width: 18vw;
+        min-width: 180px;
+        max-width: 200px;
+        height: 5vh;
+        min-height: 44px;
+        max-height: 48px;
+        border-radius: 14px;            
+        margin: -7% auto 0 auto;
+    }
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
+    h2 {
+        width: 18vw;
+        min-width: 180px;
+        max-width: 200px;
+        height: 5vh;
+        min-height: 44px;
+        max-height: 48px;
+        border-radius: 14px;            
+        margin: -7% auto 0 auto;
+    }
     footer {
         margin-top: 1.5%;
     }
