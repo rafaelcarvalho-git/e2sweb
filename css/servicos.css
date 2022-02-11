@@ -7,13 +7,10 @@
     .service-box {
         text-align: center;
         display: flex;
-        flex-direction: row;
         width: 85vw;
         max-width: 1280px;
         height: 75vh;
         max-height: 650px;
-        flex-wrap: wrap;
-        justify-content: space-around;
     }
     .box {
         background: linear-gradient(#becbec,#7192e7);
@@ -22,8 +19,14 @@
     }
     .box:hover {
         transform: translateY(-10px);
+        transition: all ease-in-out;
         transition-duration: 0.6s;
-    }
+    }/*
+    .box::after {
+        transform: translateY(-100px);
+        transition: all ease-in-out;
+        transition-duration: 0.6s;
+    }*/
     h2 {
         background: linear-gradient(#ecbebe,#e77171);
         text-align: center;
@@ -126,6 +129,8 @@
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     .service-box {
         max-width: 795px;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .box {
         width: 40vw;
@@ -151,6 +156,8 @@
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
     .service-box {
         max-width: 985px;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .box {
         width: 40vw;
@@ -176,6 +183,8 @@
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
     .service-box {
         max-width: 1300px;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .box {
         min-width: 340px;
