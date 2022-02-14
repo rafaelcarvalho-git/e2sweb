@@ -3,6 +3,7 @@
     display: flex;
     width: 85vw;
     height: 75vh;
+    margin: auto;
 }
     .box {
         width: 25vw;

@@ -88,6 +88,7 @@
         min-height: 580px;
         max-height: 768px;
         flex-wrap: wrap;
+        margin: auto;
     }
     .box {
         width: 19vw;
