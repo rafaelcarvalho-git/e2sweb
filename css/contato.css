@@ -234,13 +234,21 @@ h2 {
     }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
-
+    .information-box {
+        max-width: 1280px;
+        min-height: 360px;
+       
+    }
     footer {
         margin-top: 1.5%;
     }
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
-
+    .information-box {
+        max-width: 1280px;
+        min-height: 470px;
+        max-height: 768px;
+    }
     footer {
         margin-top: 1.5%;
     }
