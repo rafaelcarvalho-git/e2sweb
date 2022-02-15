@@ -8,7 +8,7 @@
     display: flex;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     border-radius: 7px;
-    background: linear-gradient(#ffffff,#e4e4e4);
+    background: linear-gradient(#ffffff,#d1dbf3);
     margin: auto;
 }
 .box {
@@ -17,13 +17,29 @@
     height: 100%;
     border: 1px solid red;
 }
+.box:hover {
+    color: #2e4d9b;
+}
+.descricao {
+    height: 25%;
+}
     h2 {
+        padding-top: 5.5%;
+        padding-bottom: 5.5%;
         color: #263e7a;        
-        margin: 2.5% auto 2.5% auto;
-        text-align: center;
-
+        text-align: center; 
     }
-@media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
+    h3 {
+        text-align: center;
+    }
+.content {
+    background: pink;
+    height: 50%;
+    padding-top: 5.5%;
+    text-align: left;
+}
+
+@media (max-width: 1024px) { /*Configs gerais para dispositivos mobile*/
     .certificate-box {
         flex-direction: column;
         margin-top: 5%;
@@ -34,17 +50,23 @@
         height: 25%;
     }
 }
-@media (min-width:320px) and (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-
+@media (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  
 }
 @media (min-width:480px) and (max-width: 599px){ /* smartphones, Android phones, landscape iPhone */ 
 
 }
 @media (min-width:600px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-
+    .certificate-box {
+        min-height: 800px;
+        max-height: 1000px;
+    }
 }
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-
+    .certificate-box {
+        min-height: 1000px;
+        max-height: 1200px;
+    }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
 
