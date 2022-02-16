@@ -1,38 +1,44 @@
 .informacoes {
-    /*background: blue;*/
     width: 56%;
     height: 100%;
 }
-    .info-certificadora {
-        /*background: rebeccapurple;*/
+    .info-certificadora, .info-corretora {
         width: 75%;
         margin: auto;
         text-align: left;
     }
         .contato-certificadora {
-            /*background: green;*/
-            height: 40%;
+            height: 30%;
         }
-    .info-corretora {
-        /*background: pink;*/
-        width: 75%;
-        margin: auto;
-        text-align: left;
-    }
         .contato-corretora {
-            /*background: green;*/
             height: 60%;
         }
+    h2 {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 0;
+    }
     h4 {
-        background: rgb(241, 133, 133);
         text-align: left;
-        margin-left: 10%;
+        margin: 1%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
         margin-bottom: 2.5%;
         font-size: 1.250em;
     }
-    .logo-social {
-        width: 1.250em;
-    }
+        h4 a {
+            text-decoration: none;
+        }
+        .funcionamento, h3 {
+            text-align: center;
+        }
+        h3 {
+            margin-top: -2%;
+            margin-bottom: 2.5%;
+        }
+        .logo-social {
+            width: 1.250em;
+        }
 .localizacao {
     background: wheat;
     width: 44%;
