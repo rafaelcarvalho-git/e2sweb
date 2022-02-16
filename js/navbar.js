@@ -52,5 +52,3 @@ function btjuazeiro() {
 function btassare() {
     document.getElementById('map').setAttribute('src', 'https://maps.google.com/maps?q=assare%20zenir&t=&z=17&ie=UTF8&iwloc=&output=embed');
 }
-
-
