@@ -1,35 +1,20 @@
-.service-box {
-    text-align: center;
-    display: flex;
-    width: 85vw;
-    height: 75vh;
-    margin: auto;
-}
-    .box {
+.box {
+        text-align: center;
         width: 25vw;
         height: 25vh;
-        background: linear-gradient(#ffffff,#d1dbf3);
-        box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
-        border-radius: 7px;
     }
-    .box:hover {
-        transform: translateY(-10px);
-        transition: all ease-in-out;
-        transition-duration: 0.6s;
-    }
-    h2 {
-        text-align: center;
-        color: #263e7a;        
-        margin-top: 2.5%;
-        margin-bottom: 2.5%;
-        font-size: 1.8em;
-    }
-    h2:hover {
-        color: #47b2e4;
-    }
-    p {
-        font-size: 1.2em;
-    }
+.box:hover {
+    transform: translateY(-10px);
+    transition: all ease-in-out;
+    transition-duration: 0.6s;
+}
+h2 {       
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+p {
+    font-size: 1.2em;
+}
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
     .service-box {
         flex-direction: column;
