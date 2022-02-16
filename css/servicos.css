@@ -98,9 +98,6 @@ p {
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
     .service-box {
-        max-width: 1280px;
-        min-height: 470px;
-        max-height: 800px;
         flex-wrap: wrap;
         justify-content: space-around;
     }

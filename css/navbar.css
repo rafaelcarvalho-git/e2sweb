@@ -85,12 +85,10 @@ nav {
 }
 .certificate-box, .service-box, .information-box {
     width: 85vw;
-    height: 75vh;
-    min-width: 280px;
     max-width: 1280px;
-    min-height: 580px;
-    max-height: 850px;
-    overflow: hidden;
+    height: 75vh;
+    max-height: 650px;/*
+    overflow: hidden;*/
 }
 button {
   width: 16vw;
