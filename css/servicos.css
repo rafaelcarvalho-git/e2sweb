@@ -22,9 +22,13 @@
         color: #263e7a;        
         margin-top: 2.5%;
         margin-bottom: 2.5%;
+        font-size: 1.8em;
     }
     h2:hover {
         color: #47b2e4;
+    }
+    p {
+        font-size: 1.2em;
     }
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
     .service-box {
@@ -43,10 +47,10 @@
 }
 @media (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
     .service-box {
-        min-height: 1550px;
+        min-height: 1400px;
     }
     .box {
-        margin: 5.5% auto 7% auto;
+        margin: auto;
         min-width: 260px;
         max-width: 360px;
         min-height: 180px;
@@ -58,7 +62,7 @@
         min-height: 1700px;
     }
     .box {
-        margin: 5.5% auto 7% auto;
+        margin: auto;
         min-width: 380px;
         max-width: 480px;
         min-height: 220px;
@@ -70,10 +74,10 @@
         min-height: 2000px;
     }
     .box {
-        margin: 5.5% auto 5% auto;
+        margin: auto;
         min-width: 420px;
         max-width: 520px;
-        min-height: 230px;
+        min-height: 250px;
         max-height: 250px;
     }
 }
@@ -85,11 +89,11 @@
         justify-content: space-around;
     }
     .box {
+        margin: auto;
         min-width: 280px;
         max-width: 400px;
         min-height: 200px;
         max-height: 220px;
-        margin: auto;
     }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 

@@ -36,18 +36,22 @@
         <div class="box" id="box-tipo">
             <div class="descricao">    
                 <h2>Tipo</h2>
-                <h3>Selecione o tipo do seu certificado</h3>  
+                <h3>Selecione o tipo do seu certificado*</h3>  
             </div>
-            
             <div class="content">
-                <div class="opcoes">
-                    <input class="opcao" type="radio" id="cpf" name="fav_language" value="CPF">
-                    <label class="opcao" for="cpf">Pessoa Física (CPF)</label><br>
-                    <input class="opcao" type="radio" id="cnpj" name="fav_language" value="cnpj">
-                    <label class="opcao" for="cnpj">Pessoa Jurídica (CNPJ)</label><br>                
-                </div>
-            </div> 
-
+                <section class="opcoes">
+                    <label>
+                      <input type="radio" name="light" checked>
+                      <span class="design"></span>
+                      <span class="text">Pessoa Física (CPF)</span>
+                    </label>                  
+                    <label>
+                      <input type="radio" name="light">
+                      <span class="design"></span>
+                      <span class="text">Pessoa Jurídica (CNPJ)</span>
+                    </label>
+                </section>
+            </div>
             <div class="info">
                 <p>*CPF para uso próprio e CNPJ para utilização da empresa.</p>
             </div>
@@ -56,48 +60,69 @@
         <div class="box" id="box-dispositivo">     
             <div class="descricao">      
                 <h2>Dispositivo</h2>     
-                <h3>Selecione o formato do seu certificado</h3>     
-            </div> 
-
-            <div class="content">    
-                <div class="opcoes">                       
-                    <input class="opcao" type="radio" id="a1-digital" name="fav_language" value="a1-digital">
-                    <label class="opcao" for="a1-digital">A1 (Mídia Digital)</label><br>
-                    <input class="opcao" type="radio" id="a3-cartao" name="fav_language" value="a3-cartao">
-                    <label class="opcao" for="a3-cartao">A3 (Cartao)</label><br>
-                    <input class="opcao" type="radio" id="a3-leitora" name="fav_language" value="a3-leitora">
-                    <label class="opcao" for="a3-leitora">A3 (Cartao + leitora)</label><br>
-                    <input class="opcao" type="radio" id="a3-token" name="fav_language" value="a3-token">
-                    <label class="opcao" for="a3-token">A3 (Token)</label><br>
-                    <input class="opcao" type="radio" id="a3-reaproveitar" name="fav_language" value="a3-reaproveitar">
-                    <label class="opcao" for="a3-reaproveitar">A3 (Reaproveitar Mídia)</label><br>
-                </div>
+                <h3>Selecione o formato do seu certificado**</h3>     
             </div>
-
+            <div class="content">    
+                <section class="opcoes">
+                    <label>
+                      <input type="radio" name="light" checked>
+                      <span class="design"></span>
+                      <span class="text">A1 (Mídia Digital)</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="light">
+                      <span class="design"></span>
+                      <span class="text">A3 (Cartao)</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="light">
+                        <span class="design"></span>
+                        <span class="text">A3 (Cartao + leitora)</span>
+                      </label>
+                    
+                      <label>
+                        <input type="radio" name="light">
+                        <span class="design"></span>
+                        <span class="text">A3 (Token)</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="light">
+                        <span class="design"></span>
+                        <span class="text">A3 (Reaproveitar Mídia)</span>
+                      </label>
+                </section>
+            </div>
             <div class="info">
-                <p>*Formato do seu certificado (arquivo digital ou dispositivo físico).</p>
+                <p>**Formato do seu certificado (arquivo digital ou dispositivo físico).</p>
             </div>
         </div>
         
         <div class="box" id="box-validade">
             <div class="descricao">
                 <h2>Validade</h2>
-                <h3>Selecione a validade do seu certificado</h3>
+                <h3>Selecione a validade do seu certificado***</h3>
             </div>
-                
             <div class="content">
-                <div class="opcoes">                
-                    <input class="opcao" type="radio" id="1-ano" name="fav_language" value="1-ano">
-                    <label class="opcao" for="1-ano">1 Ano</label><br>
-                    <input class="opcao" type="radio" id="2-anos" name="fav_language" value="2-anos">
-                    <label class="opcao" for="2-anos">2 Anos</label><br>
-                    <input class="opcao" type="radio" id="3-anos" name="fav_language" value="3-anos">
-                    <label class="opcao" for="3-anos">3 Anos</label><br>
-                </div>
+                <section class="opcoes">
+                    <label>
+                      <input type="radio" name="light" checked>
+                      <span class="design"></span>
+                      <span class="text">1 Ano</span>
+                    </label>                  
+                    <label>
+                      <input type="radio" name="light">
+                      <span class="design"></span>
+                      <span class="text">2 Anos</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="light">
+                        <span class="design"></span>
+                        <span class="text">3 Anos</span>
+                      </label>
+                </section>
             </div>
-
             <div class="info">
-                <p>*Tempo que seu certificado está válido para o uso.</p>
+                <p>***Tempo que seu certificado está válido para o uso.</p>
             </div>
         </div>
 
@@ -106,19 +131,17 @@
                 <h2 class="h2-certificado-ideal">Certificado Ideal</h2>
                 <h3>O Certificado Digital adequado para seu uso é o</h3>
             </div>
-                
-            <div class="content-ideal">
+            <div class="content" id="content-ideal">
                 <h3 id="certificado-ideal">E-CNPJ A3 TOKEN 12 MESES</h3>
                 <img class="token" src="img/token.png" alt="" width="200px">
             </div>
-
             <div class="info">
-                <input class="buttons" id="button-contato" type="button" value="Entre em contato" onclick="btjuazeiro();">
+                <button class="buttons" id="button-contato" type="button" value="Entre em contato" onclick="btjuazeiro();">
             </div>
         </div>
     </div>
 </main>
 </div>
-<footer>&copy; 2022 - Rafael Carvalho</footer>
+<footer><a href="https://www.linkedin.com/in/rafaelcarvalho-ti">&copy; 2022 - Rafael Carvalho</a></footer>
 </body>
 </html>

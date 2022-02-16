@@ -76,6 +76,9 @@ footer a {
   text-decoration: none;
   color: black;
 }
+footer a:hover {
+  color: #0f47d3;
+}
 @media (max-width: 768px) {
   .mobile-menu {
     display: block;
