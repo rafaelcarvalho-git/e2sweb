@@ -27,6 +27,11 @@ h2 {
   padding-top: 2.5%; 
   padding-bottom: 2.5%;
 }
+header { /*fixar navbar no topo da pagina*/
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 nav {
   display: flex;
   justify-content: space-around;

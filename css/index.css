@@ -1,25 +1,22 @@
 .sobre-empresa, .sobre-edval { 
-    height: 50vh;
+    height: 60vh;
     width: 85vw;
     max-width: 1280px;
     margin: auto;
-    margin-top: 2.5%;
+    margin-top: 4.5%;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     border-radius: 7px;
     background: #fff;
     transition-duration: 0.6s;
+    overflow: hidden;
 }
 .sobre-edval { 
     display: flex;
 }
-    .title-edval, .title-empresa {
-        text-align: center;
-    }
-    .text-edval, .text-empresa {
-        font-size: 18px;
-        padding-left: 2.5%;
-        padding-right: 2.5%;
-        text-overflow: ellipsis;
+    p {
+        font-size: 1.250em;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .sobre {
         width: 70%;
@@ -29,19 +26,24 @@
         text-align: center;
     }
 .sobre-seguradoras {
-    height: 25vh;
-    max-height: 200px;
+    height: 28vh;
+    max-height: 240px;
     width: 100vw;
-    text-align: center;
-    margin-top: 2.5%;
+    margin-top: 4.5%;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
-    background: #d1d9ee;
+    background: #e2e8f8;
+    overflow: hidden;
 }
     .title-seguradoras {
-        padding-top: 1%;
-        padding-bottom: 1.5%;
-        font-size: 28px;
-        color: #263e7a;
+        padding-top: 1.5%; 
+        padding-bottom: 1%;
+    }
+    .seguradoras {
+        display: flex;
+        margin: auto;
+        width: 85vw;
+        max-width: 1280px;
+        justify-content: space-between;
     }
 .sobre-edval:hover,.sobre-empresa:hover, .imagem-seguradora:hover {
     transform: translateY(-10px);
@@ -80,9 +82,6 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    footer {
-        margin-top: 5%;
-    }
     .sobre-edval:hover,.sobre-empresa:hover, .imagem-seguradora:hover {
         transform: none;
         transition-duration: none;
@@ -98,11 +97,6 @@
     .imagem-edval {
         width: 50vw;
         max-width: 200px;
-    }
-    .title-seguradoras {
-        font-size: 20px;
-        margin-top: 2%;
-        margin-bottom: 2%;
     }
     .imagem-seguradora {
         margin-left: .5%;
@@ -139,9 +133,6 @@
         width: 60vw;
         max-width: 235px;
     }
-    .title-seguradoras {
-        font-size: 20px;
-    }
     .imagem-seguradora {
         margin-left: 1.5%;
         margin-right: 1.5%;
@@ -152,21 +143,15 @@
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     .sobre-empresa, .sobre-edval { 
         max-width: 765px;
-        margin: auto;
-        margin-top: 2.5%;
     }
     .imagem-edval {
         margin: auto;
         width: 25vw;
         max-width: 210px;
+        background: red;
     }
     .seguradoras {
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-        width: 85vw;
         max-width: 765px;
-        justify-content: space-between;
     }
     .imagem-seguradora {
         margin-left: 2%;
@@ -174,25 +159,17 @@
         width: 10vw;
         max-width: 68px;
     }
-    footer {
-        margin-top: 1.5%;
-    }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
     .sobre-empresa, .sobre-edval { 
-        max-width: 965px;
+        max-width: 975px;
     }
     .imagem-edval {
         width: 30vw;
         max-width: 250px;
     }
     .seguradoras {
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-        width: 85vw;
-        max-width: 965px;
-        justify-content: space-between;
+        max-width: 975px;
     }
     .imagem-seguradora {
         margin-left: 3.5%;
@@ -200,32 +177,18 @@
         width: 10vw;
         max-width: 70px;
     }
-    footer {
-        margin-top: 1.5%;
-    }
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
-    .sobre-empresa, .sobre-edval { 
-        max-width: 1280px;
-        margin-top: 2.5%;
-    }
     .imagem-edval {
         width: 30vw;
         max-width: 320px;
     }
     .seguradoras {
-        display: flex;
-        margin: auto;
-        width: 85vw;
         max-width: 1280px;
-        justify-content: space-between;
     }
     .imagem-seguradora {
         margin-left: 1%;
         margin-right: 1%;
         width: 75px;
-    }
-    footer {
-        margin-top: 1.5%;
     }
 }
