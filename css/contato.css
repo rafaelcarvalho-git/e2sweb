@@ -11,7 +11,7 @@
             height: 30%;
         }
         .contato-corretora {
-            height: 60%;
+            height: 70%;
         }
     h2 {
         padding-left: 5%;
@@ -25,6 +25,8 @@
         margin-right: 7.5%;
         margin-bottom: 2.5%;
         font-size: 1.250em;
+        background: red;
+       
     }
         h4 a {
             text-decoration: none;
@@ -36,8 +38,26 @@
             margin-top: -2%;
             margin-bottom: 2.5%;
         }
-        .logo-social {
-            width: 1.250em;
+   
+        .social-icon {
+            text-align: center;
+            background: white;
+            color: black;
+            width: 42px;
+            height: 42px;
+            border-radius: 50px;
+            transition: 0.6s;
+            display: flex;
+            flex-direction: center;
+            justify-content: center;
+            align-items: center;
+            z-index: 0;
+            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.116);
+           
+        }
+        .social-icon:hover {
+            background: #4366c0;
+            color: white;
         }
 .localizacao {
     background: wheat;

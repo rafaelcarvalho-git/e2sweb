@@ -11,23 +11,40 @@
     overflow: hidden;
 }
 .sobre-edval { 
+    min-height: 450px;
     display: flex;
 }
     p {
         font-size: 1.250em;
         padding-left: 5%;
         padding-right: 5%;
+        padding-bottom: 5%;
     }
     .sobre {
         width: 70%;
     }
+    button { 
+        margin: auto;
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(#31e25b,#00bb2d);
+    }
+        svg {
+            margin-right: 2.5%;
+        }
+        button:hover {
+            background: #66eb85;
+        }
     .edval {
         width: 30%;
         text-align: center;
     }
 .sobre-seguradoras {
     height: 28vh;
-    max-height: 240px;
+    min-height: 250px;
+    max-height: 280px;
     width: 100vw;
     margin-top: 4.5%;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
@@ -52,8 +69,9 @@
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
     .sobre-empresa, .sobre-edval { 
         height: 50vh;
+        min-height: 600px;
         width: 100vw;
-        margin-top: 7%;
+        margin-top: 10%;
         border-radius: 0;
     }
     .sobre-edval { 
@@ -71,7 +89,7 @@
         overflow-y: hidden;
     }
     .sobre-seguradoras {
-        margin-top: 7%;
+        margin-top: 10%;
         max-height: 185px;
     }
     .seguradoras {
@@ -87,45 +105,24 @@
         transition-duration: none;
     }
 }
-@media (min-width:320px) and (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-    .text-edval, .text-empresa {
-        font-size: 12px;
-        padding-left: 3.2%;
-        padding-right: 3.2%;
-        text-overflow: ellipsis;
-    }
-    .imagem-edval {
-        width: 50vw;
-        max-width: 200px;
-    }
-    .imagem-seguradora {
-        margin-left: .5%;
-        margin-right: .5%;
-        width: 15vw;
-        max-width: 58px;
-    }
-}
-@media (min-width:480px) and (max-width: 599px){ /* smartphones, Android phones, landscape iPhone */ 
-    .text-edval, .text-empresa {
-        font-size: 13.7px;
-        padding-left: 3.2%;
-        padding-right: 3.2%;
+@media (max-width: 576px){ /* smartphones, portrait iPhone, Android phones, landscape iPhone */ 
+    p {
+        font-size: 1.1em;
     }
     .imagem-edval {
         width: 55vw;
         max-width: 225px;
     }
     .title-seguradoras {
-        font-size: 20px;
+        font-size: 1.5em;
     }
     .imagem-seguradora {
         margin-left: .7%;
         margin-right: .7%;
-        width: 15vw;
-        max-width: 64px;
+        width: 50px;
     }
 }
-@media (min-width:600px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+@media (min-width:577px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
     .text-edval, .text-empresa {
         font-size: 15px;
     }

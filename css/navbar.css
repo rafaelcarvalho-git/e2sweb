@@ -30,7 +30,7 @@ h2 {
 header { /*fixar navbar no topo da pagina*/
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 50;
 }
 nav {
   display: flex;
@@ -111,8 +111,6 @@ button {
 }
   button:hover {
       background: #2c50ac;
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
 footer {
   text-align: center;
