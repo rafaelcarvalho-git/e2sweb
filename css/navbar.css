@@ -4,9 +4,9 @@
   padding: 0;
 }
 body {
-    font-family: 'Roboto', sans-serif;
-    background: #e8ecf5;
-    overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  background: #e8ecf5;
+  overflow-x: hidden;
 }
 main { /*container das paginas certificados/servicos/contato*/
   display: flex;
@@ -24,8 +24,8 @@ h2 {
   text-align: center;
   color: #263e7a;    
   font-size: 1.8em; 
-  padding-top: 2.5%; 
-  padding-bottom: 2.5%;
+  padding-top: 1.5%; 
+  padding-bottom: 1.5%;
 }
 /***********MENU NAVBAR***********/
 header { /*fixar navbar no topo da pagina*/
