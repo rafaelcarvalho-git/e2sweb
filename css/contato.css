@@ -206,6 +206,38 @@
     .information-box {
         max-width: 995px;
     }
+    h4 {
+        margin: 1% auto 0 auto;
+        margin-bottom: 2.5%;
+        font-size: 1em;
+        display: inline-flex;
+        align-items: center;
+    
+        background: blueviolet;
+    }
+    .localizacao {
+        background: red;
+      
+    }
+    .mapa, #map { 
+        width: 95%;
+        height: 90%;
+    }
+    .endereco {
+        width: 95%;
+        margin-top: 2.5%;
+    }
+    .botoes {
+        background: beige;
+        text-align: center;
+        width: 80%;
+        margin: auto auto 4.5% auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    button {
+        width: 22vw;
+    }
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
 
