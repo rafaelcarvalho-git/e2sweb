@@ -6,7 +6,7 @@
     margin-top: 4.5%;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     border-radius: 7px;
-    background: #fff;
+    background: white;
     transition-duration: 0.6s;
     overflow: hidden;
 }
@@ -42,9 +42,8 @@
         text-align: center;
     }
 .sobre-seguradoras {
-    height: 28vh;
-    min-height: 250px;
-    max-height: 280px;
+    height: 25vh;
+    max-height: 200px;
     width: 100vw;
     margin-top: 4.5%;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);

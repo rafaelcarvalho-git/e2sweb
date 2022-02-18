@@ -27,6 +27,7 @@ h2 {
   padding-top: 2.5%; 
   padding-bottom: 2.5%;
 }
+/***********MENU NAVBAR***********/
 header { /*fixar navbar no topo da pagina*/
   position: sticky;
   top: 0;
@@ -66,7 +67,6 @@ nav {
       letter-spacing: 1px;
       margin-left: 10%;
     }
-
 .mobile-menu {
   display: none;
   cursor: pointer;
@@ -79,6 +79,7 @@ nav {
     border-radius: 50px;
     transition: 0.3s;
   }
+  /**************************************/
 .sobre-empresa, .sobre-edval, .box, .certificate-box, .information-box {
     background: linear-gradient(#ffffff,#d1dbf3);
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
@@ -96,22 +97,23 @@ nav {
     overflow: hidden;
 }
 button {
-  width: 16vw;
-  max-width: 200px;
-  height: 7.5vh;
-  max-height: 50px;
-  border-radius: 12px;
-  box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
-  background: linear-gradient(#2e4e9e,#263e7a);
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 15px; 
-  border: none; 
+    width: 16vw;
+    max-width: 200px;
+    height: 7.5vh;
+    max-height: 50px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
+    background: linear-gradient(#2e4e9e,#263e7a);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 15px; 
+    border: none; 
 }
   button:hover {
       background: #2c50ac;
   }
+/******Rodape da pagina*********/
 footer {
   text-align: center;
   margin-top: 1.5%;
@@ -123,7 +125,7 @@ footer a {
 footer a:hover {
   color: #2c50ac;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) { /*Media querie para responsividade do menu navbar*/
   .mobile-menu {
     display: block;
     margin-right: -15%;
