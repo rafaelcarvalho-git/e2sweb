@@ -80,7 +80,7 @@ nav {
     transition: 0.3s;
   }
   /**************************************/
-.sobre-empresa, .sobre-edval, .box, .certificate-box, .information-box {
+.sobre-empresa, .sobre-edval, .box, .cpf, .cnpj, .rodape, .information-box {
     background: linear-gradient(#ffffff,#d1dbf3);
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     border-radius: 7px;

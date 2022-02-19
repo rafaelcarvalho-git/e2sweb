@@ -1,52 +1,91 @@
-h2 {  
-    padding-top: 2.5%;
+.certificate-box {
+   flex-wrap: wrap;    
 }
-article {
-    width: 50%;
+.cpf, .cnpj {
+    width: 40%;
+    height: 80%;
+    margin: 0 auto auto auto;
+    overflow-y: hidden;
 }
-h4 {
-    text-align: center; 
-    font-size: 1.2em;
-    width: 90%;
-    margin: auto;/*
-    border: 1px solid blue;
-    border-radius: 7px;*/
+.cpf {
+    margin-left: 7.5%;
 }
-.descricao {
-    width: 90%;
-    height: 20%;
+.cnpj {
+    margin-right: 7.5%;
+}
+.descricao { /*div que contem os titulos cpf e cnpj, e a descricao*/
+    width: 95%;
+    height: 18%;
     margin: auto;
 }
-.certificados {
-    padding-top: 2.5%;
-    width: 90%;
+    h2 { /*CPF e CNPJ*/
+        padding-top: 2.5%;
+    }
+    h4 { /*decricao e subtitulos a1 e a3*/
+        text-align: center; 
+        font-size: 1.2em;
+        width: 90%;
+        margin: 1.5% auto auto auto;
+    }
+.certificados { /*div que contem os subtitulos a1 e a3, e os tipos de certificados*/
+    width: 95%;
     margin: auto;
-    height: 60%;
-    overflow: hidden;
+    height: 80%;
     display: flex;
 }
-.a1, .a3 {
-    text-align: center;
-    width: 50%;
-}
-h3 {
-    
-    padding: 20px;
-    margin: 10px auto 10px auto;
-}
-h3:hover {
-    background: blue;
-}
-.rodape {
-    width: 90%;
-    height: 20%;
+    .subtitulo { /*subtitulos a1 e a3*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #263e7a;
+        height: 42px;
+        border-radius: 10px;
+        color: white;
+        margin-top: auto;
+    }
+    .a1, .a3 {
+        background: red;
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        margin-top: 1.5%;
+    }
+    h3 { /*tipos de certificados*/
+        height: 5vh;
+        background: blue;
+        padding: 7.5% 5% 7.5% 5%;
+        margin: 5% auto 5% auto;
+        cursor: pointer;
+    }
+    h3:hover {
+        color: #263e7a;
+    }
+.rodape { /*rodape com texto e botao para contato*/
     margin: auto;
-    /*background: red;*/
+    display: flex;
+    width: 85%;
+    height: 15%;  
 }
-button {
-    margin: auto;
-    z-index: 1;
-}
+    p {
+        text-align: center;
+        margin: auto 2.5% auto 2.5%;
+        font-size: 1.275em;
+    }
+    button { 
+        margin: auto 2.5% auto auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(#31e25b,#00bb2d);
+        min-width: 200px;
+        height: 40px;
+    }
+        svg {
+            margin-right: 2.7%;
+        }
+        button:hover {
+            background: #66eb85;
+        }
 
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
 
@@ -65,24 +104,3 @@ button {
    
 }
 
-
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
