@@ -44,7 +44,6 @@
         margin-top: auto;
     }
     .a1, .a3 {
-        background: red;
         text-align: center;
         width: 50%;
         height: 100%;
@@ -52,8 +51,7 @@
     }
     h3 { /*tipos de certificados*/
         height: 5vh;
-        background: blue;
-        padding: 7.5% 5% 7.5% 5%;
+        padding: 5%;
         margin: 5% auto 5% auto;
         cursor: pointer;
     }
@@ -88,7 +86,42 @@
         }
 
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
-
+    .certificate-box {
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 5%;
+        background: firebrick;
+        min-height: 1200px;        
+     }
+     .cpf, .cnpj {
+         width: 85%;
+         height: 40%;
+         margin: auto;
+         overflow-y: hidden;
+     }
+     .descricao { /*div que contem os titulos cpf e cnpj, e a descricao*/
+        width: 95%;
+        height: 18%;
+        margin: auto;
+        background: red;
+    }
+        h2 { /*CPF e CNPJ*/
+            padding-top: 2.5%;
+            background: beige;
+        }
+        h4 { /*decricao e subtitulos a1 e a3*/
+            text-align: center; 
+            font-size: 1.07em;
+            width: 90%;
+            margin: .5% auto auto auto;
+        }
+    .certificados { /*div que contem os subtitulos a1 e a3, e os tipos de certificados*/
+        width: 95%;
+        margin: auto;
+        height: 80%;
+        display: flex;
+        background: greenyellow;
+    }
 }
 @media (max-width: 576px){ /* smartphones, Android phones, landscape iPhone */ 
 }
