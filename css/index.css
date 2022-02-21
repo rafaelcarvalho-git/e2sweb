@@ -1,6 +1,6 @@
 .sobre-empresa, .sobre-edval { 
     height: 60vh;
-    max-height: 650px;
+    max-height: 400px;
     width: 85%;
     max-width: 1280px;
     margin: auto;
@@ -11,25 +11,25 @@
     transition-duration: 0.6s;
     overflow: hidden;
 }
+p {
+    font-size: 1.250em;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+}
 .sobre-edval { 
     display: flex;
 }
-    p {
-        height: 60%;
-        font-size: 1.250em;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 5%;
-        overflow: hidden;
-    }
     .sobre {
         width: 70%;
         margin: 0;
         padding: 0;
     }
-
+    .sobre p {
+        height: 60%;
+    }
     button { 
-        margin: 1.5% auto auto auto;
+        margin: 2.5% auto auto auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -56,10 +56,6 @@
     background: #e2e8f8;
     overflow: hidden;
 }
-    .title-seguradoras {
-        padding-top: 1.5%; 
-        padding-bottom: 1%;
-    }
     .seguradoras {
         display: flex;
         margin: auto;
@@ -74,26 +70,27 @@
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
     .sobre-empresa, .sobre-edval { 
         width: 100vw;
+        height: 320px;
         margin-top: 10%;
-        border-radius: 0;
+        border-radius: 0;        
     }
     .sobre-edval { 
-        display: flex;
         flex-direction: column;
     }
     .sobre {
         width: 100%;
-        height: 55%;
+        height: 100%;
     }
-    .edval {
-        width: 100%;
-        text-align: center;
-        height: 45%;
-        overflow-y: hidden;
+    .edval, .imagem-edval {
+        display: none;
+    }
+    .sobre-edval:hover,.sobre-empresa:hover, .imagem-seguradora:hover {
+        transform: none;
+        transition-duration: none;
     }
     .sobre-seguradoras {
         margin-top: 10%;
-        max-height: 185px;
+        height: 20vh;
     }
     .seguradoras {
         margin: auto;
@@ -103,32 +100,18 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .sobre-edval:hover,.sobre-empresa:hover, .imagem-seguradora:hover {
-        transform: none;
-        transition-duration: none;
-    }
-}
-@media (max-width: 576px){ /* smartphones, portrait iPhone, Android phones, landscape iPhone */ 
-    .sobre-empresa { 
-        min-height: 400px;
-    }
-    .sobre-edval {
-        min-height: 580px;
-    }
     h2 {
         font-size: 1.2em;
     }
     p {
         font-size: 1em;
     }
-    .imagem-edval {
-        display: none;
-    }
     button {
         width: 50%;
         height: 40px;
-    }
-    
+    }   
+}
+@media (max-width: 576px){ /* smartphones, portrait iPhone, Android phones, landscape iPhone */ 
     .imagem-seguradora {
         margin-left: .7%;
         margin-right: .7%;
@@ -136,13 +119,7 @@
     }
 }
 @media (min-width:577px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-    .text-edval, .text-empresa {
-        font-size: 15px;
-    }
-    .imagem-edval {
-        width: 60vw;
-        max-width: 235px;
-    }
+
     .imagem-seguradora {
         margin-left: 1.5%;
         margin-right: 1.5%;
@@ -155,7 +132,6 @@
         margin: auto;
         width: 25vw;
         max-width: 210px;
-        background: red;
     }
     .imagem-seguradora {
         margin-left: 2%;

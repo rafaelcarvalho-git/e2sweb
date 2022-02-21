@@ -42,6 +42,7 @@
         border-radius: 10px;
         color: white;
         margin-top: auto;
+        max-width: 220px;
     }
     .a1, .a3 {
         text-align: center;
@@ -89,9 +90,7 @@
     .certificate-box {
         flex-direction: column;
         width: 100vw;
-        margin-top: 5%;
-        background: firebrick;
-        min-height: 1200px;        
+        min-height: 1400px;      
      }
      .cpf, .cnpj {
          width: 85%;
@@ -99,15 +98,17 @@
          margin: auto;
          overflow-y: hidden;
      }
+     .cpf {
+         margin-top: 0;
+     }
      .descricao { /*div que contem os titulos cpf e cnpj, e a descricao*/
         width: 95%;
         height: 18%;
         margin: auto;
-        background: red;
+  
     }
         h2 { /*CPF e CNPJ*/
             padding-top: 2.5%;
-            background: beige;
         }
         h4 { /*decricao e subtitulos a1 e a3*/
             text-align: center; 
@@ -120,10 +121,21 @@
         margin: auto;
         height: 80%;
         display: flex;
-        background: greenyellow;
     }
+
+
+    .rodape { /*rodape com texto e botao para contato*/
+        flex-direction: column;
+        height: 12%;  
+    }
+        p, button {
+            margin: auto
+        }
 }
 @media (max-width: 576px){ /* smartphones, Android phones, landscape iPhone */ 
+    p {
+        font-size: 1em;
+    }
 }
 @media (min-width:577px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
 
@@ -134,6 +146,16 @@
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
-   
+    .descricao { /*div que contem os titulos cpf e cnpj, e a descricao*/
+        width: 95%;
+        height: 20%;
+        margin: auto;
+    }
+        h4 { /*decricao e subtitulos a1 e a3*/    
+            margin: auto;
+        }
+    .cpf, .cnpj {
+        min-height: 380px;
+   }
 }
 
