@@ -34,7 +34,6 @@
    
 }
 .tipos-certificados {
-   
     margin: auto;
     height: 80%;
     margin-top: 5%;
@@ -65,9 +64,7 @@
     }
     h3 { /*tipos de certificados*/
         height: 25%;
-        cursor: pointer;
-        
-               
+        cursor: pointer;                   
     }
     .valor-certificado {
         margin-top: 1.5%;
@@ -113,6 +110,9 @@
         }
 
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
+    h3 { /*tipos de certificados*/
+        font-size: 1em;                  
+    }
 }
 @media (max-width: 576px){ /* smartphones, Android phones, landscape iPhone */ 
 }
