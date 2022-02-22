@@ -1,37 +1,35 @@
 .certificate-box {
-   flex-wrap: wrap;    
+   flex-direction: column;   
+   height: 1320px;  
+   max-width: none;
+   width: 100%;    
+   background: gray;
 }
 .cpf, .cnpj {
-    width: 40%;
-    height: 80%;
-    margin: 0 auto auto auto;
-    overflow-y: hidden;
+    height: 520px;
+    width: 85vw;
+    max-width: 1280px;
+    margin: 4.5% auto auto auto;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
+    border-radius: 7px;
+    background: white;
+    transition-duration: 0.6s;
+    overflow: hidden;
 }
-.cpf {
-    margin-left: 7.5%;
-}
-.cnpj {
-    margin-right: 7.5%;
-}
-.descricao { /*div que contem os titulos cpf e cnpj, e a descricao*/
-    width: 95%;
-    height: 18%;
+.descricao { /*div que contem os titulos cpf e cnpj, e a descricao*/    
+    height: 20%;
     margin: auto;
 }
-    h2 { /*CPF e CNPJ*/
-        padding-top: 2.5%;
-    }
     h4 { /*decricao e subtitulos a1 e a3*/
         text-align: center; 
         font-size: 1.2em;
-        width: 90%;
-        margin: 1.5% auto auto auto;
+        margin: auto;
     }
 .certificados { /*div que contem os subtitulos a1 e a3, e os tipos de certificados*/
-    width: 95%;
     margin: auto;
     height: 80%;
     display: flex;
+    background: beige;
 }
     .subtitulo { /*subtitulos a1 e a3*/
         display: flex;
@@ -46,24 +44,29 @@
     }
     .a1, .a3 {
         text-align: center;
-        width: 50%;
-        height: 100%;
-        margin-top: 1.5%;
+        width: 48%;
+        margin: auto;
+        height: 100%;   
+        background: rgb(98, 98, 185);
     }
     h3 { /*tipos de certificados*/
         height: 5vh;
-        padding: 5%;
-        margin: 5% auto 5% auto;
+        padding: 18px;
+        margin: 1.5% auto 1.5% auto;
         cursor: pointer;
+        background: gold;
     }
     h3:hover {
         color: #263e7a;
     }
+
+
 .rodape { /*rodape com texto e botao para contato*/
-    margin: auto;
+    margin: 2.5% auto auto auto;
     display: flex;
     width: 85%;
-    height: 15%;  
+    height: 15%; 
+    max-height: 120px; 
 }
     p {
         text-align: center;
@@ -94,75 +97,15 @@
         }
 
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
-    .certificate-box {
-        flex-direction: column;
-        width: 100vw;
-        min-height: 1400px;      
-     }
-     .cpf, .cnpj {
-         width: 85%;
-         height: 40%;
-         margin: auto;
-         overflow-y: hidden;
-     }
-     .cpf {
-         margin-top: 0;
-     }
-     .descricao { /*div que contem os titulos cpf e cnpj, e a descricao*/
-        width: 95%;
-        height: 18%;
-        margin: auto;
-  
-    }
-        h2 { /*CPF e CNPJ*/
-            padding-top: 2.5%;
-        }
-        h4 { /*decricao e subtitulos a1 e a3*/
-            text-align: center; 
-            font-size: 1.07em;
-            width: 90%;
-            margin: .5% auto auto auto;
-        }
-    .certificados { /*div que contem os subtitulos a1 e a3, e os tipos de certificados*/
-        width: 95%;
-        margin: auto;
-        height: 80%;
-        display: flex;
-    }
-
-
-    .rodape { /*rodape com texto e botao para contato*/
-        flex-direction: column;
-        height: 12%;  
-    }
-        p, button {
-            margin: auto
-        }
 }
 @media (max-width: 576px){ /* smartphones, Android phones, landscape iPhone */ 
-    p {
-        font-size: 1em;
-    }
 }
-@media (min-width:577px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-
+@media (min-width:577px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 }
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
-    .descricao { /*div que contem os titulos cpf e cnpj, e a descricao*/
-        width: 95%;
-        height: 20%;
-        margin: auto;
-    }
-        h4 { /*decricao e subtitulos a1 e a3*/    
-            margin: auto;
-        }
-    .cpf, .cnpj {
-        min-height: 380px;
-   }
 }
 
