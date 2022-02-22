@@ -97,23 +97,6 @@ nav {
     max-height: 650px;
     overflow: hidden;
 }
-button {
-    width: 16vw;
-    max-width: 200px;
-    height: 7.5vh;
-    max-height: 50px;
-    border-radius: 12px;
-    box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
-    background: linear-gradient(#2e4e9e,#263e7a);
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 15px; 
-    border: none; 
-}
-  button:hover {
-      background: #2c50ac;
-  }
 /******Rodape da pagina*********/
 footer {
   text-align: center;
@@ -127,6 +110,9 @@ footer a:hover {
   color: #2c50ac;
 }
 @media (max-width: 768px) { /*Media querie para responsividade do menu navbar*/
+  .title {
+    font-size: 1.7em;
+  }
   .mobile-menu {
     display: block;
     margin-right: -15%;

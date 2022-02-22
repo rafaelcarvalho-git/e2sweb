@@ -231,7 +231,7 @@
   clip: auto;
   white-space: normal;
 }
-@media (min-width:320px) and (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+@media (min-width:250px) and (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
   .carousel-inner {
     height: 35vh;
   }
