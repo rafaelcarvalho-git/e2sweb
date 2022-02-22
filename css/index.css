@@ -1,5 +1,6 @@
 .sobre-empresa, .sobre-edval { 
     height: 45vh;
+    min-height: 400px;
     max-height: 500px;
     width: 85%;
     max-width: 1280px;

@@ -1,20 +1,22 @@
 .certificate-box {
    flex-direction: column;   
-   height: 1320px;  
-   max-width: none;
+   height: 1220px;  
+   max-width: 1280px;
    width: 100%;    
-   background: gray;
 }
 .cpf, .cnpj {
     height: 520px;
     width: 85vw;
     max-width: 1280px;
-    margin: 4.5% auto auto auto;
+    margin: auto;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     border-radius: 7px;
     background: white;
     transition-duration: 0.6s;
     overflow: hidden;
+}
+.cnpj, .rodape {
+    margin-top: 4.5%;
 }
 .descricao { /*div que contem os titulos cpf e cnpj, e a descricao*/    
     height: 20%;
@@ -29,7 +31,13 @@
     margin: auto;
     height: 80%;
     display: flex;
-    background: beige;
+   
+}
+.tipos-certificados {
+   
+    margin: auto;
+    height: 80%;
+    margin-top: 5%;
 }
     .subtitulo { /*subtitulos a1 e a3*/
         display: flex;
@@ -40,33 +48,41 @@
         border-radius: 10px;
         color: white;
         margin-top: auto;
-        max-width: 220px;
+        width: 250px;
     }
     .a1, .a3 {
         text-align: center;
         width: 48%;
         margin: auto;
         height: 100%;   
-        background: rgb(98, 98, 185);
+    }
+    .divisoria {
+        border: 2px solid #6b7eaf;
+        border-radius: 20px;
+        height: 80%;
+        margin: auto;
+        box-shadow: 0px 2px 15px rgb(0 0 0 / 15%);
     }
     h3 { /*tipos de certificados*/
-        height: 5vh;
-        padding: 18px;
-        margin: 1.5% auto 1.5% auto;
+        height: 25%;
         cursor: pointer;
-        background: gold;
+        
+               
+    }
+    .valor-certificado {
+        margin-top: 1.5%;
     }
     h3:hover {
         color: #263e7a;
     }
 
-
 .rodape { /*rodape com texto e botao para contato*/
     margin: 2.5% auto auto auto;
     display: flex;
     width: 85%;
-    height: 15%; 
-    max-height: 120px; 
+    height: 10%; 
+    max-height: 85px; 
+    max-width: 1280px;
 }
     p {
         text-align: center;
@@ -103,6 +119,14 @@
 @media (min-width:577px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 }
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .certificate-box {   
+        height: 1280px;  
+        background: red;
+        max-width: 1280px; 
+     }
+     .cpf, .cnpj {
+        height: 560px;
+    }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
 }
