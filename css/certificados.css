@@ -70,20 +70,27 @@
         margin: auto 2.5% auto 2.5%;
         font-size: 1.275em;
     }
-    button { 
+    button {   
+        background: linear-gradient(#31e25b,#00bb2d);                 
+        border-radius: 12px;
+        box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 18px; 
+        border: none;  
         margin: auto 2.5% auto auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(#31e25b,#00bb2d);
         min-width: 200px;
-        height: 40px;
+        height: 40px;                        
     }
         svg {
             margin-right: 2.7%;
         }
         button:hover {
-            background: #66eb85;
+            background: #4fcf6d;
         }
 
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/

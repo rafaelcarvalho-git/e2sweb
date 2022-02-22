@@ -129,7 +129,6 @@ p {
         transform: none;
         transition-duration: none;
     }
-
 }
 @media (max-width: 576px){ /* smartphones, portrait iPhone, Android phones, landscape iPhone */ 
     .imagem-seguradora {
