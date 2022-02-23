@@ -72,15 +72,21 @@ p {
     overflow-y: hidden;    
 }
 .nossos-parceiros {
+    padding-top: 1%;
     padding-bottom: .5%;
 }
     .seguradoras {
         display: flex;
-        margin: auto;
+        margin: 15px auto auto auto;
         width: 85%;
         max-width: 1280px;
         justify-content: space-between;   
         overflow-x: auto;           
+    }
+    .imagem-seguradora {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 72px;
     }
 .sobre-edval:hover,.sobre-empresa:hover, .imagem-seguradora:hover {
     transform: translateY(-10px);
@@ -106,15 +112,9 @@ p {
         height: 20vh;
         max-height: 140px;
     }
-        .seguradoras {
-            display: flex;
-            margin: 50px auto auto auto;
-            width: 85%;
-            max-width: 1280px;
-            height: 40%;
-            justify-content: space-between;   
-            overflow-x: auto;                 
-        }
+    .seguradoras {
+        margin-top: 15px;
+    }
     h2 {
         font-size: 1.250em;
     }
@@ -139,17 +139,12 @@ p {
 }
 @media (max-width: 576px){ /* smartphones, portrait iPhone, Android phones, landscape iPhone */ 
     .imagem-seguradora {
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        width: 50px;
+        width: 55px;
     }
 }
-@media (min-width:577px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+@media (min-width:577px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */     
     .imagem-seguradora {
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        width: 12vw;
-        max-width: 70px;
+        width: 70px;        
     }
 }
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
@@ -158,23 +153,11 @@ p {
         width: 25vw;
         max-width: 210px;
     }
-    .imagem-seguradora {
-        margin-left: 2%;
-        margin-right: 2%;
-        width: 10vw;
-        max-width: 68px;
-    }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
     .imagem-edval {
         width: 30vw;
         max-width: 250px;
-    }
-    .imagem-seguradora {
-        margin-left: 3.5%;
-        margin-right: 3.5%;
-        width: 10vw;
-        max-width: 70px;
     }
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
@@ -182,11 +165,13 @@ p {
         width: 30vw;
         max-width: 320px;
     }
-
+    .seguradoras {
+        overflow: hidden;
+    }
     .imagem-seguradora {
         margin-left: 1%;
         margin-right: 1%;
-        width: 75px;
+        width: 72px;
     }
     .pontos-fortes {
         margin: 1.5% auto auto auto;
