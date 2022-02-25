@@ -6,7 +6,7 @@
    margin-top: .5%;
 }
 .cpf, .cnpj {
-    height: 550px;
+    height: 580px;
     width: 85vw;
     max-width: 1280px;
     margin: auto;
@@ -69,34 +69,48 @@
     }
     .certificado { /*tipos de certificados*/
         height: 25%;
-        width: 85%;
+        width: 80%;
         cursor: pointer;  
         display: flex;
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
+
     }
-    .item {
-        display: flex;
-        align-items: center;
-        margin: auto;
-        text-align: center;
+    h3 {
+        color: #206f94;
     }
     h3:hover {
         color: #263e7a;
     }
+    .validade:hover {
+        color: black;
+    }
+    .validade {
+        color: black;
+    }
+    .item {
+        
+    }
+    
     .social-icon {
-        width: 40px;
-        height: 40px;
-        background: rgb(195, 195, 231);
-        border-radius: 20px;
+        width: 42px;
+        height: 42px;
+        background: #e7f5fb;
+        border-radius: 50px;
         margin-right: 10px;
         display: flex;
         align-items: center;
+        transition: all 0.3s ease-in-out;
+        position: absolute;
+        margin-left: 55px;
     }
     .social-icon svg {
-        color: white;
+        color: #263e7a;
         margin: auto;
+    }
+    .social-icon:hover {
+        background: #47b2e4;
     }
 .rodape { /*rodape com texto e botao para contato*/
     margin: 2.5% auto auto auto;
