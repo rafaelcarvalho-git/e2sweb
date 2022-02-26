@@ -31,7 +31,7 @@
 .certificados { /*div que contem os subtitulos a1 e a3, e os tipos de certificados*/
     margin: auto;
     height: 80%;
-    display: flex;       
+    display: flex;   
 }
     .subtitulo { /*subtitulos a1 e a3*/
         display: flex;
@@ -49,7 +49,7 @@
         text-align: center;
         width: 48%;
         margin: auto;
-        height: 100%;   
+        height: 100%; 
     }
     .divisoria {
         background: #3d589c;
@@ -59,21 +59,15 @@
         margin: auto;
         box-shadow: 0px 2px 15px rgb(0 0 0 / 15%);
     }
-    .tipos-certificados {
-        margin: auto;
-        height: 80%;
-        margin-top: 2.5%;       
-        display: flex;
-        flex-direction: column;
-    }
     .certificado { /*tipos de certificados*/
         height: 25%;
         width: 80%;
         cursor: pointer;  
-        display: flex;
+        display: block;
         flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 2.5% auto auto auto;  
+        padding-top: 1%;
+        padding-bottom: 1%;
     }
     h3 {
         margin-top: 1.5%;
@@ -85,7 +79,7 @@
     }
     .validade {
         color: black;
-        margin-top: 5.5%;
+        margin-top: 3.5%;
     }
     .validade:hover {
         color: black;
@@ -95,12 +89,11 @@
         height: 42px;
         background: #e7f5fb;
         border-radius: 50px;
-        margin-right: 10px;
         display: flex;
         align-items: center;
         transition: all 0.3s ease-in-out;
         position: absolute;
-        margin-left: 55px;
+        margin-left: 3.5%;
     }
     .social-icon svg {
         color: #263e7a;
@@ -154,57 +147,39 @@
         width: 100vw;  
         border-radius: 0px;
         overflow-y: auto;
-     }
-     .cnpj, .rodape {
+    }
+     cnpj, .rodape {
         margin-top: 75px;
-     }
-        h4 { /*decricao e subtitulos a1 e a3*/         
-            font-size: 1.050em;                 
-            margin-top: 2.5%;
-        }
+    }
+    .divisoria {
+        display: none;
+    }  
+    h4 { /*decricao e subtitulos a1 e a3*/         
+        font-size: 1.050em;                 
+        margin-top: 2.5%;
+    }
     .certificados { /*div que contem os subtitulos a1 e a3, e os tipos de certificados*/      
         height: 100%;
         width: 100%;       
         flex-direction: column;
     }
-    #certificados-a1 {
-        height: 100%;
-    }
-    .tipos-certificados {
-        margin: auto;
-        height: 80%;
-        width: 100vw;
-        margin-top: 4.5%;
-    }
         .subtitulo { /*subtitulos a1 e a3*/
-            height: 42px;
             width: 70%;
-            margin-top: 5%;
-            border-radius: none;            
+            margin-top: 2.5%;                    
         }
         .a1, .a3 {     
-            width: 100%;                    
-        }
-        .a1 {            
-            height: 25%;
-            margin-bottom: 15%;
-        }
-        .a3 {
-            margin-top: 5%;
-            height: 75%;
-        }
-        .divisoria {
-            display: none;
-        }     
+            width: 100%;   
+            margin-bottom: 2.5%;  
+        }    
         .certificado { /*tipos de certificados*/
             height: 100%; 
             display: block;  
-        }  
-        h3 {
             margin-top: 2.5%;
-        }
+            padding: 1.5%;
+            padding-bottom: 1.5%;
+        }  
         .validade {
-            margin-bottom: 4.5%;
+            margin-top: 2.5%;
         }
         .social-icon {
             position: sticky;
@@ -231,28 +206,37 @@
         height: 560px;
     }
     .certificado { /*tipos de certificados*/
-        height: 100%; 
-        display: block;  
-        background: red;
+        width: 100%;
+        margin-top: 3.5%;
     }  
     h3 {
+        margin-top: 1.5%;
         font-size: 1.2em;
+    }
+    @media (max-width:920px) {
+        #h3-a3 {
+            margin-left: 50px;
+        }
     }
     .validade {
         color: black;
         margin-top: 5.5%;
     }
     .social-icon {
-        margin-right: 100px;
-        margin-left: 55px;
+        margin-left: 1.5%;
+    }
+    #ico-a1 {
+        margin-left: 7.5%;
     }
     p {
         font-size: 1.150em;
     }
-
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
+    #ico-a1 {
+        margin-left: 7.5%;
+    }
 }
 
