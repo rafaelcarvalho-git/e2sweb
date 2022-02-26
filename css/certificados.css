@@ -1,8 +1,8 @@
 .certificate-box {
    flex-direction: column;   
-   height: 1280px;  
-   max-width: 1280px;
-   width: 100%;    
+   height: 1350px;  
+   width: 100%;   
+   max-width: 1280px;    
    margin-top: .5%;
 }
 .cpf, .cnpj {
@@ -16,8 +16,8 @@
     transition-duration: 0.6s;
     overflow: hidden;
 }
-.cnpj, .rodape {
-    margin-top: 4.5%;
+.cnpj {
+    margin: 50px auto 50px auto;
 }
 .descricao { /*div que contem os titulos cpf e cnpj, e a descricao*/    
     height: 20%;
@@ -79,7 +79,7 @@
     }
     .validade {
         color: black;
-        margin-top: 3.5%;
+        margin-top: 15px;
     }
     .validade:hover {
         color: black;
@@ -140,7 +140,7 @@
         }   
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/  
     .certificate-box {
-        height: 1220px; 
+        height: 1175px; 
     }
     .cpf, .cnpj {
         height: 450px;
@@ -148,8 +148,8 @@
         border-radius: 0px;
         overflow-y: auto;
     }
-     cnpj, .rodape {
-        margin-top: 75px;
+    .cnpj {
+        margin: 50px auto 50px auto;
     }
     .divisoria {
         display: none;
@@ -195,16 +195,13 @@
         }     
         p {
             margin-top: 5%;
-            font-size: 1.075em;   
+            font-size: 1.1em;   
         }      
             button {   
                 margin: auto;                      
             }
 }
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-     .cpf, .cnpj {
-        height: 560px;
-    }
     .certificado { /*tipos de certificados*/
         width: 100%;
         margin-top: 3.5%;
@@ -218,10 +215,6 @@
             margin-left: 50px;
         }
     }
-    .validade {
-        color: black;
-        margin-top: 5.5%;
-    }
     .social-icon {
         margin-left: 1.5%;
     }
@@ -233,26 +226,15 @@
     }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
-    .cpf, .cnpj {
-        height: 600px;
-    }
     .certificado { /*tipos de certificados*/
         width: 100%;
         margin-top: 3.5%;
     }  
-    h3 {
-        margin-top: 1%;
-        font-size: 1.2em;
-    }
-    .validade {
-        color: black;
-        margin-top: 2.5%;
-    } 
     .social-icon {
-        margin-left: 2.5%;
+        margin-left: 1.5%;
     }
     #ico-a1 {
-        margin-left: 10%;
+        margin-left: 7.5%;
     }
     p {
         font-size: 1.275em;
