@@ -233,6 +233,30 @@
     }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
+    .cpf, .cnpj {
+        height: 600px;
+    }
+    .certificado { /*tipos de certificados*/
+        width: 100%;
+        margin-top: 3.5%;
+    }  
+    h3 {
+        margin-top: 1%;
+        font-size: 1.2em;
+    }
+    .validade {
+        color: black;
+        margin-top: 2.5%;
+    } 
+    .social-icon {
+        margin-left: 2.5%;
+    }
+    #ico-a1 {
+        margin-left: 10%;
+    }
+    p {
+        font-size: 1.275em;
+    }
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
     #ico-a1 {
