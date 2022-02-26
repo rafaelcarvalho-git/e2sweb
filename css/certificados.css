@@ -62,8 +62,7 @@
     .tipos-certificados {
         margin: auto;
         height: 80%;
-        margin-top: 2.5%;
-       
+        margin-top: 2.5%;       
         display: flex;
         flex-direction: column;
     }
@@ -83,12 +82,12 @@
     h3:hover {
         color: #263e7a;
     }
-    .validade:hover {
-        color: black;
-    }
     .validade {
         color: black;
     }
+    .validade:hover {
+        color: black;
+    }    
     .social-icon {
         width: 42px;
         height: 42px;
@@ -182,11 +181,11 @@
             border-radius: none;            
         }
         .a1, .a3 {     
-            width: 100%;        
-            
+            width: 100%;                    
         }
         .a1 {            
             height: 25%;
+            margin-bottom: 15%;
         }
         .a3 {
             margin-top: 5%;
@@ -194,9 +193,22 @@
         }
         .divisoria {
             display: none;
+        }     
+        .certificado { /*tipos de certificados*/
+            height: 100%; 
+            display: block;  
+        }  
+        h3 {
+            margin-top: 2.5%;
         }
-        h3 { /*tipos de certificados*/
-            margin: 2.5% auto 2.5% auto;
+        .validade {
+            margin-bottom: 4.5%;
+        }
+        .social-icon {
+            position: sticky;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: .5%;
         }
         .rodape { /*rodape com texto e botao para contato*/          
             flex-direction: column;
