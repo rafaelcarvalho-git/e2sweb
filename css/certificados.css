@@ -92,8 +92,7 @@
         display: flex;
         align-items: center;
         transition: all 0.3s ease-in-out;
-        position: absolute;
-        margin-left: 3.5%;
+        position: absolute;        
     }
     .social-icon svg {
         color: #263e7a;
