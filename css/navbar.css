@@ -28,6 +28,23 @@ h2 {
   padding-top: 1.5%; 
   padding-bottom: 1.5%;
 }
+.social-icon { /*icones redondos*/
+  width: 42px;
+  height: 42px;
+  background: #bce2f3;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  position: absolute;        
+}
+.social-icon svg {
+  color: black;
+  margin: auto;
+}
+.social-icon:hover {
+  background: #47b2e4;
+}
 /***********MENU NAVBAR***********/
 header { /*fixar navbar no topo da pagina*/
   position: sticky;

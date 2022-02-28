@@ -1,11 +1,11 @@
 .information-box {
     width: 85vw;
-    max-width: 1280px;
+    max-width: 1280px;/*
     height: 75vh;
-    max-height: 650px;    
-    background: white;
+    max-height: 650px;   */ 
+    background: white;/*
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto;*/
 }
 .informacoes { /*section que exibe as informações de contato da empresa*/
     width: 55%;
@@ -49,26 +49,7 @@
         }
         #horario {
             color: #206f94;
-        }
-        
-    .social-icon {
-        width: 42px;
-        height: 42px;
-        background: #94d7f3;
-        border-radius: 50px;
-        display: flex;
-        align-items: center;
-        transition: all 0.3s ease-in-out;
-        position: absolute;
-    }
-    .social-icon svg {
-        color: black;
-        margin: auto;
-    }
-    .social-icon:hover {
-        background: #31abe4;
-    }
-
+        }        
 .localizacao { /*section que exibe informações de localização da empresa*/
     width: 45%;
     height: 100%;   
@@ -107,7 +88,7 @@
     button {
         width: 200px;   
         height: 45px;
-        border-radius: 12px;
+        border-radius: 14px;
         box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
         background: linear-gradient(#2e4e9e,#263e7a);
         color: white;
@@ -117,25 +98,20 @@
     button:hover {    
         background: #3b62c7;
     }
-
-
-
 /***************************/
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
     .information-box {
         flex-direction: column;
         width: 100vw;
-        height: 1400px;
-        max-height: 1400px;  
+        height: 1350px;
+        max-height: none;  
         border-radius: 0;
     }
-    .info-corretora, .info-certificadora {
+    .info-corretora, .info-certificadora, .informacoes, .local, .map{
         width: 100%;
     }
-
     .informacoes { /*section que exibe as informações de contato da empresa*/
-        width: 100%;
-        height: 250px;
+        height: 900px;
     }
     .contato {       
         height: 100%;
@@ -143,57 +119,60 @@
         flex-direction: column;
     }
         .contato-certificadora {
-            height: 280px; 
+            height: 280px;
         }
-        .contato-corretora {
-            margin-top: 0px;
-            height: 650px;
-            background: green;
-            
+        .contato-corretora {          
+            height: 620px;                 
         }
         h2 {
             font-size: 1.5em;
             padding-top: 5px;
             padding-bottom: 5px;
         }
-        .social-icon {
-            position: sticky;
-            margin-left: auto;
-            margin-right: auto;
+        h3 {
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 1.250em;
         }
         h4 {            
             font-size: 1.2em;
             margin: 10px auto auto auto;
             width: 100%;
-        }
-            h4 a {
-                text-decoration: none;
-                margin-left: 5px;     
-                color: black;       
-            }
-            h3 {
-                margin-bottom: 10px;
-                text-align: center;
-                font-size: 1.250em;
-            }             
-            .localizacao { /*section que exibe informações de localização da empresa*/
-                margin-top: 680px;
+        }                    
+        .social-icon {
+            position: sticky;
+            margin-left: auto;
+            margin-right: auto;
+        }                     
+    .localizacao { /*section que exibe informações de localização da empresa*/              
+        width: 100%;
+        height: 450px;
+        text-align: center;
+        flex-direction: column;
+    }
+            .endereco { /**DIV com endereço e botoes**/
                 width: 100%;
-                height: 500px;
-                text-align: center;
-                background: blue;
+                height: 170px;     
+            }   
+            .local { /**DIV com o endereco escrito**/
+                height: 80px;
+                margin: auto;
+                flex-direction: column;              
             }
-            .map, #map {
-                width: 100%;
-                height: 70%;
+            .botoes { /**DIV que organiza os botoes*/
+                width: 90%;
+                max-width: 500px;
+                margin: auto;                         
+            }
+            .mapa {
+                height: 280px;
+            }
+            #map {              
+                height: 90%;
+             
             }
 }
-@media (min-width:320px) and (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 
-}
-@media (min-width:480px) and (max-width: 599px){ /* smartphones, Android phones, landscape iPhone */ 
-
-}
 @media (min-width:600px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
 
 }

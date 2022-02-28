@@ -83,24 +83,7 @@
     }
     .validade:hover {
         color: black;
-    }    
-    .social-icon {
-        width: 42px;
-        height: 42px;
-        background: #e7f5fb;
-        border-radius: 50px;
-        display: flex;
-        align-items: center;
-        transition: all 0.3s ease-in-out;
-        position: absolute;        
-    }
-    .social-icon svg {
-        color: #263e7a;
-        margin: auto;
-    }
-    .social-icon:hover {
-        background: #47b2e4;
-    }
+    }     
 .rodape { /*rodape com texto e botao para contato*/
     margin: 4.5% auto auto auto;
     display: flex;
