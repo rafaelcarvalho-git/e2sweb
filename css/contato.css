@@ -25,7 +25,7 @@
     h2 {
         padding-bottom: 5px;
     }
-    .contato {       
+    .contato, .local {       
         width: 95%;
         height: 40px;
         margin: 18px auto 18px auto;
@@ -71,58 +71,53 @@
 
 .localizacao { /*section que exibe informações de localização da empresa*/
     width: 45%;
-    height: 100%;
-    text-align: center;
+    height: 100%;   
 }
-    /****Google Maps com localizacao****/
-    .mapa { 
-        visibility: visible;
-        width: 75vw;
-        height: 50vh;
-        max-width: 500px;
-        max-height: 500px;
+    .endereco { /**DIV com endereço e botoes**/
+        width: 100%;
+        height: 25%;     
+    }    
+    .local { /**DIV com o endereco escrito**/
         margin: auto;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .mapa {  /****Google Maps com localizacao****/        
+        width: 100%;
+        height: 75%;         
+        display: flex;
+        align-items: center;
     }
     #map {        
         overflow:hidden;
         background:none!important;
-        height: 50vh;
-        width: 75vw;
+        height: 90%;
+        width: 90%;
         max-width: 500px;
         max-height: 500px;
         border-radius: 14px;
         margin: auto;
     }
-    /***************************/
-    .endereco {
-        width: 540px;
-        margin-top: 2.5%;       
-    }
-    .botoes {
-        text-align: center;
+    .botoes { /**DIV que organiza os botoes*/
         width: 80%;
-        margin: auto auto 4.5% auto;
+        margin: 2.5% auto auto auto;
         display: flex;
-        justify-content: space-between;
-        
+        justify-content: space-between;             
     }
     button {
-        width: 16vw;
-        max-width: 200px;
-        height: 7.5vh;
-        max-height: 50px;
+        width: 200px;   
+        height: 45px;
         border-radius: 12px;
         box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
         background: linear-gradient(#2e4e9e,#263e7a);
         color: white;
-        cursor: pointer;
-        text-decoration: none;
-        padding: 15px; 
+        cursor: pointer;            
         border: none; 
     }
-      button:hover {
-          background: #2c50ac;
-      }
+    button:hover {    
+        background: #3b62c7;
+    }
+
 
 
 /***************************/

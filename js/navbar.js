@@ -47,9 +47,13 @@ class MobileNavbar {
 /*funcoes pagina contato*/
 function btjuazeiro() {
     document.getElementById('map').setAttribute('src', 'https://maps.google.com/maps?q=e2s%20corretora%20de%20seguros&t=&z=17&ie=UTF8&iwloc=&output=embed');
-    document.getElementById('endereco').innerHTML = 'Localização: Rua Fiscal José Soares, 303, Salesianos';
+    document.getElementById('endereco').innerHTML = 'Rua Fiscal José Soares, 303, Salesianos';
+    var end = document.getElementById('endereco');
+    end.href = 'https://g.page/e2scorretoradeseguros?share';
 }
 function btassare() {
     document.getElementById('map').setAttribute('src', 'https://maps.google.com/maps?q=assare%20zenir&t=&z=17&ie=UTF8&iwloc=&output=embed');
-    document.getElementById('endereco').innerHTML = 'Localização: Rod Transamazônica, 303, Assaré';
+    document.getElementById('endereco').innerHTML = 'Rod Transamazônica, 303, Assaré';
+    var end = document.getElementById('endereco');
+    end.href = 'https://goo.gl/maps/u3UUccM3eFUCeCuh8';
 }
