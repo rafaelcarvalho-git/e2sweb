@@ -51,6 +51,9 @@
         height: 25%;    
         padding-top: 5px;
     }    
+    #end1 {
+        display: none;
+    }
     .local {
         height: 70px;
         margin-top: 20px;        
@@ -91,39 +94,46 @@
         background: #3b62c7;
     }
 /***************************/
-@media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
+@media (max-width: 1024px) { /*Configs gerais para dispositivos mobile*/
     .information-box {
         flex-direction: column;
         width: 100vw;
-        height: 1080px;
+        height: 1120px;
         max-height: none;  
         border-radius: 0;
     }
     .contact-informations {
         width: 100%;
-        height: 610px;
+        height: 700px;
     }   
         .info-corretora {
             width: 300px;
+            
         }
         h3 {
             font-size: 1em;                
         } 
         .h3-email {
-            margin-left: -15px;
+            margin-left: -15px;          
         }
         h4 {            
             font-size: 1.2em;
         }
     .localization-informations { /*section que exibe informações de localização da empresa*/              
         width: 100%;
-        height: 450px;
+        height: 420px;
         flex-direction: column;
     }
         .endereco { /**DIV com endereço e botoes**/
             width: 100%;            
-            height: 150px;     
+            height: 60px;     
         }   
+        #end1 {
+            display: block;
+        }
+        #end2 {
+            display: none;
+        }
         .local { /**DIV com o endereco escrito**/
             height: 80px;
             width: 300px;
@@ -134,42 +144,27 @@
             width: 95%;
             min-width: 30px;
             max-width: 500px;
-            margin: auto;                         
+            margin: auto;                       
         }
         @media (max-width:450px) {
             button {
-                width: 42%;   
-                
+                width: 42%;                   
             }
         }        
         .mapa {
-            height: 320px;
+            height: 380px;
         }
         #map {              
-            height: 90%;
+            height: 80%;
             margin: auto;
         }
 }
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     .information-box {
-        max-width: 765px;
-        min-height: 875px;
+        width: 85vw;
         flex-direction: column;
     }
-    .contact-informations {
-        /*background: blue;*/
-        width: 100%;
-        height: 60%;
-    }
-    .info-corretora {
-        width: 75%;
-        /*background: pink;*/
-        margin: auto;
-    }
-        .contato-corretora {
-            /*background: rgb(70, 202, 70);*/
-            height: 70%;
-        }
+
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
 
