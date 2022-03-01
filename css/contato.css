@@ -131,11 +131,17 @@
             flex-direction: column;       
         }
         .botoes { /**DIV que organiza os botoes*/
-            width: 90%;
+            width: 95%;
             min-width: 30px;
             max-width: 500px;
             margin: auto;                         
         }
+        @media (max-width:450px) {
+            button {
+                width: 42%;   
+                
+            }
+        }        
         .mapa {
             height: 320px;
         }
