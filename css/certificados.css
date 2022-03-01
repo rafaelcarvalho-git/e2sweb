@@ -1,12 +1,12 @@
 .certificate-box {
    flex-direction: column;   
-   height: 1350px;  
+   height: 1200px;  
    width: 100%;   
    max-width: 1280px;    
    margin-top: .5%;
 }
 .cpf, .cnpj {
-    height: 580px;
+    height: 500px;
     width: 85vw;
     max-width: 1280px;
     margin: auto;
@@ -19,18 +19,18 @@
 .cnpj {
     margin: 50px auto 50px auto;
 }
-.descricao { /*div que contem os titulos cpf e cnpj, e a descricao*/    
-    height: 20%;
-    margin: auto;
+h2 { /*titulo da section*/
+    padding-top: 20px; 
+    padding-bottom: 10px;
 }
-    h4 { /*decricao e subtitulos a1 e a3*/
-        text-align: center; 
-        font-size: 1.2em;
-        margin: auto;
-    }
+h4, .title-section { /*decricao e subtitulos a1 e a3*/
+    text-align: center; 
+    font-size: 1.2em;
+    margin: auto;
+}    
 .certificados { /*div que contem os subtitulos a1 e a3, e os tipos de certificados*/
     margin: auto;
-    height: 80%;
+    height: 415px;
     display: flex;   
 }
     .subtitulo { /*subtitulos a1 e a3*/
@@ -42,14 +42,15 @@
         border-radius: 10px;
         color: white;
         margin-top: auto;
+        margin-bottom: 20px;
         width: 250px;
         box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     }
     .a1, .a3 {
         text-align: center;
-        width: 48%;
+        width: 45%;
         margin: auto;
-        height: 100%; 
+        height: 100%;       
     }
     .divisoria {
         background: #3d589c;
@@ -59,31 +60,33 @@
         margin: auto;
         box-shadow: 0px 2px 15px rgb(0 0 0 / 15%);
     }
-    .certificado { /*tipos de certificados*/
-        height: 25%;
-        width: 80%;
-        cursor: pointer;  
-        display: block;
-        flex-direction: column;
-        margin: 2.5% auto auto auto;  
-        padding-top: 1%;
-        padding-bottom: 1%;
+.item {       
+    width: 350px;
+    height: 80px;   
+    margin: 5px auto 5px auto;
+    cursor: pointer;
+}
+    .item-description {      
+        text-align: left;
+        margin-left: 60px;
+        height: 100%;      
     }
+    .item-description a {
+        text-decoration: none;      
+        color: black;                    
+    } 
     h3 {
-        margin-top: 1.5%;
-        font-size: 1.250em;
-        color: #206f94;
+        font-size: 1.050em;
+        margin-bottom: 7.5px;    
+    } 
+    .item-h4 {            
+        text-align: left;
+        font-size: 1.350em;
+        padding-top: 5px;
+        margin-bottom: 7.5px;
+        color: hsl(199, 64%, 35%);
     }
-    h3:hover {
-        color: #263e7a;
-    }
-    .validade {
-        color: black;
-        margin-top: 15px;
-    }
-    .validade:hover {
-        color: black;
-    }     
+    
 .rodape { /*rodape com texto e botao para contato*/
     margin: 4.5% auto auto auto;
     display: flex;
@@ -120,6 +123,10 @@
         button:hover {
             background: #4fcf6d;
         }   
+
+
+
+
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/  
     .certificate-box {
         height: 1175px; 
@@ -208,23 +215,7 @@
     }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
-    .certificado { /*tipos de certificados*/
-        width: 100%;
-        margin-top: 3.5%;
-    }  
-    .social-icon {
-        margin-left: 1.5%;
-    }
-    #ico-a1 {
-        margin-left: 7.5%;
-    }
-    p {
-        font-size: 1.275em;
-    }
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
-    #ico-a1 {
-        margin-left: 7.5%;
-    }
 }
 
