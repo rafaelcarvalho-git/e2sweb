@@ -1,6 +1,7 @@
 .information-box {
     width: 85vw;
     max-width: 1280px;
+    height: 650px;
     background: white;
     overflow: hidden;
 }
@@ -13,7 +14,7 @@
     } 
     .info-corretora {
         width: 375px;
-        margin: auto;    
+        margin: 25px auto auto auto;      
     }   
     .contato, .local {       
         width: 375px;
@@ -42,8 +43,7 @@
         padding-top: 5px;
         margin-bottom: 7.5px;
         color: hsl(199, 64%, 35%);
-    }
-                       
+    }                       
 .endereco { /**DIV com endereço e botoes**/
         width: 100%;
         height: 25%;    
@@ -74,12 +74,13 @@
     }
     .botoes { /**DIV que organiza os botoes*/
         width: 80%;
-        margin: 20px auto auto auto;
+        margin: 25px auto auto auto;
         display: flex;
         justify-content: space-between;             
     }
     button {
-        width: 200px;   
+        width: 45%; 
+        max-width: 200px; 
         height: 45px;
         border-radius: 14px;
         box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
@@ -184,7 +185,56 @@
     }
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
+    .info-corretora {
+        width: 375px;
+        margin: 25px auto auto auto;    
+    }   
+    .contato, .local {       
+        width: 350px;
+        height: 88px;
+    }
+    h2 {
+        padding-bottom: 18px;
+    }
+    h3 {
+        font-size: 1em;                
+    } 
+    h4 {            
+        font-size: 1.3em;
+    }                             
+    #end1 {
+        display: none;
+    }
+    .local {
+        height: 70px;
+        margin-top: 20px;    
+        
+    }
+    .mapa {  /****Google Maps com localization-informations****/        
+        width: 100%;
+        height: 75%;         
+    }
+    #map {        
 
+        height: 90%;
+        width: 90%;
+        max-width: 500px;
+        max-height: 500px;
+     
+        margin: auto;
+    }
+    .botoes { /**DIV que organiza os botoes*/
+        margin: 12px auto auto auto;         
+        width: 85%;
+     
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    button {
+        width: 45%; 
+        max-width: 200px;  
+        height: 42px;
+    }
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
 
