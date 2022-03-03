@@ -1,7 +1,6 @@
 .sobre-empresa, .sobre-edval {
     height: 45vh;
     min-height: 400px;
-    max-height: 500px;
     width: 85%;
     max-width: 1280px;
     margin: 4.5% auto auto auto;
@@ -95,12 +94,12 @@ p {
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
     .sobre-empresa, .sobre-edval { 
         width: 100vw;
-        height: 320px;
+        height: 550px;
         margin-top: 6.5%;
-        border-radius: 0;   
-        overflow-y: auto;     
+        border-radius: 0;      
     }
     .sobre-edval { 
+        height: 350px;
         flex-direction: column;
     }
     .sobre {
