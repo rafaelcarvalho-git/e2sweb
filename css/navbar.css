@@ -15,18 +15,20 @@ main { /*container das paginas certificados/servicos/contato*/
   justify-content: center;
   align-items: center;
 }
-.title {
-  font-size: 2em;
+h1 {
+  font-size: 1.950em;
   text-align: center;
-  margin-top: 2.5vh;
-  margin-bottom: 2vh;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
 }
 h2 {
   text-align: center;
   color: #263e7a;    
   font-size: 1.8em; 
-  padding-top: 1.5%; 
-  padding-bottom: 1.5%;
+  padding-top: 20px; 
+  padding-bottom: 20px;
 }
 .social-icon { /*icones redondos*/
   width: 42px;
@@ -98,16 +100,16 @@ nav {
     transition: 0.3s;
   }
   /**************************************/
-.sobre-empresa, .sobre-edval, .box, .rodape, .information-box {
-    background: linear-gradient(#ffffff,#d1dbf3);
+.sobre-empresa, .sobre-edval, .box, .rodape, .cpf, .cnpj, .information-box {
+    background: white;  
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
-    border-radius: 7px;
+    border-radius: 10px;
 }
 .service-box, .information-box, .info {
     display: flex;
     margin: auto;
 }
-.service-box, .information-box {
+.service-box {
     width: 85vw;
     max-width: 1280px;
     height: 75vh;
@@ -126,7 +128,7 @@ footer a:hover {
   color: #2c50ac;
 }
 @media (max-width: 768px) { /*Media querie para responsividade do menu navbar*/
-  .title {
+  h1 {
     font-size: 1.5em;
   }
   .mobile-menu {

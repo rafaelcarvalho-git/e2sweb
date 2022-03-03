@@ -10,18 +10,10 @@
     width: 85vw;
     max-width: 1280px;
     margin: auto;
-    box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
-    border-radius: 7px;
-    background: white;
-    transition-duration: 0.6s;
     overflow: hidden;
 }
 .cnpj {
     margin: 50px auto 50px auto;
-}
-h2 { /*titulo da section*/
-    padding-top: 20px; 
-    padding-bottom: 10px;
 }
 h4, .title-section { /*decricao e subtitulos a1 e a3*/
     text-align: center; 

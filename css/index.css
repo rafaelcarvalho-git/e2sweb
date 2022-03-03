@@ -1,6 +1,5 @@
 .sobre-empresa, .sobre-edval {
     height: 45vh;
-    min-height: 400px;
     width: 85%;
     max-width: 1280px;
     margin: 4.5% auto auto auto;
@@ -93,13 +92,14 @@ p {
 }
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
     .sobre-empresa, .sobre-edval { 
-        width: 100vw;
-        height: 550px;
+        width: 100vw;        
+        height: 60%;
         margin-top: 6.5%;
         border-radius: 0;      
     }
     .sobre-edval { 
-        height: 350px;
+       
+        min-height: 320px;
         flex-direction: column;
     }
     .sobre {
@@ -109,16 +109,14 @@ p {
     .sobre-seguradoras {
         margin-top: 6.5%;
         height: 20vh;
-        max-height: 140px;
+        min-height: 150px;
+        max-height: 160px;
     }
     .seguradoras {
         margin-top: 15px;
     }
-    h2 {
-        font-size: 1.250em;
-    }
     p {
-        font-size: 1em;
+        font-size: 100%;
     }
     button {
         width: 50%;

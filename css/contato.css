@@ -30,10 +30,6 @@
         text-decoration: none;      
         color: black;                    
     } 
-    h2 {
-        padding-top: 20px; 
-        padding-bottom: 20px;
-    }
     h3 {
         font-size: 1.050em;
         margin-bottom: 7.5px;                   
@@ -170,13 +166,7 @@
         .contato, .local {  
             width: 340px;           
             height: 90px;
-        } 
-        @media (max-width:600px) {
-            .title {
-                padding-left: 2.5%;
-                padding-right: 2.5%;
-            }
-        }
+        }   
 }
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     .information-box {
@@ -192,9 +182,6 @@
     .contato, .local {       
         width: 350px;
         height: 88px;
-    }
-    h2 {
-        padding-bottom: 18px;
     }
     h3 {
         font-size: 1em;                
