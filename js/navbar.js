@@ -47,13 +47,19 @@ class MobileNavbar {
 /*funcoes pagina contato*/
 function btjuazeiro() {
     document.getElementById('map').setAttribute('src', 'https://maps.google.com/maps?q=e2s%20corretora%20de%20seguros&t=&z=17&ie=UTF8&iwloc=&output=embed');
-    document.getElementById('endereco').innerHTML = 'Rua Fiscal José Soares, 303, Salesianos';
-    var end = document.getElementById('endereco');
-    end.href = 'https://g.page/e2scorretoradeseguros?share';
+    var end1 = document.getElementById('endereco');
+    var end2 = document.getElementById('endereco2');
+    end1.href = 'https://g.page/e2scorretoradeseguros?share';
+    end1.innerHTML = 'Rua Fiscal José Soares, 303, Salesianos';
+    end2.href = 'https://g.page/e2scorretoradeseguros?share';
+    end2.innerHTML = 'Rua Fiscal José Soares, 303, Salesianos';
 }
 function btassare() {
     document.getElementById('map').setAttribute('src', 'https://maps.google.com/maps?q=assare%20zenir&t=&z=17&ie=UTF8&iwloc=&output=embed');
-    document.getElementById('endereco').innerHTML = 'Rod Transamazônica, 303, Assaré';
-    var end = document.getElementById('endereco');
-    end.href = 'https://goo.gl/maps/u3UUccM3eFUCeCuh8';
+    var end1 = document.getElementById('endereco');
+    var end2 = document.getElementById('endereco2');
+    end1.href = 'https://goo.gl/maps/u3UUccM3eFUCeCuh8';
+    end1.innerHTML = 'Rod Transamazônica, 303, Assaré';
+    end2.href = 'https://goo.gl/maps/u3UUccM3eFUCeCuh8';
+    end2.innerHTML = 'Rod Transamazônica, 303, Assaré';
 }
