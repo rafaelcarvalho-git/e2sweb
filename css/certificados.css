@@ -81,11 +81,16 @@ h4, .title-section { /*decricao e subtitulos a1 e a3*/
 .rodape { /*rodape com texto e botao para contato*/
     margin: 50px auto auto auto;
     display: flex;
-    width: 75%;
-    height: 10%; 
-    max-height: 85px; 
-    max-width: 1280px;
-    background: white;
+    width: 650px;
+    height: 100px; 
+}
+.rodape p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.1em;
 }
     button {   
         background: linear-gradient(#31e25b,#00bb2d);                 

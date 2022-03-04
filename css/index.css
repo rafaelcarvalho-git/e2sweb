@@ -2,7 +2,7 @@
     height: 45vh;
     width: 85%;
     max-width: 1280px;
-    margin: 4.5% auto auto auto;
+    margin: 50px auto auto auto;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     border-radius: 10px;
     background: white;
@@ -64,7 +64,7 @@ p {
     height: 25vh;
     max-height: 175px;
     width: 100vw;
-    margin-top: 4.5%;
+    margin-top: 50px;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     background: #e2e8f8;
     overflow-y: hidden;    
