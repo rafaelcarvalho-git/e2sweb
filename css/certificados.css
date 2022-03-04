@@ -76,6 +76,7 @@ h4, .title-section { /*decricao e subtitulos a1 e a3*/
     }
     h3 { /*****tempo-validade certificado*****/
         font-size: 1.150em;
+        margin-left: 16px;
     }     
 .rodape { /*rodape com texto e botao para contato*/
     margin: 50px auto auto auto;
@@ -108,7 +109,7 @@ h4, .title-section { /*decricao e subtitulos a1 e a3*/
         button:hover {
             background: #4fcf6d;
         }   
-@media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/  
+@media (max-width:768px) { /*Configs gerais para dispositivos mobile*/  
     .certificate-box { 
         width: 100%;   
         height: 1040px; 
