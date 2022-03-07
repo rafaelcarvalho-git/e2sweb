@@ -22,12 +22,33 @@ h4 {
     align-items: center;
     width: 200px;
     height: 46px;
-    margin: 12px auto 12px auto;
+    margin: 12px auto 20px auto;
     background: #263e7a;
     border-radius: 14px;
     color: white;               
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
 }
+
+.certificados {
+    width: 75%;
+    height: 140px;
+    margin: 20px auto auto auto;
+   
+}
+.item {
+    margin-bottom: 20px;
+}
+.seguros {
+    width: 50%;
+    height: 140px;
+    margin: 20px auto auto auto;
+    
+    display: flex;
+}
+.seg {
+    width: 50%;
+}
+
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
     .box {
         width: 100%;
