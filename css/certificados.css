@@ -31,7 +31,8 @@ h4, .title-section { /*decricao e subtitulos a1 e a3*/
         border-radius: 14px;
         color: white;       
         margin-bottom: 20px;
-        max-width: 320px;
+        min-width: 180px;
+        max-width: 320px;        
         box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     }
     .certificados p {
@@ -81,7 +82,7 @@ h4, .title-section { /*decricao e subtitulos a1 e a3*/
 .rodape { /*rodape com texto e botao para contato*/
     margin: 50px auto auto auto;
     display: flex;
-    width: 650px;
+    width: 720px;
     height: 100px; 
 }
 .rodape p {
@@ -116,81 +117,83 @@ h4, .title-section { /*decricao e subtitulos a1 e a3*/
         }   
 @media (max-width:768px) { /*Configs gerais para dispositivos mobile*/  
     .certificate-box { 
-        width: 100%;   
-        height: 1040px; 
-        border-radius: 0;
-    }
-    .title-description {
-        height: 155px;
-    }
-    h4, .title-section { /*decricao e subtitulos a1 e a3*/
+        width: 85vw;   
+        height: 1000px; 
+    } 
+    .title-section {
         font-size: 1.050em;
-    }    
-    .certificados { /*div que contem os subtitulos a1 e a3, e os tipos de certificados*/
-        margin: auto;
-        height: 745px;
-        display: flex;   
-        flex-direction: column;  
     }
-        .subtitulo { /*subtitulos a1 e a3*/
-            width: 60%;
-                            
+    .certificados { 
+        height: 850px;           
+    }
+        .subtitulo { 
+            width: 45%;      
+            margin-bottom: 15px;          
         }
-        .a1, .a3 {     
-            width: 100%;   
-        }    
-        .a1 {
-            height: 250px;
+        .a1, .a3 {
+            width: 100%;
+            margin: 0;
         }
-        .a3 {    
-            height: 495px;
+        .a3 {
+       
+            height: 610px;
         }
-        .social-icon {
+        .social-icon {           
+            margin: auto;
             position: sticky;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: .5%;
         }
         .item {       
-            width: 100%;
-            height: 120px;   
-            margin: 5px auto 5px auto;
-            cursor: pointer;
+            width: 90%;
+            min-width: 300px;
+            max-width: 320px;
+            height: 100px;   
+            margin: 20px auto 24px auto;
+            display: flex;
+            flex-direction: column;
+         
+        
         }
-            .item-description {                     
-                margin: auto;
-                width: 250px;
-                height: 60px;  
+            .item-description {      
+                text-align: center;
+                margin-left: 0px;
+                height: 60px;
+             
             }
-            .item-description a {
-                text-decoration: none;      
-                color: black;                    
-            } 
+   
+            .item-h4 {               
+                text-align: center;           
+                font-size: 1.375em;     
+            }
             h3 {
-                text-align: center;
                 font-size: 1.050em;
-                margin-bottom: 7.5px;    
-            } 
-            .item-h4 {            
-                text-align: center;
-                font-size: 1.350em;
-                padding-top: 5px;
-                margin-bottom: 7.5px;
-                color: hsl(199, 64%, 35%);                
-            }            
-.rodape { /*rodape com texto e botao para contato*/        
-    flex-direction: column;
-    width: 100%;
-    min-height: 150px;    
-    border-radius: 0px;                   
-}     
-.rodape p {
-    text-align: center;
-    font-size: 1.1em;   
-}      
-    button {   
-        margin: auto;                      
+                margin-left: 0;
+            }     
+
+
+    .rodape {
+        flex-direction: column;
+        width: 85vw;
+        height: 140px; 
     }
+    .rodape p {
+        text-align: center;
+        padding: 15px 10px 10px 10px;                             
+    }
+    @media (min-width:540px) {
+        .rodape p {
+            padding: 15px 20px 10px 20px;
+        }       
+    }
+        button {   
+            margin: auto;                     
+        }   
+}
+@media (min-width:320px) and (max-width:600px) {
+    .certificate-box, .rodape { 
+        width: 100%;           
+        border-radius: 0;
+    }
+
 }
 
 
