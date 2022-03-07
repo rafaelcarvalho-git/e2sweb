@@ -2,9 +2,9 @@ main {
     flex-direction: column;
 }
 .certificate-box {
-   flex-direction: column;   
-   height: 875px;  
-   width: 720px;   
+    flex-direction: column;   
+    height: 875px;  
+    width: 720px;   
 }
 .title-description {
     height: 150px;

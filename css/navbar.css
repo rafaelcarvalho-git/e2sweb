@@ -109,12 +109,7 @@ nav {
     display: flex;
     margin: auto;
 }
-.service-box {
-    width: 85vw;
-    max-width: 1280px;
-    height: 75vh;
-    max-height: 650px;    
-}
+
 /******Rodape da pagina*********/
 footer {
   text-align: center;
