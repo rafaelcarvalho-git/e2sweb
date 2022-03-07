@@ -4,7 +4,7 @@ main {
 .box {
     text-align: center;
     width: 720px;
-    height: 250px;
+    height: 260px;
     margin-bottom: 50px;
 }#box-financiamentos{margin-bottom: 0;}
 .box:hover {
@@ -40,12 +40,10 @@ h4 {
 }
 
 @media (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-
 }
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 }
 @media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
-
 }
 @media (min-width:1360px) { /* hi-res laptops and desktops */ 
 
