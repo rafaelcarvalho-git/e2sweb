@@ -7,8 +7,9 @@
 }
 .contact-informations,.localization-informations{width:50%;height:100%;}
     .info-corretora {
-        width: 375px;
-        margin: auto;     
+        width:375px;
+        height:500px;
+        margin:auto;
     }   
     .item, .local {       
         width: 375px;
@@ -19,7 +20,6 @@
         width: 320px;
         height: 80px;   
         margin: 5px auto 5px auto;
-        cursor: pointer;
     }
         .item-description {      
             text-align: left;
@@ -116,11 +116,9 @@
         flex-direction: column;
     }
         .endereco { /**DIV com endereço e botoes**/
-            width: 100%;            
-            height: 50px;     
+            width:100%;height:50px;     
         }   
-        #end1{display: block;}
-        #end2{display: none;}
+        #end1{display:block;}#end2{display:none;}
         .local { /**DIV com o endereco escrito**/
             height: 80px;
             width: 300px;
@@ -139,8 +137,7 @@
                 font-size: 0.725em;               
             }
         }        
-        .mapa{height: 350px;}
-        #map{height: 85%;margin: auto;max-width: 600px;}
+        .mapa{height:350px;}#map{height:85%;margin:auto;max-width:600px;}
 }
 @media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     .information-box {width: 85vw;flex-direction: column;}

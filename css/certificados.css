@@ -102,16 +102,13 @@ h4, .title-section { /*decricao e subtitulos a1 e a3*/
     .certificate-box { 
         width: 85vw;   
         height: 1000px; 
-    }.title-section {font-size: 1.050em;}
-    .certificados {height: 850px;}
+    }.title-section {font-size:1.050em;}
+    .certificados {height:850px;}
         .subtitulo { 
             width: 45%;      
             margin-bottom: 15px;          
         }
-        .a1, .a3 {
-            width: 100%;
-            margin: 0;
-        }.a3 {height: 610px;}
+        .a1,.a3{width:100%;margin:0;}.a3 {height:610px;}
         .social-icon {           
             margin: auto;
             position: sticky;
