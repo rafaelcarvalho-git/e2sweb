@@ -1,14 +1,9 @@
-main {
-    flex-direction: column;
-}
+main {flex-direction: column;}
 .certificate-box { /*container principal*/
     flex-direction: column;   
     height: 875px;  
     width: 720px;   
-}
-.title-description { /*div com titulo e descricao dos certificados*/
-    height: 150px;
-}
+}.title-description {height: 150px;}
 h4, .title-section { /*decricao e subtitulos a1 e a3*/
     text-align: center; 
     font-size: 1.2em;
@@ -107,13 +102,8 @@ h4, .title-section { /*decricao e subtitulos a1 e a3*/
     .certificate-box { 
         width: 85vw;   
         height: 1000px; 
-    } 
-    .title-section {
-        font-size: 1.050em;
-    }
-    .certificados { 
-        height: 850px;           
-    }
+    }.title-section {font-size: 1.050em;}
+    .certificados {height: 850px;}
         .subtitulo { 
             width: 45%;      
             margin-bottom: 15px;          
@@ -121,10 +111,7 @@ h4, .title-section { /*decricao e subtitulos a1 e a3*/
         .a1, .a3 {
             width: 100%;
             margin: 0;
-        }
-        .a3 {       
-            height: 610px;
-        }
+        }.a3 {height: 610px;}
         .social-icon {           
             margin: auto;
             position: sticky;
@@ -161,17 +148,11 @@ h4, .title-section { /*decricao e subtitulos a1 e a3*/
         font-size: 1em;
         padding: 15px 10px 10px 10px;                             
     }
-    @media (min-width:540px) {
-        .rodape p {
-            padding: 15px 20px 10px 20px;            
-        }       
+    @media (min-width:540px) {.rodape p {padding: 15px 20px 10px 20px;}       
     }button {margin: auto;}   
 }
 @media (min-width:320px) and (max-width:600px) {
-    .certificate-box, .rodape { 
-        width: 100%;           
-        border-radius: 0;
-    }
+    .certificate-box, .rodape {width: 100%;border-radius: 0;}
 }
 
 
