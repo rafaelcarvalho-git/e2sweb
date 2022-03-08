@@ -43,10 +43,7 @@ p {
         padding: 18px; 
         border: none;       
     }svg {margin-right: 2.7%;}button:hover {background: #4fcf6d;}
-    .edval {
-        width: 30%;
-        text-align: center;
-    }
+    .edval {width: 30%;text-align: center;}
     .imagem-edval { /*IMAGEM DEVE SER 280px X 500px*/
         width: 240px;
         height: 100%;
@@ -61,7 +58,7 @@ p {
     .seguradoras {
         display: flex;
         margin: 0 auto auto auto;
-        width: 85%;
+        width: 90%;
         max-width: 1280px;
         justify-content: space-between;   
         overflow-x: auto;         
@@ -76,32 +73,12 @@ p {
     transition-duration: 0.6s;
 }
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
-    .sobre-empresa, .sobre-edval { 
-        width: 100vw;        
-        height: 60%;
-        margin-top: 6.5%;
-        border-radius: 0;      
-    }
-    .sobre-edval {        
-        min-height: 320px;
-        flex-direction: column;
-    }
+    .sobre-empresa, .sobre-edval{width: 100%;border-radius: 0;}
+    .sobre-edval {min-height: 320px;flex-direction: column;}
     .sobre {
         width: 100%;
         height: 100%;
-    }
-    .sobre-parceiros {
-        margin-top: 6.5%;
-        height: 20vh;
-        min-height: 150px;
-        max-height: 160px;
-    }
-    p {
-        font-size: 100%;
-    } 
-    .pontos-fortes {
-        margin: .5% auto auto auto;
-    }
+    }p {font-size: 1em;} 
     /*remover imagem do dono e efeitos*/
     .edval, .imagem-edval {display: none;}
     .sobre-edval:hover,.sobre-empresa:hover, .imagem-seguradora:hover {
@@ -109,8 +86,4 @@ p {
         transition-duration: none;
     }
 }
-@media (max-width: 576px){ /* smartphones, portrait iPhone, Android phones, landscape iPhone */ 
-    .imagem-seguradora {
-        width: 55px;
-    }
-}
+@media (max-width: 576px){.imagem-seguradora {width: 55px;}}
