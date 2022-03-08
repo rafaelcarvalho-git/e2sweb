@@ -25,7 +25,7 @@ p {
 }.fas {color: #263e7a;}
 .sobre-edval { 
     display: flex;
-    max-height: 450px;
+    max-height: 400px;
 }.sobre{width: 70%;}.sobre p {height: 60%;}
     button { 
         margin: 2.5% auto auto auto;
