@@ -8,10 +8,10 @@
     background: white;
     transition-duration: 0.6s;
     overflow: hidden;    
-}p {font-size:1.250em;padding: 0 5% 0 5%;}
+}p {font-size:1.250em;padding:0 5% 0 5%;}
 .pontos-fortes {
     text-align: left;
-    width: 80%;
+    width: 75%;
     max-width: 950px;
     margin: .5% auto auto auto;
     height: 100%;
@@ -34,8 +34,7 @@
         padding: 18px; 
         border: none;       
     }svg{margin-right:2.7%;}button:hover{background:#4fcf6d;}
-    .edval{width:30%;text-align:center;}
-    .imagem-edval {width: 240px;height: 100%;}   /*IMAGEM DEVE SER 280px X 500px*/
+    .edval{width:30%;text-align:center;}.imagem-edval {width: 240px;height: 100%;}   /*IMAGEM DEVE SER 280px X 500px*/
 .sobre-parceiros {
     height: 160px;
     width: 100%;
