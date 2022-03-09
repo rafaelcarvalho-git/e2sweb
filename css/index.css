@@ -8,25 +8,16 @@
     background: white;
     transition-duration: 0.6s;
     overflow: hidden;    
-}
-p {
-    font-size: 1.250em;
-    padding-left: 5%;
-    padding-right: 5%;
-    overflow: hidden;
-}
+}p {font-size:1.250em;padding: 0 5% 0 5%;}
 .pontos-fortes {
     text-align: left;
-    width: 75%;
+    width: 80%;
     max-width: 950px;
     margin: .5% auto auto auto;
     height: 100%;
     padding: 0 20px 20px 20px;
 }.fas {color: #263e7a;}
-.sobre-edval { 
-    display: flex;
-    max-height: 400px;
-}.sobre{width: 70%;}.sobre p {height: 60%;}
+.sobre-edval{display:flex;}.sobre{width:70%;}.sobre p{height:60%;}
     button { 
         margin: 2.5% auto auto auto;
         display: flex;
@@ -42,8 +33,8 @@ p {
         text-decoration: none;
         padding: 18px; 
         border: none;       
-    }svg {margin-right: 2.7%;}button:hover {background: #4fcf6d;}
-    .edval {width: 30%;text-align: center;}
+    }svg{margin-right:2.7%;}button:hover{background:#4fcf6d;}
+    .edval{width:30%;text-align:center;}
     .imagem-edval { /*IMAGEM DEVE SER 280px X 500px*/
         width: 240px;
         height: 100%;
@@ -58,32 +49,27 @@ p {
     .seguradoras {
         display: flex;
         margin: 0 auto auto auto;
-        width: 90%;
+        width: 85%;
         max-width: 1280px;
         justify-content: space-between;   
         overflow-x: auto;         
-    }
-    .imagem-seguradora {
-        margin-left: 12px;
-        margin-right: 12px;
-        width: 70px;
-    }
-.sobre-edval:hover,.sobre-empresa:hover, .imagem-seguradora:hover {
-    transform: translateY(-10px);
+    }.imagem-seguradora {margin:0 12px 0 12px;width:70px;}
+.sobre-edval:hover,.sobre-empresa:hover {
+    transform: translateY(-8px);
     transition-duration: 0.6s;
 }
 @media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
-    .sobre-empresa, .sobre-edval{width: 100%;border-radius: 0;}
-    .sobre-edval {min-height: 320px;flex-direction: column;}
-    .sobre {
-        width: 100%;
-        height: 100%;
-    }p {font-size: 1em;} 
-    /*remover imagem do dono e efeitos*/
-    .edval, .imagem-edval {display: none;}
-    .sobre-edval:hover,.sobre-empresa:hover, .imagem-seguradora:hover {
-        transform: none;
-        transition-duration: none;
-    }
-}
-@media (max-width: 576px){.imagem-seguradora {width: 55px;}}
+    .sobre-empresa, .sobre-edval { 
+        width: 100vw;        
+        height: 60%;
+        border-radius: 0;      
+    }.sobre-edval{min-height:320px;flex-direction:column;}.sobre{width:100%;height:100%;}
+    .sobre-parceiros {
+        margin-top: 6.5%;
+        height: 20vh;
+        min-height: 150px;
+        max-height: 160px;
+    }p{font-size:100%;}.pontos-fortes{margin:.5% auto auto auto;}
+    .edval,.imagem-edval{display:none;}
+    .sobre-edval:hover,.sobre-empresa:hover{transform:none;transition-duration:none;}
+}@media (max-width: 576px){.imagem-seguradora{width:55px;}}
