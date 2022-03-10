@@ -4,7 +4,6 @@ class MobileNavbar {
       this.navList = document.querySelector(navList);
       this.navLinks = document.querySelectorAll(navLinks);
       this.activeClass = "active";
-  
       this.handleClick = this.handleClick.bind(this);
     }
   
@@ -36,11 +35,7 @@ class MobileNavbar {
     }
   }
   
-  const mobileNavbar = new MobileNavbar(
-    ".mobile-menu",
-    ".nav-list",
-    ".nav-list li",
-  );
+  const mobileNavbar = new MobileNavbar(".mobile-menu",".nav-list",".nav-list li",);
   mobileNavbar.init();
 
 
@@ -55,11 +50,11 @@ function btjuazeiro() {
     end2.innerHTML = 'Rua Fiscal José Soares, 303, Salesianos';
 }
 function btassare() {
-    document.getElementById('map').setAttribute('src', 'https://maps.google.com/maps?q=assare%20zenir&t=&z=17&ie=UTF8&iwloc=&output=embed');
+    document.getElementById('map').setAttribute('src', 'https://maps.google.com/maps?q=Rua%20Pe.%20Em%C3%ADlio%20Cabral%20-%20Centro,%20Assar%C3%A9%20-%20CE,%2063140-000&t=&z=17&ie=UTF8&iwloc=&output=embed');
     var end1 = document.getElementById('endereco');
     var end2 = document.getElementById('endereco2');
     end1.href = 'https://goo.gl/maps/u3UUccM3eFUCeCuh8';
-    end1.innerHTML = 'Rod Transamazônica, 303, Assaré';
+    end1.innerHTML = 'Rua Padre Emílio Cabral, 176, Assaré';
     end2.href = 'https://goo.gl/maps/u3UUccM3eFUCeCuh8';
-    end2.innerHTML = 'Rod Transamazônica, 303, Assaré';
+    end2.innerHTML = 'Rua Padre Emílio Cabral, 176, Assaré';
 }
