@@ -1,5 +1,5 @@
 main {flex-direction: column;}
-.certificate-box{flex-direction:column;height:875px;width:720px;}.title-description{height:150px;}
+.certificate-box{flex-direction:column;height:900px;width:720px;}.title-description{height:150px;}
 h4, .title-section { /*decricao e subtitulos a1 e a3*/
     text-align: center; 
     font-size: 1.2em;
@@ -84,7 +84,8 @@ h4, .title-section { /*decricao e subtitulos a1 e a3*/
         height: 40px;                        
     }button svg {margin-right: 2.7%;}button:hover {background: #4fcf6d;}   
 @media (max-width:768px) { /*Configs gerais para dispositivos mobile*/  
-    .certificate-box{width:85vw;height:1000px; }.title-section{font-size:1.050em;}.certificados{height:850px;}
+    .certificate-box{width:85vw;height:1050px; }.title-section{font-size:1.050em;}.certificados{height:850px;}
+        .certificados p {width: 85%;}
         .subtitulo {width:45%;margin-bottom:15px;}
         .a1,.a3{width:100%;margin:0;}.a3 {height:610px;}
         .social-icon {margin: auto;position: sticky;}

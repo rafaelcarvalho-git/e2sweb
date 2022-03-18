@@ -53,8 +53,8 @@ function btassare() {
     document.getElementById('map').setAttribute('src', 'https://maps.google.com/maps?q=Rua%20Pe.%20Em%C3%ADlio%20Cabral%20-%20Centro,%20Assar%C3%A9%20-%20CE,%2063140-000&t=&z=17&ie=UTF8&iwloc=&output=embed');
     var end1 = document.getElementById('endereco');
     var end2 = document.getElementById('endereco2');
-    end1.href = 'https://goo.gl/maps/u3UUccM3eFUCeCuh8';
+    end1.href = 'https://goo.gl/maps/AUp7J56ipNJ25vpc9';
     end1.innerHTML = 'Rua Padre Emílio Cabral, 176, Assaré';
-    end2.href = 'https://goo.gl/maps/u3UUccM3eFUCeCuh8';
+    end2.href = 'https://goo.gl/maps/AUp7J56ipNJ25vpc9';
     end2.innerHTML = 'Rua Padre Emílio Cabral, 176, Assaré';
 }
