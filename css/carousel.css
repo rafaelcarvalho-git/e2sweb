@@ -231,18 +231,3 @@
   clip: auto;
   white-space: normal;
 }
-@media (min-width:250px) and (max-width: 479px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-  .carousel-inner {
-    height: 35vh;
-  }
-}
-@media (min-width:480px) and (max-width: 599px){ /* smartphones, Android phones, landscape iPhone */ 
-  .carousel-inner {
-    height: 40vh;
-  }
-}
-@media (min-width:600px) and (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-  .carousel-inner {
-    height: 45vh;
-  }
-}
