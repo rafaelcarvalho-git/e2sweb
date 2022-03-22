@@ -5,7 +5,7 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: calc(100vh - 8vh);
+  height: calc(68vh - 8vh);
 }
 .carousel-inner img {
   width: 100%;
