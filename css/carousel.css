@@ -9,7 +9,7 @@
 }
 .carousel-inner img {
   width: 100%;
-  height: calc(100vh - 8vh);
+  height: calc(68vh - 8vh);
 }
 .carousel-item {
   position: relative;
