@@ -18,6 +18,8 @@ footer{
 .footer-content .social-icon {
     position: inherit;
     margin-left: 12px;
-    background: #48b3f5;
-}.footer-content .social-icon svg {color: white;}.footer-content .logo-img {margin-right:-35px;}  
+    background: #61c1fc;
+}
+
+.footer-content .social-icon svg {color: white;}.footer-content .logo-img {margin-right:-35px;}  
 @media (max-width:580px) {.footer-content{width:100%;flex-direction:column;}}
