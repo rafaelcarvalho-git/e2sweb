@@ -14,11 +14,8 @@ footer{
     margin: 15px auto auto auto;
     display: flex;
     align-items: center;
-}footer p, .footer-content p {margin: auto;}
-.footer-content .social-icon {
-    position: inherit;
-    margin-left: 12px;
-    background: #61c1fc;
+}footer p, .footer-content p{margin:auto;}
+.footer-content .social-icon{position:inherit;margin-left:12px;background:#61c1fc;
 }.footer-content .social-icon:hover{background:#9cd7ff;}
 .footer-content .icons{display:flex;}
 .footer-content .social-icon svg {color: white;} 
