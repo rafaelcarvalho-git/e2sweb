@@ -4,6 +4,7 @@
     height: 640px;
     background: white;
     overflow: hidden;
+    margin-bottom: 50px;
 }.contact-informations,.localization-informations{width:50%;height:100%;}
     .info-corretora {
         width:360px;
