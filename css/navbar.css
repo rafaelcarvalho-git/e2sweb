@@ -30,19 +30,15 @@ h2 {
 .social-icon { /*icones redondos*/
   width: 42px;
   height: 42px;
-  background: #bce2f3;
+  background: #61c1fc;
   border-radius: 50px;
   display: flex;
   align-items: center;
   transition: all 0.3s ease-in-out;
   position: absolute;        
-}.social-icon svg{color:black;margin:auto;}.social-icon:hover{background:#47b2e4;}
+}.social-icon svg{color:white;margin:auto;}.social-icon:hover{background:#9cd7ff;}
 /***********MENU NAVBAR***********/
-header { /*fixar navbar no topo da pagina*/
-  position: sticky;
-  top: 0;
-  z-index: 50;
-}
+header{position:sticky;top:0;z-index:2;} /*fixar navbar no topo da pagina*/
 nav {
   display: flex;
   justify-content: space-around;
@@ -58,9 +54,7 @@ nav {
     text-decoration: none;
     transition: 0.3s;
   }nav a:hover{color:#f21905;}
-  .logo-img {
-    height: 37.5px;
-  }.logo-img:hover{opacity:0.8;cursor:pointer;}
+  .logo-img {height: 37.5px;}.logo-img:hover{opacity:0.8;cursor:pointer;}
   .nav-list {
     list-style: none;
     display: flex;

@@ -16,10 +16,8 @@ footer{
     display: flex;
     align-items: center;
 }footer p, .footer-content p{margin:auto;}
-.footer-content .social-icon{position:inherit;margin-left:12px;background:#61c1fc;
-}.footer-content .social-icon:hover{background:#9cd7ff;}
-.footer-content .icons{display:flex;}
-.footer-content .social-icon svg {color: white;} 
+.footer-content .social-icon{position:inherit;margin-left:12px;}
+.footer-content .icons{display:flex;}.footer-content .social-icon svg {color: white;} 
 @media (max-width:768px) {.footer-content{width:85%;}}
 @media (max-width:580px) {footer{height:140px;}
     .footer-content{width:100%;flex-direction:column;}

@@ -1,54 +1,42 @@
 .information-box {
     width: 85vw;
     max-width: 1280px;
-    height: 640px;
     background: white;
     overflow: hidden;
-
-}.contact-informations,.localization-informations{width:50%;height:100%;}
-    .info-corretora {
-        width:360px;
-        height:530px;
-        margin:auto;
-    }   
-    .item {       
-        width: 360px;
-        height: 100px;   
-        margin: 7.5px auto 7.5px auto;
-    }
+    padding: 10px;
+}.contact-informations,.localization-informations{width:50%;}
+    .info-corretora {width:380px;margin:auto;}   
+    .info-corretora .item {width:380px;height:110px;margin:12px auto 12px auto;}
         .item-description {      
             text-align: left;
             margin-left: 40px;
-            height: 100%;      
+            padding: 5px;            
         }.item-description a{text-decoration:none;color:black;} 
         h4 {            
             text-align: left;
-            font-size: 1.375em;
-            padding-top: 5px;
-            margin-bottom: 8.5px;
-            margin-left: 16px;
-            color: hsl(199, 64%, 35%);     
-        }h3{font-size:1.150em;margin:auto auto 8px 16px;}                      
+            font-size: 1.4em;
+            margin: auto auto 10px 16px;
+            color: hsl(199, 88%, 29%);     
+        }h3{font-size:1.2em;margin:auto auto 8px 16px;}                      
 .endereco { /**DIV com endereço e botoes**/
         width: 100%;
         height: 25%;    
-        padding-top: 5px;
     }#end1{display: none;}
     .local {
-        width: 380px;
+        width: 410px;
         height: 80px;
         margin: 10px auto auto auto;    
     }
-    .mapa {  /****Google Maps com localization-informations****/        
+    .mapa {  /****mapa****/        
         width: 100%;
-        height: 75%;         
+        height: 460px;
         display: flex;
         align-items: center;
     }
     #map {        
         overflow:hidden;
         background:none!important;
-        height: 90%;
+        height: 400px;
         width: 90%;
         max-width: 500px;
         max-height: 500px;
