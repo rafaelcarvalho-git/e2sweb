@@ -11,15 +11,19 @@ footer{
 }footer a{text-decoration:none;color:black;}footer a:hover{color:#48b3f5;}
 .footer-content {
     width: 620px;
-    margin: auto;
+    margin: 15px auto auto auto;
     display: flex;
     align-items: center;
-}
+}footer p, .footer-content p {margin: auto;}
 .footer-content .social-icon {
     position: inherit;
     margin-left: 12px;
     background: #61c1fc;
+}.footer-content .social-icon:hover{background:#9cd7ff;}
+.footer-content .icons{display:flex;}
+.footer-content .social-icon svg {color: white;} 
+@media (max-width:768px) {.footer-content{width: 85%;}}
+@media (max-width:580px) {footer{height:140px;}
+    .footer-content{width:100%;flex-direction:column;}
+    .footer-content .icons{margin-top:12px;}
 }
-
-.footer-content .social-icon svg {color: white;}.footer-content .logo-img {margin-right:-35px;}  
-@media (max-width:580px) {.footer-content{width:100%;flex-direction:column;}}
