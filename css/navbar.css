@@ -3,7 +3,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  background: #e8ecf5;
+  background: #f4f7fd;
   overflow-x: hidden;
 }
 main { /*container das paginas certificados/servicos/contato*/
@@ -22,7 +22,7 @@ h1 {
 }
 h2 {
   text-align: center;
-  color: #263e7a;    
+  color: #4589c9;    
   font-size: 1.8em; 
   padding-top: 20px; 
   padding-bottom: 20px;
@@ -43,17 +43,12 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #0055ff;
+  background: #0084ff;
   height: 8vh;
   max-height: 100px;
   min-height: 50px;
   width: 100vw;
-}
-  nav a {
-    color: #F8F8FF;
-    text-decoration: none;
-    transition: 0.3s;
-  }nav a:hover{color:#f21905;}
+}nav a {color:#F8F8FF;text-decoration:none;transition:0.3s;}nav a:hover{color:#f21905;}
   .logo-img {height: 37.5px;}.logo-img:hover{opacity:0.8;cursor:pointer;}
   .nav-list {
     list-style: none;
@@ -79,19 +74,11 @@ nav {
     background: white;  
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     border-radius: 12px;
-}
-.service-box, .information-box, .info {
-    display: flex;
-    margin: auto;
-}
+}.service-box,.information-box,.info{display:flex;margin:auto;}
 @media (max-width: 768px) { /*Media querie para responsividade do menu navbar*/
   h1 {
     font-size: 1.5em;
-  }
-  .mobile-menu {
-    display: block;
-    margin-right: -15%;
-  }
+  }.mobile-menu{display:block;margin-right:-15%;}
   nav {
     height: 8vh;
   }
@@ -122,21 +109,12 @@ nav {
       margin: 0 1rem;
       border-bottom: 2px solid rgba(0, 0, 0, 0.05);
       cursor: pointer;
-    }
-    li:hover {
-      background: #2a4b9c;
-    }
+    }li:hover{background:#2a4b9c;}
     ul li a{ /*expande a área de clique para todo o li*/
        display: inline-block;
        width: 100%;
        height: 100%;
-    }
-    nav a {
-      transition: 0;
-    }
-    nav a:hover {
-      color: #F8F8FF;
-    }
+    }nav a{transition:0;}nav a:hover{color:#F8F8FF;}
 }
 .mobile-menu.active .line1 {transform: rotate(-45deg) translate(-6.5px, 7px);}
 .mobile-menu.active .line2 {opacity:0;}

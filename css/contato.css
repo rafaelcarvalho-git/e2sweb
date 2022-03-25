@@ -16,7 +16,7 @@
             text-align: left;
             font-size: 1.4em;
             margin: auto auto 10px 16px;
-            color: hsl(199, 88%, 29%);     
+            color: #4589c9;     
         }h3{font-size:1.2em;margin:auto auto 8px 16px;}                      
 .endereco { /**DIV com endereço e botoes**/
         width: 100%;
@@ -57,11 +57,11 @@
         height: 40px;
         border-radius: 14px;
         box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
-        background: linear-gradient(#2e4e9e,#263e7a);
+        background: linear-gradient(#2586e0,#0174e0);
         color: white;
         cursor: pointer;            
         border: none; 
-    }button:hover{background: #3b62c7;}
+    }button:hover{background: #5dadf8;}
 @media (max-width:1024px) { /*Configs gerais para dispositivos mobile*/
     .information-box,.localization-informations {
         flex-direction: column;
