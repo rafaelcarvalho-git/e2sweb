@@ -1,6 +1,4 @@
-.carousel {
-  position: relative;
-}
+.carousel {position:relative;margin-bottom:50px;}
 .carousel-inner {
   position: relative;
   width: 100%;
