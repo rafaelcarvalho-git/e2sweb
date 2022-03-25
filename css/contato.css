@@ -5,12 +5,12 @@
     overflow: hidden;
     padding: 10px;
 }.contact-informations,.localization-informations{width:50%;}
-    .info-corretora {width:380px;margin:auto;}   
-    .info-corretora .item {width:380px;height:110px;margin:12px auto 12px auto;}
+    .info-corretora{width:380px;margin:auto;}   
+    .info-corretora .item{width:380px;height:110px;margin:12px auto 12px auto;}
         .item-description {      
             text-align: left;
             margin-left: 40px;
-            padding: 5px;            
+            padding: 5px;                               
         }.item-description a{text-decoration:none;color:black;} 
         h4 {            
             text-align: left;
@@ -20,23 +20,24 @@
         }h3{font-size:1.2em;margin:auto auto 8px 16px;}                      
 .endereco { /**DIV com endereço e botoes**/
         width: 100%;
-        height: 25%;    
+        height: 160px;    
+        padding-top: 25px;
     }#end1{display: none;}
     .local {
         width: 410px;
         height: 80px;
-        margin: 10px auto auto auto;    
+        margin: auto;   
     }
     .mapa {  /****mapa****/        
         width: 100%;
-        height: 460px;
+        height: 480px;
         display: flex;
-        align-items: center;
+        align-items: center;        
     }
     #map {        
         overflow:hidden;
         background:none!important;
-        height: 400px;
+        height: 420px;
         width: 90%;
         max-width: 500px;
         max-height: 500px;
@@ -45,9 +46,10 @@
     }
     .botoes { /**DIV que organiza os botoes*/
         width: 80%;
+        max-width: 460px;
         margin: 25px auto auto auto;
         display: flex;
-        justify-content: space-between;             
+        justify-content: space-between;                      
     }
     button {
         width: 45%; 
@@ -60,59 +62,38 @@
         cursor: pointer;            
         border: none; 
     }button:hover{background: #3b62c7;}
-@media (max-width: 1024px) { /*Configs gerais para dispositivos mobile*/
-    .information-box {
+@media (max-width:1024px) { /*Configs gerais para dispositivos mobile*/
+    .information-box,.localization-informations {
         flex-direction: column;
-        width: 100vw;
-        height: 1400px;
-        max-height: none;  
+        width: 100%; 
         border-radius: 0;    
-    }.contact-informations{width:100%;height:1000px;}   
+    }.contact-informations{width:100%;}   
         .info-corretora {
-            width: 90%;
-            min-width: 300px;
-            max-width: 320px;
-            height: 900px;
+            width: 320px;         
+            text-overflow: clip;            
         }       
-        h3{font-size:1.050em;margin-left:0;}    
-        h4{font-size:1.375em;text-align:center;margin-left:0;}
-        .social-icon {margin:auto;position:sticky;}
-        .item {       
+        h3,h4{text-align:center;margin-left:0;}.social-icon {margin:auto;position:sticky;}
+        .info-corretora .item {       
             width: 90%;
             min-width: 300px;
             max-width: 320px;
-            height: 130px;   
-            margin: 20px auto 24px auto;
+            height: 160px;             
             display: flex;
-            flex-direction: column;               
-        }.item-description {text-align:center;margin-left:0;height:90px;}   
-    .localization-informations { /*section que exibe informações de localização da empresa*/              
-        width: 100%;
-        height: 400px;
-        flex-direction: column;
-    }
-        .endereco { /**DIV com endereço e botoes**/
-            width:100%;height:50px;     
-        }#end1{display:block;}#end2{display:none;}
-        .local { /**DIV com o endereco escrito**/
-            height: 80px;
-            width: 300px;
-            margin: auto auto 12px auto;
-            flex-direction: column;       
-        }
+            flex-direction: column;                        
+        }.item-description{text-align:center;margin-left:0;height:90px;}   
+        .localization-informations .endereco{width:100%;height:60px;}#end1{display:block;}#end2{display:none;}
         .botoes { /**DIV que organiza os botoes*/
             width: 95%;
-            min-width: 30px;
+            min-width: 300px;
             max-width: 500px;
-            margin: auto;                       
+            margin: auto;    
         }        
         @media (max-width:450px) {
             button {
                 width: 44%;    
                 font-size: 0.725em;               
             }
-        }        
-        .mapa{height:350px;}#map{height:85%;margin:auto;max-width:600px;}
+        }.mapa{height:350px;}#map{height:85%;margin:auto;max-width:600px;}
 }
-@media (min-width:769px) and (max-width: 1024px) {.information-box{width:85vw;flex-direction:column;}}
-@media (min-width:1025px) and (max-width: 1359px) {#end1{display: none;}}
+@media (min-width:769px) and (max-width:1024px){.information-box{width:85vw;}}
+@media (min-width:1025px) and (max-width:1359px){#end1{display:none;}}
