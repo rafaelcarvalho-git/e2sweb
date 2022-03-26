@@ -1,10 +1,9 @@
-.main-content {
-    width: 85vw;
+.main-content, .comments {
+    width: 92vw;
     max-width: 1280px;
     margin: 50px auto 50px auto;
     display: flex;
     flex-wrap: wrap;
-
 }.item{margin-bottom:10px;width:50%;}
 .icon {
     background: #48b3f5;
@@ -17,16 +16,6 @@
 }svg{color:white;margin:auto auto auto 28px;}
 p{padding-left:7.5%;padding-right:7.5%;text-align:center;}
 h4{font-size:26px;margin:15px auto 15px auto;text-align:center;}
-
-.comments {
-   
-    max-width: 1280px;
-    margin: 50px auto 50px auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    
-}
 .comment {
     width: 260px;
     height: 360px;
@@ -36,8 +25,7 @@ h4{font-size:26px;margin:15px auto 15px auto;text-align:center;}
     transition-duration: 0.6s;
     overflow: hidden;  
     margin: auto;
-}
-.comment:hover{transform:translateY(-8px);transition-duration:0.6s;}
+}.comment:hover{transform:translateY(-8px);transition-duration:0.6s;}
 .photo {
     border-radius: 50px;
     background: gray;
@@ -46,26 +34,10 @@ h4{font-size:26px;margin:15px auto 15px auto;text-align:center;}
     display: flex;
     align-items: center;
     margin: 25px auto 15px auto;
-}
-h3 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-.photo img {
-    margin: auto;
-    width: 80px;
-    height: 50px;
-}
-
-.stars {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-
-@media (max-width: 768px) {.item{width:100%;height:50%;}
-.comment {
- 
-    margin-bottom: 50px;
-}
-}
+}.photo img{margin:auto;width:80px;height:50px;}
+h3{text-align:center;margin-bottom:10px;}
+.stars{text-align:center;margin-bottom:10px;}
+.comments{width: 100%;margin: auto;}
+@media (max-width:768px) {.item{width:100%;height:50%;}.comment{margin-bottom:50px;}}
+@media (max-width:730px) {.comments{width:100%;flex-direction:column;}}
+@media (min-width:730px) and (max-width: 1279px) {.comment{margin-bottom:50px;}.comments{width:680px;}}
