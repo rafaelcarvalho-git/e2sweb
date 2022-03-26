@@ -22,10 +22,11 @@ h1 {
 }
 h2 {
   text-align: center;
-  color: #4589c9;    
+  color: #2c73b6;    
   font-size: 1.8em; 
   padding-top: 20px; 
   padding-bottom: 20px;
+  text-shadow: rgba(0, 0, 0, 0.250) 0.1em 0.1em 0.2em;
 }
 .social-icon { /*icones redondos*/
   width: 42px;
@@ -88,7 +89,7 @@ nav {
       width: 100%;
       top: 8vh;
       right: 0px;
-      background: #263e7a;
+      background: #0077e6;
       z-index: 1000;
       height: 0px;
       transition: .5s;
