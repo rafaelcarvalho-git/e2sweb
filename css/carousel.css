@@ -4,11 +4,8 @@
   width: 100%;
   overflow: hidden;
   height: calc(65vh - 8.5vh);
-}
-.carousel-inner img {
-  width: 100%;
-  height: calc(65vh - 8.5vh);
-}
+}.carousel-inner img {width:100%;height: calc(65vh - 8.5vh);}
+@media (max-width:780px) {.carousel-inner, .carousel-inner img{height: calc(58vh - 8.5vh);}}
 .carousel-item {
   position: relative;
   display: none;
