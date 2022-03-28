@@ -71,8 +71,7 @@
         .info-corretora {
             width: 320px;         
             text-overflow: clip;            
-        }       
-        h3,h4{text-align:center;margin-left:0;}.social-icon {margin:auto;position:sticky;}
+        }h3,h4{text-align:center;margin-left:0;}.social-icon {margin:auto;position:sticky;}
         .info-corretora .item {       
             width: 90%;
             min-width: 300px;
@@ -87,13 +86,9 @@
             min-width: 300px;
             max-width: 500px;
             margin: auto;    
-        }        
-        @media (max-width:450px) {
-            button {
-                width: 44%;    
-                font-size: 0.725em;               
-            }
         }.mapa{height:350px;}#map{height:85%;margin:auto;max-width:600px;}
+        @media (max-width:450px) {button{width:44%;font-size:0.725em;}}
+        @media (max-width:360px) {.h3-email{font-size:1.120em;}}        
 }
 @media (min-width:769px) and (max-width:1024px){.information-box{width:85vw;}}
 @media (min-width:1025px) and (max-width:1359px){#end1{display:none;}}

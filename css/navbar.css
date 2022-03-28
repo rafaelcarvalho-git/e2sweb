@@ -15,8 +15,8 @@ main { /*container das paginas certificados/servicos/contato*/
 h1 {
   font-size: 1.950em;
   text-align: center;
-  margin-top: 1.5%;
-  margin-bottom: 1.5%;
+  margin-top: 25px;
+  margin-bottom: 25px;
   padding-left: 1.5%;
   padding-right: 1.5%;
 }
@@ -26,7 +26,7 @@ h2 {
   font-size: 1.8em; 
   padding-top: 20px; 
   padding-bottom: 20px;
-  text-shadow: rgba(0, 0, 0, 0.250) 0.1em 0.1em 0.2em;
+  text-shadow: rgba(0, 0, 0, 0.200) 0.1em 0.1em 0.2em;
 }
 .social-icon { /*icones redondos*/
   width: 42px;
@@ -44,7 +44,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #0077e6;
+  background: #006bcf;
   height: 8vh;
   max-height: 100px;
   min-height: 50px;
@@ -89,7 +89,7 @@ nav {
       width: 100%;
       top: 8vh;
       right: 0px;
-      background: #0077e6;
+      background: #006bcf;
       z-index: 1000;
       height: 0px;
       transition: .5s;
@@ -110,7 +110,7 @@ nav {
       margin: 0 1rem;
       border-bottom: 2px solid rgba(0, 0, 0, 0.05);
       cursor: pointer;
-    }li:hover{background:#2a4b9c;}
+    }li:hover{background:#1760a5;}
     ul li a{ /*expande a área de clique para todo o li*/
        display: inline-block;
        width: 100%;
