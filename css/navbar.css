@@ -37,7 +37,7 @@ h2 {
   align-items: center;
   transition: all 0.3s ease-in-out;
   position: absolute;        
-}.social-icon svg{color:white;margin:auto;}.social-icon:hover{background:#9cd7ff;}
+}.social-icon .bi{color:white;margin:auto;}.social-icon:hover{background:#9cd7ff;}
 /***********MENU NAVBAR***********/
 header{position:sticky;top:0;z-index:2;} /*fixar navbar no topo da pagina*/
 nav {
