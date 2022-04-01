@@ -6,7 +6,7 @@
   height: calc(65vh - 8.5vh);
   background: #006bcf;
 }.carousel-inner img {width:100%;height: calc(65vh - 8.5vh);margin: auto;}
-@media (max-width:780px) {.carousel-inner, .carousel-inner img{height: calc(58vh - 8.5vh);}
+@media (max-width:780px) {.carousel-inner, .carousel-inner img{height: calc(49.5vh - 8.5vh);}
 .carousel-inner img {
   width: 100%;
 }
