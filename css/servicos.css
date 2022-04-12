@@ -1,70 +1,32 @@
-main {
-    width: 85vw;
-    margin: auto;
-    flex-wrap: wrap;
-  
-}
+main {/*width: 85vw; */max-width: 1280px;margin: auto;flex-wrap: wrap;}
 .box {
     text-align: center;
-    width: 400px;
-    height: 240px;
-    margin: auto auto 50px auto;
+    width: 360px;
+    height: 460px;
     overflow: hidden;
-}
-.box:hover {
-    transform: translateY(-10px);
-    transition: all ease-in-out;
-    transition-duration: 0.6s;
-}
+    margin: auto 2.5% 50px 2.5%;
+    background: #61b8ee;     
+}.box:hover{transform:translateY(-8px);transition:all ease-in-out;transition-duration:0.6s;}
 h4 {
     text-align: center;
-  color: #2c73b6;    
-  font-size: 1.8em; 
-  padding-top: 10px; 
-  padding-bottom: 20px;
-  text-shadow: rgba(0, 0, 0, 0.200) 0.1em 0.1em 0.2em;
+    color: white;    
+    font-size: 1.850em;    
+    text-shadow: rgba(0, 0, 0, 0.200) 0.1em 0.1em 0.2em;
+    margin-bottom: 12px;
 }
-
-
-
-.certificados {
-    width: 75%;
-    height: 140px;
-    margin: 20px auto auto auto;
-   
+p {
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 12px;
 }
-.item {
-    margin-bottom: 20px;
-}
-.seguros {
-    width: 50%;
-    height: 140px;
-    margin: 20px auto auto auto;
-    
-    display: flex;
-}
-.seg {
-    width: 50%;
-}
-
-@media (max-width: 768px) { /*Configs gerais para dispositivos mobile*/
-    .box {
-        width: 100%;
-        border-radius: 0;
-    }
-    .box:hover {
-        transform: none;
-        transition-duration: none;
-    }
-}
-
-@media (max-width: 768px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-}
-@media (min-width:769px) and (max-width: 1024px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-}
-@media (min-width:1025px) and (max-width: 1359px) { /* big landscape tablets, laptops, and desktops */ 
-}
-@media (min-width:1360px) { /* hi-res laptops and desktops */ 
-
-}
+.box ul{height:145px;list-style-type:none;margin:15px auto 15px auto;}
+.box ul li {
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.150) 0.1em 0.1em 0.2em;    
+}.box svg{margin:15px auto 5px auto;color:white;width:100px;height:100px;}
+@media (max-width: 768px){.box{overflow:auto;}.box:hover{transform:none;transition-duration:none;}}
 
