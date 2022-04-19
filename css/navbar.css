@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{margin:0;padding:0;}
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  background: #f4f7fd;
-  overflow-x: hidden;
-}
+body{font-family: 'Roboto', sans-serif;font-size: 16px;background: #f4f7fd;overflow-x: hidden;}
 main { /*container das paginas certificados/servicos/contato*/
   display: flex;
   flex-direction: center;
@@ -50,17 +45,9 @@ nav {
   min-height: 50px;
   width: 100vw;
 }nav a {color:#F8F8FF;text-decoration:none;transition:0.3s;}nav a:hover{color:#f21905;}
-  .logo-img {height: 37.5px;}.logo-img:hover{opacity:0.8;cursor:pointer;}
-  .nav-list {
-    list-style: none;
-    display: flex;
-    align-items: center;
-  }
-    .nav-list li {
-      letter-spacing: 1px;
-      padding-left: 12px;
-      padding-right: 12px;
-    }
+  .logo-img{height: 37.5px;}.logo-img:hover{opacity:0.8;cursor:pointer;}
+  .nav-list{list-style: none;display: flex;align-items: center;}
+  .nav-list li{letter-spacing: 1px;padding-left: 12px;padding-right: 12px;}
 .mobile-menu{display:none;cursor:pointer;}
   .mobile-menu div {
     width: 28px;
@@ -70,19 +57,14 @@ nav {
     border-radius: 50px;
     transition: 0.3s;
   }
-  /**************************************/
 .sobre-empresa, .sobre-edval, .box, .rodape, .information-box {
     background: white;  
     box-shadow: 0px 2px 15px rgb(0 0 0 / 35%);
     border-radius: 12px;
 }.service-box,.information-box,.info{display:flex;margin:auto;}
 @media (max-width: 768px) { /*Media querie para responsividade do menu navbar*/
-  h1 {
-    font-size: 1.5em;
-  }.mobile-menu{display:block;margin-right:-15%;}
-  nav {
-    height: 8vh;
-  }
+  h1 {font-size: 1.5em;}.mobile-menu{display:block;margin-right:-15%;}
+  nav {height: 8vh;}
     .nav-list {
       display: block;
       position: absolute;
@@ -110,12 +92,8 @@ nav {
       margin: 0 1rem;
       border-bottom: 2px solid rgba(0, 0, 0, 0.05);
       cursor: pointer;
-    }li:hover{background:#1760a5;}
-    ul li a{ /*expande a área de clique para todo o li*/
-       display: inline-block;
-       width: 100%;
-       height: 100%;
-    }nav a{transition:0;}nav a:hover{color:#F8F8FF;}
+    }.nav-list li:hover{background:#1760a5;}
+    ul li a{display: inline-block;width: 100%;height: 100%;}nav a{transition:0;}nav a:hover{color:#F8F8FF;}
 }
 .mobile-menu.active .line1 {transform: rotate(-45deg) translate(-6.5px, 7px);}
 .mobile-menu.active .line2 {opacity:0;}

@@ -1,4 +1,4 @@
-main {/*width: 85vw; */max-width: 1280px;margin: auto;flex-wrap: wrap;}
+main {max-width:1280px;margin:auto;flex-wrap:wrap;}
 .box {
     text-align: center;
     width: 340px;
@@ -20,7 +20,7 @@ p {
     padding-right: 16px;
     margin-bottom: 12px;
 }
-.box ul{height:145px;list-style-type:none;margin:15px auto 15px auto;}
+.box ul{height:145px;list-style-type:none;margin:15px auto 15px auto;}#box-ul{height:120px;}
 .box ul li {
     text-align: center;
     font-size: 22px;
@@ -28,5 +28,16 @@ p {
     color: white;
     text-shadow: rgba(0, 0, 0, 0.150) 0.1em 0.1em 0.2em;    
 }.box svg{margin:15px auto 5px auto;color:white;width:100px;height:100px;}
+.saiba-mais {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.200) 0.1em 0.1em 0.2em;
+    cursor: pointer;
+}.saiba-mais:hover {
+    background: #a4dcff;
+}
 @media (max-width: 768px){.box{overflow:auto;}.box:hover{transform:none;transition-duration:none;}}
 
