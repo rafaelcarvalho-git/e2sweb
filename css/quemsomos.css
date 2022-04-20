@@ -17,9 +17,9 @@
     height: 100%;
     padding: 0 20px 20px 20px;
 }.fas {color: #4589c9;}
-.sobre-edval{display:flex;max-height:420px;}.sobre{width:70%;}.sobre p{height:60%;}
+.sobre-edval{display:flex;max-height:420px;}.sobre{width:65%;}.sobre p{height: 60%;}
     button { 
-        margin: 2.5% auto auto auto;
+        margin: 25px auto auto auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -34,7 +34,7 @@
         padding: 18px; 
         border: none;       
     }svg{margin-right:2.7%;}button:hover{background:#4fcf6d;}
-    .edval{width:30%;text-align:center;}.imagem-edval {width: 240px;height: 100%;}   /*IMAGEM DEVE SER 280px X 500px*/
+    .edval{width:35%;text-align:center;}.imagem-edval {width: 300px;height: 100%;}
 .sobre-parceiros{min-height:160px;}
 .seguradoras {
     display: flex;
